@@ -2,13 +2,13 @@
 
 Αποθετήριο δεδομένων για την πανδημία SARS-COV-2 που αφορούν την Ελλάδα. Περιλαμβάνει σχετικές αναφορές, πρωτογενή δεδομένα, επίσημα έγγραφα και σχετικούς συνδέσμους. Το αποθετήριο ανανεώνεται καθώς η πανδημία εξελίσσεται. Δημιουργήθηκε για να λειτουργήσει κυρίως ως αρχείο καταγραφής για μελλοντική αναφορά.
 
-## Δεδομένα [[σύνδεσμος](https://github.com/akritiko/covid19gr/tree/master/data)]
+## [Δεδομένα](https://github.com/akritiko/covid19gr/tree/master/data)
 
 
 
-## Έγγραφα [[σύνδεσμος](https://github.com/akritiko/covid19gr/tree/master/documents)]
+## [Έγγραφα](https://github.com/akritiko/covid19gr/tree/master/documents)
 
 
 
-## Αναφορές [[σύνδεσμος](https://github.com/akritiko/covid19gr/tree/master/reports)]
+## [Αναφορές](https://github.com/akritiko/covid19gr/tree/master/reports)
 
