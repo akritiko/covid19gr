@@ -10,5 +10,5 @@
 
 
 
-## Reports [[σύνδεσμος](https://github.com/akritiko/covid19gr/tree/master/reports)]
+## Αναφορές [[σύνδεσμος](https://github.com/akritiko/covid19gr/tree/master/reports)]
 
