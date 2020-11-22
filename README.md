@@ -4,9 +4,9 @@
 
 ## Πηγές δεδομένων: Αναφορές.
 
-1. [Ελληνική Κυβέρνηση - Παρατηρητήριο COVID-19](https://covid19.gov.gr/paratiritirio-covid-19/)
-1. [Εθνικός Οργανισμός Δημόσιας Υγείας (ΕΟΔΥ) - Ημερήσιες Εκθέσεις COVID-19](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/)
-1. [Clipnews S.A. - Top Level COVID-19 Report](https://www.clipnews.gr/top-level-covid-19-report/)
+- [Ελληνική Κυβέρνηση - Παρατηρητήριο COVID-19](https://covid19.gov.gr/paratiritirio-covid-19/)
+- [Εθνικός Οργανισμός Δημόσιας Υγείας (ΕΟΔΥ) - Ημερήσιες Εκθέσεις COVID-19](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/)
+- [Clipnews S.A. - Top Level COVID-19 Report](https://www.clipnews.gr/top-level-covid-19-report/)
 
 ## Πηγές δεδομένων / Πρωτογενή δεδομένα
 
