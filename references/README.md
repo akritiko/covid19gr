@@ -11,5 +11,5 @@
 
 ## World Health Organization
 
-- [Strengthening and adjusting public health measures throughout the COVID-19 transition phases](#)
-- [SURVEY TOOL AND GUIDANCE: Rapid, simple, flexible behavioural insights on COVID-19](#)
+- [Strengthening and adjusting public health measures throughout the COVID-19 transition phases](https://github.com/akritiko/covid19gr/blob/master/documents/World%20Health%20Organization/WHO-EURO-2020-690-40425-54211-eng.pdf)
+- [SURVEY TOOL AND GUIDANCE: Rapid, simple, flexible behavioural insights on COVID-19](https://github.com/akritiko/covid19gr/blob/master/documents/World%20Health%20Organization/WHO-EURO-2020-696-40431-54222-eng.pdf)
