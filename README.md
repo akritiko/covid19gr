@@ -2,7 +2,7 @@
 
 Αποθετήριο δεδομένων για την πανδημία SARS-COV-2 που αφορούν την Ελλάδα. Περιλαμβάνει σχετικές αναφορές, πρωτογενή δεδομέναν και σχετικούς συνδέσμους καθώς η πανδημία εξελίσσεται. Το αποθετήριο δημιουργήθηκε για να λειτουργήσει κυρίως ως αρχείο καταγραφής της πανδημίας για μελλοντική αναφορά.
 
-## Πηγές δεδομένων: Αναφορές.
+## Πηγές δεδομένων / Αναφορές
 
 - [Ελληνική Κυβέρνηση - Παρατηρητήριο COVID-19](https://covid19.gov.gr/paratiritirio-covid-19/)
 - [Εθνικός Οργανισμός Δημόσιας Υγείας (ΕΟΔΥ) - Ημερήσιες Εκθέσεις COVID-19](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/)
@@ -17,3 +17,4 @@
 - [Κατά περιοχή δεδομένα εξάπλωσης του κορονωϊου στην Ελλάδα: αποθετήριο δεδομένων JSON Sandbird](https://github.com/Sandbird/covid19-Greece)
 - [Δεδομένα λήψης μέτρων: Oxford COVID-19 Government Response Tracker](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker)
 - [Δεδομένα από @nyrros / Twitter](https://docs.google.com/spreadsheets/d/14rKl4TAM05YWj94u3rAkS2PKTSIqYzdCeuXVMtV6ptM/edit#gid=144576662)
+
