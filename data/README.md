@@ -1,3 +1,7 @@
+# Δεδομένα αποθετηρίου
+
+- [Google Mobility - Greece](https://www.google.com/covid19/mobility/)
+
 # Πηγές δεδομένων / Πρωτογενής πληροφορία
 
 - [CovidEXP - Τμ. Πληροφορικής, Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης](https://covid19.csd.auth.gr/greece/)
