@@ -36,7 +36,7 @@ library(ggplot2)
 options(max.print = .Machine$integer.max)
 
 ### Read data from CSV ###
-setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/PHD EXPERIMENTS/Google Mobility/') #Linux Path
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') #Linux Path
 #setwd('C:\\akritiko\\google mobility\\') #Windows Path
 
 myData <- read.csv(file="mobility_gr.csv", head=TRUE, sep=",") 
@@ -94,7 +94,7 @@ cat(sprintf("%s \n", tail(sort(as.Date(myData$date,"%Y-%m-%d")),1)))
 
 __ΣΗΜΕΙΩΣΗ:__ Η τεχνική τεκμηρίωση των δεδομένων μαζί με όλες τις σημειώσεις για το πως συλλέγχονται και αρχειοθετούνται τα δεδομένα αλλά και τις σχεδιαστικές αποφάσεις του dataset της Google είναι διαθέσιμα εδώ: https://support.google.com/covid19-mobility/answer/9825414?hl=en&ref_topic=9822927
 
-Στην συνέχεια θα βρείτε κάποιες οπτικές απεικονίσεις των δεδομένων που αφορούν την περιοχή αναφοράς. Ωστόσο, όλη η προσέγγιση, ο πηγαίος κώδικας και τα δεδομένα που χρησιμοποιεί αυτό το project είναι διαθέσιμα ανοικτά προς όλους τους ενδιαφερόμενους στον παρακάτω σύνδεσμο για περαιτέρω ανάλυση και μελέτη: ΧΧΧΧΧΧΧ
+Στην συνέχεια θα βρείτε κάποιες οπτικές απεικονίσεις των δεδομένων που αφορούν την περιοχή αναφοράς. Ωστόσο, όλη η προσέγγιση, ο πηγαίος κώδικας και τα δεδομένα που χρησιμοποιεί αυτό το project είναι διαθέσιμα ανοικτά προς όλους τους ενδιαφερόμενους στον παρακάτω σύνδεσμο για περαιτέρω ανάλυση και μελέτη: https://github.com/akritiko/covid19gr/tree/master/data/Google%20Mobility%20Greece
 
 __ΣΗΜΕΙΩΣΗ:__ Ο κώδικας εξάγει ήδη γραφήματα για όλες τις Αποκεντρωμένες Διοικήσεις της Ελλάδας που προσφέρει το σύνολο δεδομένων της Google. Οι ενδιαφερόμενοι μπορούν να αναρφερθούν στα scripts plots_svg.r και plots_png.r αντίστοιχα.
 
