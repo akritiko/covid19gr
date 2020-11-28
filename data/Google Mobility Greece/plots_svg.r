@@ -48,7 +48,7 @@ administrations = list(
         "Decentralized Administration of the Aegean",
         "Decentralized Administration of Thessaly and Central Greece")
 
-# All averages
+# All data per administration
 for (i in 1:length(administrations)) {
         thefilename = paste(administrations[[i]],"- 01 - Average Mobility.svg")
         adminitration_data <- filter(myData, myData$sub_region_1 == administrations[[i]])
@@ -470,3 +470,136 @@ for (i in 1:length(administrations)) {
         
         dev.off()
 }
+
+##############################################################################
+# CROSS VISUALS BETWEEN ATTICA AND MACEDONIA / THRACE
+##############################################################################
+
+data_attiki <- filter(myData, myData$sub_region_1 == administrations[[1]])
+data_attiki$Avg_score = rowMeans(data_attiki [,c(9,10,11,12,13,14)])
+
+data_makedonia <- filter(myData, myData$sub_region_1 == administrations[[4]])
+data_makedonia$Avg_score = rowMeans(data_makedonia [,c(9,10,11,12,13,14)])
+
+# AVG
+#thefilename = paste(administrations[[i]],"- 11 - Crosscheck Residential.svg")
+#svg(thefilename)
+par(mfrow=c(2,1))
+plot(data_attiki$Avg_score~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Μέση Κινητικότητα",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$Avg_score~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Μέση Κινητικότητα",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+par(mfrow=c(2,1))
+plot(data_attiki$retail_and_recreation_percent_change_from_baseline~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Λιανική & Ψυχαγωγία",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$retail_and_recreation_percent_change_from_baseline~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Λιανική & Ψυχαγωγία",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+par(mfrow=c(2,1))
+plot(data_attiki$grocery_and_pharmacy_percent_change_from_baseline~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Μαγαζιά Τροφίμων & Φαρμακεία",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$grocery_and_pharmacy_percent_change_from_baseline~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Μαγαζιά Τροφίμων & Φαρμακεία",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+par(mfrow=c(2,1))
+plot(data_attiki$parks_percent_change_from_baseline~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Πάρκα",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$parks_percent_change_from_baseline~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Πάρκα",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+par(mfrow=c(2,1))
+plot(data_attiki$transit_stations_percent_change_from_baseline~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Συγκοινωνίες",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$transit_stations_percent_change_from_baseline~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Συγκοινωνίες",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+par(mfrow=c(2,1))
+plot(data_attiki$workplaces_percent_change_from_baseline~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Χώροι Εργασίας",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$workplaces_percent_change_from_baseline~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Χώροι Εργασίας",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+par(mfrow=c(2,1))
+plot(data_attiki$residential_percent_change_from_baseline~as.Date(data_attiki$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+     main = "Αττική / Κατοικίες",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+
+plot(data_makedonia$residential_percent_change_from_baseline~as.Date(data_makedonia$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Μακεδονία - Θράκη / Κατοικίες",
+     xlab = "μήνας",
+     ylab = "% επί του baseline",
+     ylim=c(-150,150))
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=0, col="red")
+#dev.off()
