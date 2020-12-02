@@ -13,7 +13,8 @@
 
 σε αυτό το έργο προσπαθούμε να οπτικοποιήσουμε την κινητικότητα στην Ελλάδα κατά τη διάρκεια της υγειονομικής κρίσης με τα δεδομένα που προσφέρει η Google. 
 
-Υλοποίηση: R
-Δεδομένα: https://www.google.com/covid19/mobility/
-
-Demo: http://users.auth.gr/akritiko/covid19/mobility/
+- Υλοποίηση: R
+- Δεδομένα: https://www.google.com/covid19/mobility/
+- Demo: http://users.auth.gr/akritiko/covid19/mobility/
+- Ομάδα υλοποίησης:
+    - Απόστολος Κρητικός <akritiko@gmail.com>
