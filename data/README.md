@@ -17,4 +17,4 @@
 - Δεδομένα: https://www.google.com/covid19/mobility/
 - Demo: http://users.auth.gr/akritiko/covid19/mobility/
 - Ομάδα υλοποίησης:
-    - Απόστολος Κρητικός <akritiko@gmail.com>
+    - Απόστολος Κρητικός (akritiko@gmail.com)
