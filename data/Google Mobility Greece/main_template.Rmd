@@ -40,7 +40,7 @@ library(ggplot2)
 options(max.print = .Machine$integer.max)
 
 ### Read data from CSV ###
-setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/PHD EXPERIMENTS/Google Mobility/') #Linux Path
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') #Linux Path
 #setwd('C:\\akritiko\\google mobility\\') #Windows Path
 
 myData <- read.csv(file="mobility_gr.csv", head=TRUE, sep=",") 
@@ -85,9 +85,11 @@ cat(sprintf("%s \n", tail(sort(as.Date(myData$date,"%Y-%m-%d")),1)))
 Στην συνέχεια μπορείτε να δείτε την αναφορά για την περιοχή που σας ενδιαφέρει:
 
 1. <a href="attiki.html">Αποκεντρωμένη Διοίκηση Αττικής</a>
-1. [Αποκεντρωμένη Διοίκηση Κρήτης](./kriti.html)
-1. [Αποκεντρωμένη Διοίκηση Ηπείρου και Δυτικής Μακεδονίας](./ipirou_dytiki_makedonia.html)
-1. [Αποκεντρωμένη Διοίκηση Μακεδονίας και Θράκης](./makedonia_thraki.html)
-1. [Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου](./peloponnisou_dytikis_elladas_ioniou.html)
-1. [Αποκεντρωμένη Διοίκηση Αιγαίου](./aigaiou.html)
-1. [Αποκεντρωμένη Διοίκηση Θεσσαλίας και Κεντρικής Ελλάδας](./thessalias_kentrikis_elladas.html)
+1. [Αποκεντρωμένη Διοίκηση Κρήτης](kriti.html)
+1. [Αποκεντρωμένη Διοίκηση Ηπείρου και Δυτικής Μακεδονίας](ipirou_dytiki_makedonia.html)
+1. [Αποκεντρωμένη Διοίκηση Μακεδονίας και Θράκης](makedonia_thraki.html)
+1. [Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου](peloponnisou_dytikis_elladas_ioniou.html)
+1. [Αποκεντρωμένη Διοίκηση Αιγαίου](aigaiou.html)
+1. [Αποκεντρωμένη Διοίκηση Θεσσαλίας και Κεντρικής Ελλάδας](thessalias_kentrikis_elladas.html)
+
+![Map of Greece during the SARS-COV-2 pandemic](map.png)

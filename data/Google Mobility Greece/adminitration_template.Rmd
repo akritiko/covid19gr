@@ -425,7 +425,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
 # Average
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$Avg_score~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "1ο Lockdown / Μέση κινητικότητα",
      xlab = "μήνας",
@@ -450,7 +450,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
 # Retail & Recreation
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
      main = "Lockdown 1 / Λιανική & Ψυχαγωγία",
      xlab = "μήνας",
@@ -473,7 +473,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
    
 # Grocery & Pharmacy
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
      main = "Lockdown 1 / Αγορές Τρ. & Φαρμακεία",
      xlab = "μήνας",
@@ -496,7 +496,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
         
 # Parks
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$parks_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
      main = "Lockdown 1 / Πάρκα",
      xlab = "μήνας",
@@ -519,7 +519,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
 # Transit
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
      main = "Lockdown 1 / Μετακίνηση",
      xlab = "μήνας",
@@ -542,7 +542,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
 # Workplace
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
      # Change main title & axis labels
      main = "Lockdown 1 / Χώροι εργασίας",
@@ -567,7 +567,7 @@ abline(h=0, col="red")
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
         
 # Residential
-par(mfrow=c(2,1))
+par(mfrow=c(1,2))
 plot(adminitration_data_lock1$residential_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
      # Change main title & axis labels
      main = "Lockdown 1 / Κατοικίες",
