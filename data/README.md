@@ -1,13 +1,19 @@
-# Δεδομένα αποθετηρίου
+# covid19gr - Συλλογές Δεδομένων
 
-- [Google Mobility - Greece](https://www.google.com/covid19/mobility/)
+Εδώ φιλοξενούνται έργα που επιχειρούν να αναλύσουν, να μελετήσουν, να εξάγουν γνώση ή να προσφέρουν μια οπτικοποιημένη έκδοση των διαθέσιμων ανοικτών δεδομένων για τον COVID-19. 
 
-# Πηγές δεδομένων / Πρωτογενής πληροφορία
+ΣΗΜΕΙΩΣΗ: Βασική προϋπόθεση για να φιλοξενηθεί ένα έργο σε αυτό το αποθετήριο είναι τα δεδομένα, ο πηγαίος κώδικας και τυχόν άλλοι πόροι που χρησιμοποιεί, να διατίθενται κάτω από από ανοικτές άδειες χρήσης:
 
-- [CovidEXP - Τμ. Πληροφορικής, Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης](https://covid19.csd.auth.gr/greece/)
-- [Δεδομένα εξάπλωσης του COVID-19 στην Ελλάδα: COVID-19 Response Greece](https://www.covid19response.gr/)
-- [Ιστοσελίδα της Ελληνικής Κυβέρνησης για την εξάπλωση του κορονωϊού: covid19.gov.gr](https://covid19.gov.gr/)
-- [Δεδομένα COVID-19: Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
-- [Κατά περιοχή δεδομένα εξάπλωσης του κορονωϊου στην Ελλάδα: αποθετήριο δεδομένων JSON Sandbird](https://github.com/Sandbird/covid19-Greece)
-- [Δεδομένα λήψης μέτρων: Oxford COVID-19 Government Response Tracker](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker)
-- [Δεδομένα από @nyrros / Twitter](https://docs.google.com/spreadsheets/d/14rKl4TAM05YWj94u3rAkS2PKTSIqYzdCeuXVMtV6ptM/edit#gid=144576662)
+- Για άδειες που αφορούν λογισμικό μπορείτε να ενημερωθείτε [εδώ](https://el.wikipedia.org/wiki/Copyleft). Σας προτείνουμε την [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
+- Για άδειες που αφορούν δεδομένα μπορείτε να ενημερωθείτε [εδώ](https://mathe.ellak.gr/?page_id=1000). Σας προτείνουμε την άδεια Κοινού Κτήματος, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.el).
+
+## Έργα
+
+### Ανάλυση δεδομένων Google Mobility για την Ελλάδα
+
+σε αυτό το έργο προσπαθούμε να οπτικοποιήσουμε την κινητικότητα στην Ελλάδα κατά τη διάρκεια της υγειονομικής κρίσης με τα δεδομένα που προσφέρει η Google. 
+
+Υλοποίηση: R
+Δεδομένα: https://www.google.com/covid19/mobility/
+
+Demo: http://users.auth.gr/akritiko/covid19/mobility/
