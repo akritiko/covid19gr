@@ -434,13 +434,13 @@ plot(adminitration_data_lock1$Avg_score~as.Date(adminitration_data_lock1$date,"%
 abline(h=(seq(-150,1500,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$Avg_score~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
-     main = "2ο Lockdown / Μέση κινητικότητα",
+plot(adminitration_data_lock2$Avg_score~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+     main = "Lockdown 2 / Μέση κινητικότητα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
-     xlim = as.Date(c("2020-10-29", "2020-12-04")),
+     xlim = as.Date(c("2020-11-07", "2020-12-15")),
      ylim=c(-150,150))
-abline(h=(seq(-150,1500,5)), col="lightgray", lty="dotted", lwd=0.5)
+abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
 ```
@@ -467,6 +467,8 @@ plot(adminitration_data_lock2$retail_and_recreation_percent_change_from_baseline
      ylim=c(-150,150))
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
+
+
 
 ```
 

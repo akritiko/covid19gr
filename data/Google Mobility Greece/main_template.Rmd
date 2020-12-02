@@ -93,3 +93,7 @@ cat(sprintf("%s \n", tail(sort(as.Date(myData$date,"%Y-%m-%d")),1)))
 1. [Αποκεντρωμένη Διοίκηση Θεσσαλίας και Κεντρικής Ελλάδας](thessalias_kentrikis_elladas.html)
 
 ![Map of Greece during the SARS-COV-2 pandemic](map.png)
+
+**ΑΔΕΙΑ ΧΡΗΣΗΣ:**
+
+Το περιεχόμενο του αποθετηρίου COVID19gr, εκτός αν αναφέρεται ρητά κάτι διαφορετικό σε κάποιο σημείο, είναι διαθέσιμο με σεβασμό στους όρους χρήσης της άδειας: [Κοινό Κτήμα / Public Domain: CC0-1.0](https://github.com/akritiko/covid19gr/blob/master/LICENSE).
