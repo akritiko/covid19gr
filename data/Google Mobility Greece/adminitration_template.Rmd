@@ -1,17 +1,6 @@
----
-title: "Αναφορά κινητικότητας κοινότητας για τον COVID-19 από την Google."
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
-  word_document: default
----
-
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 ##
 # R Script to visualize COVID-19 mobility data by Google
-# This specific version of the script generates charts for
-# Macedonia & Thrace area / Greece/
 #
 # Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
 # Script Version (Date): v1.0 (2020-11-27)
@@ -23,10 +12,22 @@ output:
 # License: This script is provided under the Apache 2.0 License: 
 # https://www.apache.org/licenses/LICENSE-2.0.html
 #
-# All the data are provided by Google. 
+# All the data are provided by Google. The project is not affiliated with Google
 ##
+```
 
-### Imports & Settings ###
+---
+title: "Αναφορά κινητικότητας κοινότητας για τον COVID-19 από την Google."
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+---
+
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+
+# Imports libraries 
 library(psych)       
 library(psychTools)
 library(gridExtra)
@@ -35,14 +36,14 @@ library(dplyr)
 library(ggplot2)
 options(max.print = .Machine$integer.max)
 
-### Read data from CSV ###
-setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') #Linux Path
-#setwd('C:\\akritiko\\google mobility\\') #Windows Path
+# Reads data from CSV (Windows & Linux versions)
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') # linux path
+#setwd('C:\\akritiko\\google mobility\\') # windows path
 
+# Consumes CSV. First row contains headers and "," is used as a separator
 myData <- read.csv(file="mobility_gr.csv", head=TRUE, sep=",") 
 
-### Separate Administrations in Greece and calculate average values ###
-
+# List of Decentralized Administrations as defined by Google Mobility reports (used for filtering)
 administrations = list(
         "Decentralized Administration of Attica",
         "Decentralized Administration of Crete",
@@ -52,6 +53,7 @@ administrations = list(
         "Decentralized Administration of the Aegean",
         "Decentralized Administration of Thessaly and Central Greece")
 
+# List of Decentralized Administrations translated in Greek (used for html reports)
 administrations_gr = list(
         "Αποκεντρωμένη Διοίκηση Αττικής", 
         "Αποκεντρωμένη Διοίκηση Κρήτης", 
@@ -69,13 +71,16 @@ administrations_gr = list(
 # 06. Decentralized Administration of the Aegean
 # 07. Decentralized Administration of Thessaly and Central Greece
 
-i <- 7 # Choose a number based on the above list to produce the respective report.
+# Choose a number based on the above list to produce the report for the respective decentralized 
+# administration. For example for i <- 4 the Macedonia & Thrace report is being produced.
+i <- 7 
 ```
 
 ## Περιοχή αναφοράς:
 
 ```{r, echo=FALSE, results=TRUE, message=FALSE, warning=FALSE}
 
+# Gets the selected decentalized administration based on the i selection.
 cat(sprintf("%s \n", administrations_gr[[i]]))
 
 ```
@@ -84,6 +89,7 @@ __ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ:__
 
 ```{r, echo=FALSE, results=TRUE, message=FALSE, warning=FALSE}
 
+# Gets the date of the latest recording on the dataset.
 cat(sprintf("%s \n", tail(sort(as.Date(myData$date,"%Y-%m-%d")),1)))
 
 ```
@@ -114,10 +120,13 @@ __ΣΗΜΕΙΩΣΗ:__ Ο κώδικας εξάγει ήδη γραφήματα �
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
+# Filters the selected decentralized administration's data based on i
 adminitration_data <- filter(myData, myData$sub_region_1 == administrations[[i]])
+
+# Creates an extra column with the mean of its respective activities
 adminitration_data$Avg_score = rowMeans(adminitration_data[,c(9,10,11,12,13,14)])
 
-#jpeg(thefilename, quality=100)
+# Plots on a line chart the mean mobility percentage versus the dates
 plot(adminitration_data$Avg_score~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2, 
      main = "Μέση κινητικότητα",
      xlab = "μήνας",
@@ -132,8 +141,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,                                
-     # Change main title & axis labels
      main = "Λιανική & Ψυχαγωγία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -145,8 +154,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-plot(adminitration_data$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,                                
-     # Change main title & axis labels
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
+plot(adminitration_data$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,
      main = "Αγορές Τροφίμων & Φαρμακεία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -157,8 +166,9 @@ abline(h=0, col="red")
 ```
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data$parks_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,                                
-     # Change main title & axis labels
      main = "Πάρκα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -170,8 +180,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data$transit_stations_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,                                
-     # Change main title & axis labels
      main = "Δημόσιες συγκοινωνίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -183,8 +193,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data$workplaces_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,                                
-     # Change main title & axis labels
      main = "Χώροι εργασίας",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -195,8 +205,9 @@ abline(h=0, col="red")
 ```
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data$residential_percent_change_from_baseline~as.Date(adminitration_data$date,"%Y-%m-%d"), type = "l", col="black", lwd=2,                                
-     # Change main title & axis labels
      main = "Κατοικίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -208,15 +219,18 @@ abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 ### __Μέση κινητικότητα κατά τη διάρκεια του 2ου Lockdown (από 7/11/2020 έως σήμερα - Θεσσαλονίκη -)__
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
-        
+
+# Creates a separate dataframe for lockdown2        
 adminitration_data_lock2 <- adminitration_data
+# Parses dates column as dates
 adminitration_data_lock2$date <- as.Date(adminitration_data_lock2$date, format= "%Y-%m-%d")
+# Filters the dates of the second lockdown
 adminitration_data_lock2 <- filter(adminitration_data_lock2, adminitration_data_lock2$date >= "2020-11-07" & adminitration_data_lock2$date <= "2020-12-07")
 
-# Calculate AVG mobility from all subsets
+# Creates an extra column with the mean mobility of lockdown2 - respective activities
 adminitration_data_lock2$Avg_score = rowMeans(adminitration_data_lock2[,c(9,10,11,12,13,14)])
 
-# Average
+# Plots on a line chart the mean mobility percentage versus the dates
 plot(adminitration_data_lock2$Avg_score~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "2ο Lockdown / Μέση κινητικότητα",
      xlab = "μήνας",
@@ -230,9 +244,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Retail & Recreation
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock2$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                                
-     # Change main title & axis labels
      main = "2ο Lockdown / Λιανική & Ψυχαγωγία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -244,9 +257,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Grocery & Pharmacy
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock2$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                                
-     # Change main title & axis labels
      main = "2ο Lockdown / Αγορές Τροφ. & Φαρμακεία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -258,10 +270,9 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Parks
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock2$parks_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                                
-     # Change main title & axis labels
-     main = "2ο Lockdown / Πάρκα",
+    main = "2ο Lockdown / Πάρκα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
      ylim=c(-150,150))
@@ -271,9 +282,9 @@ abline(h=0, col="red")
 ```
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
-# Transit
+
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock2$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                                
-     # Change main title & axis labels
      main = "2ο Lockdown / Δημόσιες συγκοινωνίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -285,9 +296,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Workplaces
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock2$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                                
-     # Change main title & axis labels
      main = "2ο Lockdown / Χώροι εργασίας",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -299,9 +309,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Residential
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock2$residential_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               
-     # Change main title & axis labels
      main = "2ο Lockdown / Κατοικίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -315,15 +324,17 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
         
-# Filter the right dates
+# Creates a separate dataframe for lockdown1
 adminitration_data_lock1 <- adminitration_data
+# Parses dates column as dates
 adminitration_data_lock1$date <- as.Date(adminitration_data_lock1$date, format= "%Y-%m-%d")
+# Filters the dates of the second lockdown
 adminitration_data_lock1 <- filter(adminitration_data_lock1, adminitration_data_lock1$date >= "2020-03-23" & adminitration_data_lock1$date <= "2020-05-04")
 
-# Calculate AVG mobility from all subsets
+# Creates an extra column with the mean mobility of lockdown1 - respective activities
 adminitration_data_lock1$Avg_score = rowMeans(adminitration_data_lock1[,c(9,10,11,12,13,14)])
 
-# Average
+# Plots on a line chart the mean mobility percentage versus the dates
 plot(adminitration_data_lock1$Avg_score~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "1ο Lockdown / Μέση κινητικότητα",
      xlab = "μήνας",
@@ -338,9 +349,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Retail & Recreation
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock1$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "1ο Lockdown / Λιανική & Ψυχαγωγία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -352,9 +362,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Grocery & Pharmacy
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock1$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "1ο Lockdown / Αγορές Τροφίμων & Φαρμακεία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -366,9 +375,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Parks
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock1$parks_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "1ο Lockdown / Πάρκα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -380,9 +388,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Transit
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock1$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "1ο Lockdown / Δημόσιες συγκοινωνίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -394,9 +401,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Workplaces
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock1$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "1ο Lockdown / Χώροι εργασίας",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -408,9 +414,8 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Residential
+# Plots on a line chart the mobility percentage versus the dates for a specific activity
 plot(adminitration_data_lock1$residential_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "1ο Lockdown / Κατοικίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -424,7 +429,7 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Average
+# Plots on a line chart the mean mobility percentage versus the dates for lockdown1 and lockdown2
 par(mfrow=c(1,2))
 plot(adminitration_data_lock1$Avg_score~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "1ο Lockdown / Μέση κινητικότητα",
@@ -434,7 +439,7 @@ plot(adminitration_data_lock1$Avg_score~as.Date(adminitration_data_lock1$date,"%
 abline(h=(seq(-150,1500,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$Avg_score~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+plot(adminitration_data_lock2$Avg_score~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "Lockdown 2 / Μέση κινητικότητα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -449,9 +454,9 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Retail & Recreation
+# Plots on a line chart the mobility percentage versus the dates for a specific activity for lockdown1 and lockdown2
 par(mfrow=c(1,2))
-plot(adminitration_data_lock1$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+plot(adminitration_data_lock1$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "Lockdown 1 / Λιανική & Ψυχαγωγία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -459,7 +464,7 @@ plot(adminitration_data_lock1$retail_and_recreation_percent_change_from_baseline
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+plot(adminitration_data_lock2$retail_and_recreation_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "Lockdown 2 / Λιανική & Ψυχαγωγία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -468,15 +473,13 @@ plot(adminitration_data_lock2$retail_and_recreation_percent_change_from_baseline
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-
-
 ```
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
    
-# Grocery & Pharmacy
+# Plots on a line chart the mobility percentage versus the dates for a specific activity for lockdown1 and lockdown2
 par(mfrow=c(1,2))
-plot(adminitration_data_lock1$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+plot(adminitration_data_lock1$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "Lockdown 1 / Αγορές Τρ. & Φαρμακεία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -484,7 +487,7 @@ plot(adminitration_data_lock1$grocery_and_pharmacy_percent_change_from_baseline~
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+plot(adminitration_data_lock2$grocery_and_pharmacy_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "Lockdown 2 / Αγορές Τρ. & Φαρμακεία",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -497,9 +500,9 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
         
-# Parks
+# Plots on a line chart the mobility percentage versus the dates for a specific activity for lockdown1 and lockdown2
 par(mfrow=c(1,2))
-plot(adminitration_data_lock1$parks_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+plot(adminitration_data_lock1$parks_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "Lockdown 1 / Πάρκα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -507,7 +510,7 @@ plot(adminitration_data_lock1$parks_percent_change_from_baseline~as.Date(adminit
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$parks_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+plot(adminitration_data_lock2$parks_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "Lockdown 2 / Πάρκα",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -520,9 +523,9 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Transit
+# Plots on a line chart the mobility percentage versus the dates for a specific activity for lockdown1 and lockdown2
 par(mfrow=c(1,2))
-plot(adminitration_data_lock1$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                # Change main title & axis labels
+plot(adminitration_data_lock1$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "Lockdown 1 / Μετακίνηση",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -530,7 +533,7 @@ plot(adminitration_data_lock1$transit_stations_percent_change_from_baseline~as.D
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               # Change main title & axis labels
+plot(adminitration_data_lock2$transit_stations_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "Lockdown 2 / Μετακίνηση",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -543,10 +546,9 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
 
-# Workplace
+# Plots on a line chart the mobility percentage versus the dates for a specific activity for lockdown1 and lockdown2
 par(mfrow=c(1,2))
-plot(adminitration_data_lock1$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
+plot(adminitration_data_lock1$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,
      main = "Lockdown 1 / Χώροι εργασίας",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -554,8 +556,7 @@ plot(adminitration_data_lock1$workplaces_percent_change_from_baseline~as.Date(ad
 abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
-plot(adminitration_data_lock2$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               
-     # Change main title & axis labels
+plot(adminitration_data_lock2$workplaces_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,
      main = "Lockdown 2 / Χώροι εργασίας",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -568,10 +569,9 @@ abline(h=0, col="red")
 
 ```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
         
-# Residential
+# Plots on a line chart the mobility percentage versus the dates for a specific activity for lockdown1 and lockdown2
 par(mfrow=c(1,2))
 plot(adminitration_data_lock1$residential_percent_change_from_baseline~as.Date(adminitration_data_lock1$date,"%Y-%m-%d"), type = "l", col="blue", lwd=2,                                
-     # Change main title & axis labels
      main = "Lockdown 1 / Κατοικίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -580,7 +580,6 @@ abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
 plot(adminitration_data_lock2$residential_percent_change_from_baseline~as.Date(adminitration_data_lock2$date,"%Y-%m-%d"), type = "l", col="darkgreen", lwd=2,                               
-     # Change main title & axis labels
      main = "Lockdown 2 / Χώροι Κατοικίες",
      xlab = "μήνας",
      ylab = "% επί του baseline",
@@ -590,3 +589,7 @@ abline(h=(seq(-150,150,5)), col="lightgray", lty="dotted", lwd=0.5)
 abline(h=0, col="red")
 
 ```
+
+**ΑΔΕΙΑ ΧΡΗΣΗΣ:**
+
+Το περιεχόμενο του αποθετηρίου COVID19gr, εκτός αν αναφέρεται ρητά κάτι διαφορετικό σε κάποιο σημείο, είναι διαθέσιμο με σεβασμό στους όρους χρήσης της άδειας: [Κοινό Κτήμα / Public Domain: CC0-1.0](https://github.com/akritiko/covid19gr/blob/master/LICENSE).
