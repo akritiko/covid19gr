@@ -1,3 +1,21 @@
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+##
+# R Script to visualize COVID-19 mobility data by Google
+#
+# Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
+# Script Version (Date): v1.0 (2020-11-27)
+#
+# Data available at: https://www.google.com/covid19/mobility/
+# Data documentation / Threats to validity available at: 
+# https://support.google.com/covid19-mobility/answer/9825414?hl=en&ref_topic=9822927
+#
+# License: This script is provided under the Apache 2.0 License: 
+# https://www.apache.org/licenses/LICENSE-2.0.html
+#
+# All the data are provided by Google. The project is not affiliated with Google
+##
+```
+
 ---
 title: "Αναφορά κινητικότητας κοινότητας για τον COVID-19 από την Google."
 output:
@@ -11,26 +29,9 @@ output:
 
 __ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ:__
 
-```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
-##
-# R Script to visualize COVID-19 mobility data by Google
-# This specific version of the script generates charts for
-# Macedonia & Thrace area / Greece/
-#
-# Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
-# Script Version (Date): v1.0 (2020-11-27)
-#
-# Data available at: https://www.google.com/covid19/mobility/
-# Data documentation / Threats to validity available at: 
-# https://support.google.com/covid19-mobility/answer/9825414?hl=en&ref_topic=9822927
-#
-# License: This script is provided under the Apache 2.0 License: 
-# https://www.apache.org/licenses/LICENSE-2.0.html
-#
-# All the data are provided by Google. 
-##
 
-### Imports & Settings ###
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+# Imports libraries
 library(psych)       
 library(psychTools)
 library(gridExtra)
@@ -39,14 +40,14 @@ library(dplyr)
 library(ggplot2)
 options(max.print = .Machine$integer.max)
 
-### Read data from CSV ###
-setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') #Linux Path
-#setwd('C:\\akritiko\\google mobility\\') #Windows Path
+# Reads data from CSV (Windows & Linux versions)
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') # linux path
+#setwd('C:\\akritiko\\google mobility\\') # windows path
 
+# Consumes CSV. First row contains headers and "," is used as a separator
 myData <- read.csv(file="mobility_gr.csv", head=TRUE, sep=",") 
 
-### Separate Administrations in Greece and calculate average values ###
-
+# List of Decentralized Administrations as defined by Google Mobility reports (used for filtering)
 administrations = list(
         "Decentralized Administration of Attica",
         "Decentralized Administration of Crete",
@@ -56,6 +57,7 @@ administrations = list(
         "Decentralized Administration of the Aegean",
         "Decentralized Administration of Thessaly and Central Greece")
 
+# List of Decentralized Administrations translated in Greek (used for html reports)
 administrations_gr = list(
         "Αποκεντρωμένη Διοίκηση Αττικής", 
         "Αποκεντρωμένη Διοίκηση Κρήτης", 
@@ -73,11 +75,14 @@ administrations_gr = list(
 # 06. Decentralized Administration of the Aegean
 # 07. Decentralized Administration of Thessaly and Central Greece
 
-i <- 7 # Choose a number based on the above list to produce the respective report.
+# Choose a number based on the above list to produce the report for the respective decentralized 
+# administration. For example for i <- 4 the Macedonia & Thrace report is being produced.
+i <- 7 
 ```
 
 ```{r, echo=FALSE, results=TRUE, message=FALSE, warning=FALSE}
 
+# Gets the date of the latest recording on the dataset.
 cat(sprintf("%s \n", tail(sort(as.Date(myData$date,"%Y-%m-%d")),1)))
 
 ```
