@@ -1,0 +1,104 @@
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+##
+# R Script to visualize COVID-19 mobility data by Google
+#
+# Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
+# Script Version (Date): v1.0 (2020-11-27)
+#
+# Data available at: https://www.google.com/covid19/mobility/
+# Data documentation / Threats to validity available at: 
+# https://support.google.com/covid19-mobility/answer/9825414?hl=en&ref_topic=9822927
+#
+# License: This script is provided under the Apache 2.0 License: 
+# https://www.apache.org/licenses/LICENSE-2.0.html
+#
+# All the data are provided by Google. The project is not affiliated with Google
+##
+```
+
+---
+title: "Αναφορά κινητικότητας κοινότητας για τον COVID-19 από την Google."
+output:
+  html_document:
+    df_print: paged
+---
+
+Αυτή είναι μία αναφορά που δημιουργήθηκε με χρήση των δεδομένων “Αναφοράς κινητικότητας κοινότητας για τον COVID-19” όπως διατίθενται ανοικτά και ανωνυμοποιημένα από την εταιρία Google στον ακόλουθο σύνδεσμο: https://www.google.com/covid19/mobility/.
+
+ΣΗΜΕΙΩΣΗ: Η τεχνική τεκμηρίωση των δεδομένων μαζί με όλες τις σημειώσεις για το πως συλλέγχονται και αρχειοθετούνται τα δεδομένα αλλά και τις σχεδιαστικές αποφάσεις του dataset της Google είναι διαθέσιμα εδώ: https://support.google.com/covid19-mobility/answer/9825414?hl=en&ref_topic=9822927
+
+__ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ:__
+
+
+```{r, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+# Imports libraries
+library(psych)       
+library(psychTools)
+library(gridExtra)
+library(xtable)
+library(dplyr)
+library(ggplot2)
+options(max.print = .Machine$integer.max)
+
+# Reads data from CSV (Windows & Linux versions)
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/github/covid19gr/data/Google Mobility Greece') # linux path
+#setwd('C:\\akritiko\\google mobility\\') # windows path
+
+# Consumes CSV. First row contains headers and "," is used as a separator
+myData <- read.csv(file="mobility_gr.csv", head=TRUE, sep=",") 
+
+# List of Decentralized Administrations as defined by Google Mobility reports (used for filtering)
+administrations = list(
+        "Decentralized Administration of Attica",
+        "Decentralized Administration of Crete",
+        "Decentralized Administration of Epirus and Western Macedonia",
+        "Decentralized Administration of Macedonia and Thrace",
+        "Decentralized Administration of Peloponnese, Western Greece and the Ionian",
+        "Decentralized Administration of the Aegean",
+        "Decentralized Administration of Thessaly and Central Greece")
+
+# List of Decentralized Administrations translated in Greek (used for html reports)
+administrations_gr = list(
+        "Αποκεντρωμένη Διοίκηση Αττικής", 
+        "Αποκεντρωμένη Διοίκηση Κρήτης", 
+        "Αποκεντρωμένη Διοίκηση Ηπείρου και Δυτικής Μακεδονίας",
+        "Αποκεντρωμένη Διοίκηση Μακεδονίας και Θράκης",
+        "Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου",
+        "Αποκεντρωμένη Διοίκηση Αιγαίου",
+        "Αποκεντρωμένη Διοίκηση Θεσσαλίας και Κεντρικής Ελλάδας")
+
+# 01. Decentralized Administration of Attica
+# 02. Decentralized Administration of Crete
+# 03. Decentralized Administration of Epirus and Western Macedonia
+# 04. Decentralized Administration of Macedonia and Thrace
+# 05. Decentralized Administration of Peloponnese, Western Greece and the Ionian
+# 06. Decentralized Administration of the Aegean
+# 07. Decentralized Administration of Thessaly and Central Greece
+
+# Choose a number based on the above list to produce the report for the respective decentralized 
+# administration. For example for i <- 4 the Macedonia & Thrace report is being produced.
+i <- 7 
+```
+
+```{r, echo=FALSE, results=TRUE, message=FALSE, warning=FALSE}
+
+# Gets the date of the latest recording on the dataset.
+cat(sprintf("%s \n", tail(sort(as.Date(myData$date,"%Y-%m-%d")),1)))
+
+```
+
+Στην συνέχεια μπορείτε να δείτε την αναφορά για την περιοχή που σας ενδιαφέρει:
+
+1. <a href="attiki.html">Αποκεντρωμένη Διοίκηση Αττικής</a>
+1. [Αποκεντρωμένη Διοίκηση Κρήτης](kriti.html)
+1. [Αποκεντρωμένη Διοίκηση Ηπείρου και Δυτικής Μακεδονίας](ipirou_dytiki_makedonia.html)
+1. [Αποκεντρωμένη Διοίκηση Μακεδονίας και Θράκης](makedonia_thraki.html)
+1. [Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου](peloponnisou_dytikis_elladas_ioniou.html)
+1. [Αποκεντρωμένη Διοίκηση Αιγαίου](aigaiou.html)
+1. [Αποκεντρωμένη Διοίκηση Θεσσαλίας και Κεντρικής Ελλάδας](thessalias_kentrikis_elladas.html)
+
+![Map of Greece during the SARS-COV-2 pandemic](map.png)
+
+**ΑΔΕΙΑ ΧΡΗΣΗΣ:**
+
+Το περιεχόμενο του αποθετηρίου COVID19gr, εκτός αν αναφέρεται ρητά κάτι διαφορετικό σε κάποιο σημείο, είναι διαθέσιμο με σεβασμό στους όρους χρήσης της άδειας: [Κοινό Κτήμα / Public Domain: CC0-1.0](https://github.com/akritiko/covid19gr/blob/master/LICENSE).
