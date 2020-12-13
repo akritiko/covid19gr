@@ -55,7 +55,7 @@
 
 | Σετ Δεδομένων                                                          	| Δημιουργός 	| Πηγή δεδομένων                                                                   	| Οπτικοποίηση δεδομένων                                                 	|
 |------------------------------------------------------------------------	|------------	|----------------------------------------------------------------------------------	|------------------------------------------------------------------------	|
-| Περιοδική κινητικότητα* ανά αποκεντρωμένη περιφέρεια και δραστηριότητα 	| Google     	| [Community Mobility Reports](https://www.google.com/covid19/mobility/)           	| [Community Mobility Reports](https://www.google.com/covid19/mobility/) 	|
+| Περιοδική κινητικότητα* ανά αποκεντρωμένη περιφέρεια και δραστηριότητα 	| Google     	| [Community Mobility Reports](https://www.google.com/covid19/mobility/)           	| [Community Mobility Reports](https://ourworldindata.org/grapher/changes-visitors-covid?tab=chart&stackMode=absolute&time=earliest..latest&country=~GRC&region=World) 	|
 | Ημερήσια κινητικότητα σε επίπεδο χώρας                                 	| Apple      	| [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) 	| [Mobility Trends Reports](https://covid19.apple.com/mobility)          	|
 | Ημερήσια κινητικότητα για Αθήνα και Θεσσαλονίκη                        	| TomTom     	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                      	|
 
@@ -66,7 +66,14 @@
 
 ### 2.3. Δεδομένα που αφορούν τα μέτρα αποστασιοποίησης & τον έλεγχο αυτών
 
+| Σετ Δεδομένων                                          	| Δημιουργός                                                               	| Πηγή δεδομένων                                                                                   	| Οπτικοποίηση δεδομένων                                                                                                                    	|
+|--------------------------------------------------------	|--------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------	|
+| Αποτίμηση ελέγχων covid-19 (Εθνική Αρχή Διαφάνειας)    	| [Α. Κρητικός](https://github.com/akritiko/)                              	| [Github](https://github.com/akritiko/covid19)                                                    	| -                                                                                                                                         	|
+| Δείκτης ρίσκου τερματισμού των μέτρων αποστασιοποίησης 	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT) 	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad) 	| -                                                                                                                                         	|
+| Δείκτης αυστηρότητας κυβερνητικών μέτρων               	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT) 	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-tracker)    	| [Oxford Covid-19 Government Response Tracker](https://ourworldindata.org/grapher/covid-stringency-index?stackMode=absolute&region=Europe) 	|
 
+**Σημειώσεις επί των συνόλων δεδομένων**
+1. 
 
 ## 3. Άδεια χρήσης των πληροφοριών του COVID19gr
 
