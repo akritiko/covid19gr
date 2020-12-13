@@ -87,7 +87,7 @@
 
 ## 6. Αναγνώριση & Ευχαριστίες
 
-Το αποθετήριο αυτό δεν είναι τίποτε άλλο παρά μία συλλογή από σετ δεδομένων. Για τα σύνολα δεδομένων που περιλαμβάνει εργάσθηκαν οι εξής: [Sandbird](https://github.com/Sandbird/), [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json), [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/blob/master/COVID-19/regions_greece_cases.csv), [covid19.gov.gr](http://covid19.gov.gr/), [CovidDEXP](https://covid19.csd.auth.gr/), [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend).
+Το αποθετήριο αυτό δεν είναι τίποτε άλλο παρά μία συλλογή από σετ δεδομένων. Για τα σύνολα δεδομένων που περιλαμβάνει εργάσθηκαν οι εξής: [Sandbird](https://github.com/Sandbird/), [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json), [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/blob/master/COVID-19/regions_greece_cases.csv), [covid19.gov.gr](http://covid19.gov.gr/), [CovidDEXP](https://covid19.csd.auth.gr/), [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend), [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad), [ActiveConclusion](https://github.com/ActiveConclusion), Google, Apple, TomTom.
 
 ## 7. Πως να αναφερθείτε σε αυτό το αποθετήριο (πραιρετικά)
 
