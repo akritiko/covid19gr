@@ -85,7 +85,11 @@
 
 Σε περίπτωση που εντοπίσετε κάποιο λάθος, έχετε κάποια ιδέα ή απορία που θέλετε να μοιραστείτε μαζί μας μπορείτε να το κάνετε χρησιμοποιώντας [τον μηχανισμό υπολοβολής προτάσεων](https://github.com/akritiko/covid19gr/issues) του αποθετηρίου. Θα σας απαντήσουμε το συντομότερο δυνατό. 
 
-## 5. Πως να αναφερθείτε σε αυτό το αποθετήριο (πραιρετικά)
+## 7. Αναγνώριση & Ευχαριστίες
+
+Το αποθετήριο αυτό δεν είναι τίποτε άλλο παρά μία συλλογή από σετ δεδομένων. Για τα σύνολα δεδομένων που περιλαμβάνει εργάσθηκαν οι εξής: [Sandbird](https://github.com/Sandbird/), [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json), [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/blob/master/COVID-19/regions_greece_cases.csv), [covid19.gov.gr](http://covid19.gov.gr/), [CovidDEXP](https://covid19.csd.auth.gr/), [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend).
+
+## 6. Πως να αναφερθείτε σε αυτό το αποθετήριο (πραιρετικά)
 
 Καθώς το αποθετήριο προσφέρεται κάτω από άδεια Κοινού Κτήματος CC0-1.0, δεν έχετε καμία απολύτως υποχρέωση να κάνετε κανενός είδους αναφοράς. Εάν παρόλα αυτά θέλετε να κάνετε κάποια αναφορά θα μπορούσατε να χρησιμοποιήσετε την παρακάτω μορφή:
 
