@@ -41,7 +41,7 @@
 | Περιστατικά γενικού πληθυσμού (ημερήσια), ανά ηλικιακή ομάδα & σοβαρότητα περιστατικού 	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Περιστατικά Γυναικών (συνολικά), ανά ηλικιακή ομάδα & σοβαρότητα περιστατικού          	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Περιστατικά Γυναικών (ημερήσια), ανά ηλικιακή ομάδα & σοβαρότητα περιστατικού          	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
-| Προβλέψεις                                                                         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Προβλέψεις [1]                                                                         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Ημερήσιες μετρήσεις (διάφοροι δείκτες) - Ανά νομό                                      	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Ημερήσιες μετρήσεις (διάφοροι δείκτες) - Ανά περιφέρεια                                	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 
