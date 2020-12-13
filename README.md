@@ -73,6 +73,7 @@
 | Δείκτης αυστηρότητας κυβερνητικών μέτρων               	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT) 	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-tracker)    	| [Oxford Covid-19 Government Response Tracker](https://ourworldindata.org/grapher/covid-stringency-index?stackMode=absolute&region=Europe) 	|
 
 **Σημειώσεις επί των συνόλων δεδομένων**
+
 1. 
 
 ## 3. Άδεια χρήσης των πληροφοριών του COVID19gr
