@@ -45,7 +45,7 @@
 | Ημερήσιες μετρήσεις (διάφοροι δείκτες) - Ανά νομό                                      	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Ημερήσιες μετρήσεις (διάφοροι δείκτες) - Ανά περιφέρεια                                	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 
-**Σημειώσεις επί των συνόλων δεδομένων από τον δημιουργό.**
+**Σημειώσεις επί των συνόλων δεδομένων**
 1. Σημειώσεις: Οι κινούμενοι μέσοι όροι βγαίνουν από 7 ημέρες προς τα πίσω. Ο αριθμός βασίζεται στην ημερήσια τιμή. Θεωρείται ότι είναι ο ίδιος με την προηγούμενη ημέρα, εάν δεν έχει ενημερωθεί. Τις ημέρες χωρίς συνέχεια από την προηγούμενη, ο αριθμός των "Νέων" κρουσμάτων αντιμετωπίζεται ως 0\. Τα δεδομένα μπορεί να διορθωθούν από τον προγραμματιστή όταν βρεθούν ανακρίβειες, όπως αρνητική τιμή στα Κρούσματα.
 1. Δεδομένα: [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/). Οι ημερομηνίες των μέτρων ελήφθησαν από [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json). Τα δεδομένα για τους νομούς ελήφθησαν από [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/blob/master/COVID-19/regions_greece_cases.csv) και [covid19.gov.gr](http://covid19.gov.gr/). Οι προβλέψεις ελήφθησαν από [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend). Ο αλγόριθμος του αριθμού αναπαραγωγής Rj προέρχεται από [American Journal of Epidemiology](https://academic.oup.com/aje/article/160/6/509/79472?fbclid=IwAR2nDT0TyBciFQuNOU0vW3z4OcAJBRPh_x1E8HwCI-i9a4y5KLimY5D3aG4) και από [Richard Schubert](https://mshfd.github.io/reproduction-number/). Χρησιμοποιήθηκε εισαγωγικό κείμενο για τον IIFR από [wikipedia](https://el.wikipedia.org/wiki/%CE%98%CE%BD%CE%B7%CF%84%CF%8C%CF%84%CE%B7%CF%84%CE%B1) και ο αλγόριθμος και τα δεδομένα από ([link1](https://covid19-projections.com/estimating-true-infections/), [link2](https://covid19-projections.com/about/#infection-fatality-rate-ifr), [link3](https://github.com/youyanggu/covid19_projections/tree/master/implied_ifr)).
 1. Ανανέωση δεδομένων: τα δεδομένα ανανεώνονται σε μη ορισμένη συχνότητα ανάλογα με τις ανακοινώσεις του Υπουργείου Υγείας.
@@ -53,7 +53,20 @@
 
 ### 2.2. Δεδομένα Κινητικότητας
 
+| Σετ Δεδομένων                                                          	| Δημιουργός 	| Πηγή δεδομένων                                                                   	| Οπτικοποίηση δεδομένων                                                 	|
+|------------------------------------------------------------------------	|------------	|----------------------------------------------------------------------------------	|------------------------------------------------------------------------	|
+| Περιοδική κινητικότητα* ανά αποκεντρωμένη περιφέρεια και δραστηριότητα 	| Google     	| [Community Mobility Reports](https://www.google.com/covid19/mobility/)           	| [Community Mobility Reports](https://www.google.com/covid19/mobility/) 	|
+| Ημερήσια κινητικότητα σε επίπεδο χώρας                                 	| Apple      	| [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) 	| [Mobility Trends Reports](https://covid19.apple.com/mobility)          	|
+| Ημερήσια κινητικότητα για Αθήνα και Θεσσαλονίκη                        	| TomTom     	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                      	|
+
+**Σημειώσεις επί των συνόλων δεδομένων**
+1. \*Τα δεδομένα κινητικότητας της Google δεν βγαίνουν σε ημερήσια βάση αλλά τακτικά (κάθε 2 ημέρες κατά Μ.Ο. περίπου). Είναι όμως το μοναδικό dataset που διαχωρίζει τα δεδομένα ανά δραστηριότητα (λιανική, πάρκα, χώροι εργασίας, κλπ.). Τα reports της Google θα είναι διαθέσιμα για χρήση με στόχο την καταπολέμηση της πανδημίας για όσο κρίνεται ότι βοηθούν την παγκόσμια κοινότητα στο να λάβει τις κατάλληλες αποφάσεις. Δεν δίδεται δηλαδή κάποια ξεκάθαρη άδεια χρήσης, αλλά αποτελούν δεδομένα δημόσια διαθέσιμα για την καταπολέμηση της πανδημίας.
+2. Τα δεδομένα της Apple αφορούν στο σύνολο της χώρας και τα λαμβάνουμε από το αποθετήριο COVID19_mobility του χρήστη ActiveConclusion που διατίθεται κάτω από άδεια χρήσης [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE).
+3. Τα δεδομένα της TomTom αφορούν τις πόλεις Αθήνα και Θεσσαλονίκη και τα λαμβάνουμε από το αποθετήριο COVID19_mobility του χρήστη ActiveConclusion που διατίθεται κάτω από άδεια χρήσης [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE).
+
 ### 2.3. Δεδομένα που αφορούν τα μέτρα αποστασιοποίησης & τον έλεγχο αυτών
+
+
 
 ## 3. Άδεια χρήσης των πληροφοριών του COVID19gr
 
