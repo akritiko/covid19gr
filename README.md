@@ -1,6 +1,6 @@
-# COVID19gr - Αποθετήριο συνάθροισης δεδομένων για τον COVID-19 στην Ελλάδα
+_[(click here to view an english version of the page)](https://github.com/akritiko/covid19gr/blob/master/README_en.md)_
 
-[(click here to view an english version of the page)](https://github.com/akritiko/covid19gr/blob/master/README_en.md)
+# COVID19gr - Αποθετήριο συνάθροισης δεδομένων για τον COVID-19 στην Ελλάδα
 
 Αποθετήριο δεδομένων για την εξέλιξη της πανδημίας SARS-COV-2 στην Ελλάδα. Το αποθετήριο ανανεώνεται καθώς η πανδημία εξελίσσεται. 
 
