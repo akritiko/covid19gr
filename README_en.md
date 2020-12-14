@@ -1,6 +1,6 @@
-# COVID19gr - Open Data aggregation repository for COVID-19 in Greece. 
+🇬🇷 _[(κάντε κλικ εδώ για να δείτε την εκδοχή της σελίδας στα ελληνικά)](https://github.com/akritiko/covid19gr/)_
 
-[(κάντε κλικ εδώ για να δείτε την εκδοχή της σελίδας στα ελληνικά)](https://github.com/akritiko/covid19gr/)
+# COVID19gr - Open Data aggregation repository for COVID-19 in Greece. 
 
 Open Data aggregation repository for the evolution of the SARS-COV-2 pandemic in Greece. The repository is being updated as the pandemic evolves.
 
