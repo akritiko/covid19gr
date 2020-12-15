@@ -99,4 +99,4 @@ _[(click here to view an english version of the page 🇬🇧)](https://github.c
 
 _Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4323541._
 
-or get the [BibTEX version](https://zenodo.org/record/4323541/export/hx)
+ή σε μορφή [BibTEX version](https://zenodo.org/record/4323541/export/hx).
