@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/289492104.svg)](https://zenodo.org/badge/latestdoi/289492104)
 _[(click here to view an english version of the page 🇬🇧)](https://github.com/akritiko/covid19gr/blob/master/README_en.md)_
 
 # COVID19gr - Αποθετήριο συνάθροισης δεδομένων για τον COVID-19 στην Ελλάδα
