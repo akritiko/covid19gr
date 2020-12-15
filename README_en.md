@@ -95,4 +95,6 @@ This repository is nothing more that a collection of datasets. For those dataset
 
 Since this repository is published under the Public Domain CC0-1.0, there is absolutely no requirement to refer to it in any way. However, if you would like to do so, you can use the following citation:
 
-_Apostolos Kritikos. COVID-19 Aggregated data repository for Greece (covid19gr). https://github.com/akritiko/covid19gr [online]._
+_Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4323541._
+
+in [BibTEX version](https://zenodo.org/record/4323541/export/hx) format. 
