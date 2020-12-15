@@ -97,4 +97,6 @@ _[(click here to view an english version of the page 🇬🇧)](https://github.c
 
 Καθώς το αποθετήριο προσφέρεται κάτω από άδεια Κοινού Κτήματος CC0-1.0, δεν έχετε καμία απολύτως υποχρέωση να κάνετε κανενός είδους αναφοράς. Εάν παρόλα αυτά θέλετε να κάνετε κάποια αναφορά θα μπορούσατε να χρησιμοποιήσετε την παρακάτω μορφή:
 
-_Apostolos Kritikos. COVID-19 Aggregated data repository for Greece (covid19gr). https://github.com/akritiko/covid19gr [online]._
+_Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4323541._
+
+or get the [BibTEX version](https://zenodo.org/record/4323541/export/hx)
