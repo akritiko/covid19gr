@@ -1,3 +1,6 @@
+# Script courtesy of @nephridium from Github.
+# Source URL: https://github.com/nephridium/csv2json/blob/master/csv2json.py
+
 import argparse, os
 parser = argparse.ArgumentParser(
     description='Converts a CSV file to JSON',
