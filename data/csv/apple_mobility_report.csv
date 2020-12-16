@@ -1,3 +1,4 @@
+country,sub-region,subregion_and_city,geo_type,date,driving,transit,walking
 Greece,Attica,Athens,city,2020-01-13,0.0,,0.0
 Greece,Attica,Athens,city,2020-01-14,1.4699999999999989,,-1.269999999999996
 Greece,Attica,Athens,city,2020-01-15,1.5699999999999932,,1.0100000000000051
@@ -332,6 +333,8 @@ Greece,Attica,Athens,city,2020-12-10,-42.81,,-50.81
 Greece,Attica,Athens,city,2020-12-11,-34.239999999999995,,-41.29
 Greece,Attica,Athens,city,2020-12-12,-44.79,,-39.07
 Greece,Attica,Athens,city,2020-12-13,-52.58,,-56.24
+Greece,Attica,Athens,city,2020-12-14,-34.91,,-43.78
+Greece,Attica,Athens,city,2020-12-15,-27.430000000000007,,-30.379999999999995
 Greece,Total,Total,country/region,2020-01-13,0.0,,0.0
 Greece,Total,Total,country/region,2020-01-14,0.6299999999999955,,0.5
 Greece,Total,Total,country/region,2020-01-15,0.5699999999999932,,1.9099999999999966
@@ -666,3 +669,5 @@ Greece,Total,Total,country/region,2020-12-10,-45.51,,-48.02
 Greece,Total,Total,country/region,2020-12-11,-38.37,,-40.13
 Greece,Total,Total,country/region,2020-12-12,-46.88,,-39.39
 Greece,Total,Total,country/region,2020-12-13,-53.32,,-54.62
+Greece,Total,Total,country/region,2020-12-14,-39.43,,-42.48
+Greece,Total,Total,country/region,2020-12-15,-33.31999999999999,,-30.560000000000002
