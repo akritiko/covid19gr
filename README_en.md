@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/289492104.svg)](https://zenodo.org/badge/latestdoi/289492104)
+
 _[(κάντε κλικ εδώ για να δείτε την εκδοχή της σελίδας στα ελληνικά 🇬🇷)](https://github.com/akritiko/covid19gr/)_
 
 # COVID19gr - Open Data aggregation repository for COVID-19 in Greece. 
@@ -34,18 +36,18 @@ Available in machine readable format and frequently updated:
 
 ### 2.1. Epidemiological Data
 
-| Dataset                                                | Author                                    | Data Source                                           | Data Visualization                                |
-|--------------------------------------------------------|-------------------------------------------|-------------------------------------------------------|---------------------------------------------------|
-| Various metrics (daily) - Greece (nationwide)          | [Sandbird](https://github.com/Sandbird/)  | [Github](https://github.com/Sandbird/covid19-Greece)  | [covid19-greece.tk/](https://covid19-greece.tk/)  |
-| Men cases (total), per age and severity                | [Sandbird](https://github.com/Sandbird/)  | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| Men cases (daily), per age and severity                | [Sandbird](https://github.com/Sandbird/)  | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| General population cases (total), per age and severity | [Sandbird](https://github.com/Sandbird/)  | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| General population cases (daily), per age and severity | [Sandbird]( https://github.com/Sandbird/) | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| Women cases (total), per age and severity              | [Sandbird]( https://github.com/Sandbird/) | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| Women cases (daily), per age and severity              | [Sandbird]( https://github.com/Sandbird/) | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| Projections                                            | [Sandbird]( https://github.com/Sandbird/) | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| Various metrics (daily) - Per prefecture               | [Sandbird]( https://github.com/Sandbird/) | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
-| Various metrics (daily) - Per region                   | [Sandbird]( https://github.com/Sandbird/) | [Github]( https://github.com/Sandbird/covid19-Greece) | [covid19-greece.tk/]( https://covid19-greece.tk/) |
+| Dataset                                                	| Reference Area 	| Author                                    	| Data Source                                           	| Data Visualization                                	|
+|--------------------------------------------------------	|----------------	|-------------------------------------------	|-------------------------------------------------------	|---------------------------------------------------	|
+| Various metrics (daily) - Greece (nationwide)          	| Greece         	| [Sandbird](https://github.com/Sandbird/)  	| [Github](https://github.com/Sandbird/covid19-Greece)  	| [covid19-greece.tk/](https://covid19-greece.tk/)  	|
+| Men cases (total), per age and severity                	| Greece         	| [Sandbird](https://github.com/Sandbird/)  	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Men cases (daily), per age and severity                	| Greece         	| [Sandbird](https://github.com/Sandbird/)  	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| General population cases (total), per age and severity 	| Greece         	| [Sandbird](https://github.com/Sandbird/)  	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| General population cases (daily), per age and severity 	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Women cases (total), per age and severity              	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Women cases (daily), per age and severity              	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Projections                                            	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Various metrics (daily) - Per prefecture               	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Various metrics (daily) - Per region                   	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 
 **Notes on the dataset:**
 1. Notes: Moving averages are 7-day backward. The number is based on the daily value. It is assumed to be the same as the previous day if not updated. On the days with no continuity from the previous day due to change of standards, "New" number is treated as 0 and the bar color is changed. Data may be corrected by the developer when it is considered as an obvious misstatement, such as minus value of Tested Positive.
@@ -55,11 +57,11 @@ Available in machine readable format and frequently updated:
 
 ### 2.2. Mobility Data
 
-| Dataset                                                                             | Author | Data source                                                                      | Data visualization                                                                                                                                                |
-|-------------------------------------------------------------------------------------|--------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Irregular mobility metrics* per decentralized administration and various activities | Google | [Community Mobility Reports](https://www.google.com/covid19/mobility/)           | [Community Mobility Reports](https://ourworldindata.org/grapher/changes-visitors-covid?tab=chart&stackMode=absolute&time=earliest..latest&country=~GRC®ion=World) |
-| Daily mobility metrics (nationwide)                                                 | Apple  | [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) | [Mobility Trends Reports](https://covid19.apple.com/mobility)                                                                                                     |
-| Daily mobility metrics for Athens and Thessaloniki cities                           | TomTom | [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           | -                                                                                                                                                                 |
+| Dataset                                                                             	| Reference Area 	| Author 	| Data source                                                                      	| Data visualization                                                                                                                                                	|
+|-------------------------------------------------------------------------------------	|----------------	|--------	|----------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Irregular mobility metrics* per decentralized administration and various activities 	| Greece         	| Google 	| [Community Mobility Reports](https://www.google.com/covid19/mobility/)           	| [Community Mobility Reports](https://ourworldindata.org/grapher/changes-visitors-covid?tab=chart&stackMode=absolute&time=earliest..latest&country=~GRC®ion=World) 	|
+| Daily mobility metrics (nationwide)                                                 	| Greece         	| Apple  	| [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) 	| [Mobility Trends Reports](https://covid19.apple.com/mobility)                                                                                                     	|
+| Daily mobility metrics for Athens and Thessaloniki cities                           	| Greece         	| TomTom 	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                                                                                                                 	|
 
 **Notes on the dataset**
 1. \*Mobility data by Google are irregularly published (every other day on average). Yet it is the only dataset which provides separate metrics for specific activities (retail, parks, workplaces, etc.). Google's reports will be available for use in order to help addressing the pandemic for as long as they are considered helpful by the health professionals and / or policy makers. They are not published under an open data license but they are publicly available during the pandemic.
@@ -68,11 +70,11 @@ Available in machine readable format and frequently updated:
 
 ### 2.3. Social Distancing Measures and governmental checks
 
-| Dataset                                                                             | Author | Data source                                                                      | Data visualization                                                                                                                                                |
-|-------------------------------------------------------------------------------------|--------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Irregular mobility metrics* per decentralized administration and various activities | Google | [Community Mobility Reports](https://www.google.com/covid19/mobility/)           | [Community Mobility Reports](https://ourworldindata.org/grapher/changes-visitors-covid?tab=chart&stackMode=absolute&time=earliest..latest&country=~GRC®ion=World) |
-| Daily mobility metrics (nationwide)                                                 | Apple  | [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) | [Mobility Trends Reports](https://covid19.apple.com/mobility)                                                                                                     |
-| Daily mobility metrics for Athens and Thessaloniki cities                           | TomTom | [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           | -                                                                                                                                                                 |
+| Dataset                                                                             	| Reference Area 	| Author 	| Data source                                                                      	| Data visualization                                                                                                                                                	|
+|-------------------------------------------------------------------------------------	|----------------	|--------	|----------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Irregular mobility metrics* per decentralized administration and various activities 	| Greece         	| Google 	| [Community Mobility Reports](https://www.google.com/covid19/mobility/)           	| [Community Mobility Reports](https://ourworldindata.org/grapher/changes-visitors-covid?tab=chart&stackMode=absolute&time=earliest..latest&country=~GRC®ion=World) 	|
+| Daily mobility metrics (nationwide)                                                 	| Greece         	| Apple  	| [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) 	| [Mobility Trends Reports](https://covid19.apple.com/mobility)                                                                                                     	|
+| Daily mobility metrics for Athens and Thessaloniki cities                           	| Greece         	| TomTom 	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                                                                                                                 	|
 
 **Notes on the dataset**
 
@@ -95,4 +97,6 @@ This repository is nothing more that a collection of datasets. For those dataset
 
 Since this repository is published under the Public Domain CC0-1.0, there is absolutely no requirement to refer to it in any way. However, if you would like to do so, you can use the following citation:
 
-_Apostolos Kritikos. COVID-19 Aggregated data repository for Greece (covid19gr). https://github.com/akritiko/covid19gr [online]._
+_Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4323541._
+
+in [BibTEX version](https://zenodo.org/record/4323541/export/hx) format. 
