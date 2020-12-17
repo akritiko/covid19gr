@@ -51,7 +51,7 @@ wget https://github.com/ActiveConclusion/COVID19_mobility/raw/master/tomtom_repo
 #
 
 # Our World in Data (OWiD)
-wget https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/COVID-19\ -\ Vaccinations.csv
+wget https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv
 
 
 ##
@@ -61,12 +61,12 @@ cp riskindex_timeseries_latest.csv data/csv/
 cp OxCGRT_latest.csv data/csv/
 cp tomtom_trafic_index.csv data/csv/
 cp apple_mobility_report.csv data/csv/
-cp COVID-19\ -\ Vaccinations.csv data/csv/vaccinations.csv
+cp vaccinations.csv data/csv/vaccinations.csv
 
 rm riskindex_timeseries_latest.csv
 rm OxCGRT_latest.csv
 rm tomtom_trafic_index.csv
 rm apple_mobility_report.csv
-rm COVID-19\ -\ Vaccinations.csv
+rm vaccinations.csv
 
 exit 0
