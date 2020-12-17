@@ -13,8 +13,8 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [16 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [14 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [19 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [19 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
 
@@ -80,6 +80,28 @@ Available in machine readable format and frequently updated:
 
 1. The data from the National Transparency Agency were extracted by the reports you can find here (in Greek): https://github.com/akritiko/covid19gr/tree/master/reports/National%20Transparency%20Authority. I am personally curating the dataset so in case you find any errors, I would be obliged if you could inform me to proceed in the appropriate corrections. You will find more information on how to contact us, at the end of this document. 
 1. Oxford Covid-19 Government Response Tracker datasets are the product of the respective research of this research group. In this repository you will find the latest measures on .CSV format but, before you use them we would propose that you refer to the respective literature of the research team available at their official website. License: [Creative Commons Attribution 4.0 International](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt).
+
+### 2.4. Vaccination data
+
+| Dataset        	| Reference Area 	| Author                                   	| Data source                                  	| Data visualization                                                                                                                                	|
+|----------------------	|------------------	|----------------------------------------------	|-------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Vaccinations per country 	| Worldwide        	| [Our World in Data](https://github.com/owid) 	| [Github](https://github.com/owid/covid-19-data) 	| [Our World in Data](https://ourworldindata.org/grapher/cumulative-covid-vaccinations?tab=chart&stackMode=absolute&time=earliest..latest&region=World) 	|
+
+**Notes on the dataset**
+
+1. All the data available to Our World In Data are published under [Creative Commons Attribution (CC-BY) 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
+### 2.5. Official reports archive (urls)
+
+| Dataset                                                                      	| Reference Area 	| Author  	| Data source                           	| Data visualization 	|
+|------------------------------------------------------------------------------------	|------------------	|-------------	|------------------------------------------	|------------------------	|
+| Epidemiological Daily Report of novel corona virus (COVID-19) infections 	| Greece           	| A. Kritikos 	| [EODY](https://eody.gov.gr/)             	| -                      	|
+| COVID-19 Observatory                                                             	| Greece           	| A. Kritikos 	| [COVID19.gov.gr](http://covid19.gov.gr/) 	| -                      	|
+
+**Notes on the dataset**
+
+1. For the extraction of the data we used [DEiXTo](https://deixto.com/) tool / single parse per website.
+
 
 ## 3. License of the COVID19gr repository
 
