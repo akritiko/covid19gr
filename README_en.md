@@ -18,9 +18,11 @@ Available in machine readable format and frequently updated:
 
 **NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
 
-### 1.2. Reports
+### 1.2. Reports (archived)
 
-[Greek Government's reports](https://github.com/akritiko/covid19gr/tree/master/reports) as they are published through the official websites of COVID19.gov.gr, the National Organization of Public Health (EODY), the National Transparency Agency, etc. The reason behind recording those reports is for the intended audience to be able to cross check the extracted data for validity reasons.
+_(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν σταματήσει να είναι διαθέσιμες για λόγους οικονομίας μεγέθους του repository. Αντ' αυτών θα βρείτε σετ δεδομένων [1](https://github.com/akritiko/covid19gr/blob/master/data/csv/eody_daily.csv), [2](https://github.com/akritiko/covid19gr/blob/master/data/csv/govgr_paratiritirio.csv), [3](#), που εμπεριέχουν URLS προς τις επίσημες σελίδες των κυβερνητικών σελίδων που τις φιλοξενούν.)_
+
+Greek Government's reports as they are published through the official websites of COVID19.gov.gr, the National Organization of Public Health (EODY), the National Transparency Agency, etc. The reason behind recording those reports is for the intended audience to be able to cross check the extracted data for validity reasons.
 
 **NOTE:** Many of the available datasets are product of the combination of various sources of raw data. For the best possible validation please refer to the data sources catalogue that will follow, to get informed on how each dataset was created. 
 
