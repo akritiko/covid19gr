@@ -99,6 +99,7 @@ Greek Government's reports as they are published through the official websites o
 |------------------------------------------------------------------------------------	|------------------	|-------------	|------------------------------------------	|------------------------	|
 | Epidemiological Daily Report of novel corona virus (COVID-19) infections 	| Greece           	| A. Kritikos 	| [EODY](https://eody.gov.gr/)             	| -                      	|
 | COVID-19 Observatory                                                             	| Greece           	| A. Kritikos 	| [COVID19.gov.gr](http://covid19.gov.gr/) 	| -                      	|
+| National Transparency Agency. COVID-19 checks.                                	| Greece           	| A. Kritikos 	| [NTA](https://aead.gr/press/covid19)    	| -                      	|
 
 **Notes on the dataset**
 
