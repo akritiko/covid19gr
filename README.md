@@ -13,8 +13,8 @@ _[(click here to view an english version of the page 🇬🇧)](https://github.c
 ### 1.1. Σετ δεδομένων
 
 Διαθέσιμα σε μηχαναγνώσιμη μορφή, που ενημερώνονται τακτικά:
-- [19 από αυτά σε μορφή .CSV](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [19 από αυτά σε μορφή .JSON](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [20 από αυτά σε μορφή .CSV](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [20 από αυτά σε μορφή .JSON](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **ΣΗΜΕΙΩΣΗ:** Τα προαναφερθέντα σετ δεδομένων δημιουργήθηκαν και συντηρούνται, ως επι το πλέιστον είτε από **ιδιωτική πρωτοβουλία συμπολιτών μας** οι οποίοι τα διαθέτουν κάτω από άδειες ανοικτών δεδομένων και, φυσικά, εντελώς δωρεάν, είτε από μεγάλους φορείς (ερευνητικά κέντρα, εταιρίες, κ.ο.κ.). Στην συνέχεια θα βρείτε μια αναλυτική παρουσίαση για τι πηγές δεδομένων.
 
