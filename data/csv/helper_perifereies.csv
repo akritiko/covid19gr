@@ -1,14 +1,14 @@
-id, name_el, name_en
-1, Ανατολική Μακεδονία και Θράκη, East Macedonia and Thrace
-2, Κεντρική Μακεδονία, Central Macedonia
-3, Δυτική Μακεδονία, West Macedonia
-4, Ήπειρος, Epirus
-5, Θεσσαλία, Thessaly
-6, Ιόνιοι Νήσοι, Ionian Islands
-7, Δυτική Ελλάδα, West Greece
-8, Στερεά Ελλάδα, Sterea Greece
-9, Αττική, Attica
-10, Πελοπόννησος, Peloponnisos
-11, Β. Αιγαίο, North Aegean
-12, Ν. Αιγαίο, South Aegean
-13, Κρήτη, Crete
+id, name_el, name_en,pop_11
+1, Ανατολική Μακεδονία και Θράκη, East Macedonia and Thrace,608182
+2, Κεντρική Μακεδονία, Central Macedonia,1882108
+3, Δυτική Μακεδονία,Western Macedonia,283689
+4, Ήπειρος, Epirus,336856
+5, Θεσσαλία, Thessaly,732762
+6, Ιόνιοι Νήσοι, Ionian Islands,207855
+7, Δυτική Ελλάδα,Western Greece,679796
+8, Στερεά Ελλάδα,Central Greece,547390
+9, Αττική, Attica,3753783
+10, Πελοπόννησος,Peloponnese,577903
+11, Β. Αιγαίο, North Aegean,199231
+12, Ν. Αιγαίο, South Aegean,309015
+13, Κρήτη, Crete,623065
