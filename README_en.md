@@ -13,8 +13,8 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [20 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [20 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [22 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [22 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
 
