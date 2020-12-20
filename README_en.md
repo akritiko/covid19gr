@@ -80,7 +80,7 @@ Greek Government's reports as they are published through the official websites o
 
 **Notes on the dataset**
 
-1. The data from the National Transparency Agency were extracted by the reports you can find here (in Greek): https://github.com/akritiko/covid19gr/tree/master/reports/National%20Transparency%20Authority. I am personally curating the dataset so in case you find any errors, I would be obliged if you could inform me to proceed in the appropriate corrections. You will find more information on how to contact us, at the end of this document. 
+1. The data from the National Transparency Agency were extracted by the reports you can find [here (in Greek)](https://aead.gr/press/covid19). I am personally curating the dataset so in case you find any errors, I would be obliged if you could inform me to proceed in the appropriate corrections. You will find more information on how to contact us, at the end of this document. 
 1. Oxford Covid-19 Government Response Tracker datasets are the product of the respective research of this research group. In this repository you will find the latest measures on .CSV format but, before you use them we would propose that you refer to the respective literature of the research team available at their official website. License: [Creative Commons Attribution 4.0 International](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt).
 
 ### 2.4. Vaccination data
