@@ -109,8 +109,8 @@ Greek Government's reports as they are published through the official websites o
 
 | Dataset                                                                      	| Reference Area 	| Author  	| Data source                           	| Data visualization 	|
 |------------------------------------------------------------------------------------	|------------------	|-------------	|------------------------------------------	|------------------------	|
-| Greek Prefectures      | Greece           | A. Kritikos | [NTA](https://aead.gr/press/covid19)                                                                                                                                                                                                                      | -                      |
-| Lockdown Periods Data | Greece           | A. Kritikos | [Wikipedia](Α. Κρhttps://el.wikipedia.org/wiki/%CE%A0%CE%B1%CE%BD%CE%B4%CE%B7%CE%BC%CE%AF%CE%B1_%CF%84%CE%BF%CF%85_%CE%BA%CE%BF%CF%81%CE%BF%CE%BD%CE%BF%CF%8A%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1_%CF%84%CE%BF_2020) | -                      |
+| Greek Prefectures      | Greece           | A. Kritikos | [NTA](https://aead.gr/press/covid19/)                                                                                                                                                                                                                      | -                      |
+| Lockdown Periods Data | Greece           | A. Kritikos | [Wikipedia](Α. Κρhttps://el.wikipedia.org/wiki/%CE%A0%CE%B1%CE%BD%CE%B4%CE%B7%CE%BC%CE%AF%CE%B1_%CF%84%CE%BF%CF%85_%CE%BA%CE%BF%CF%81%CE%BF%CE%BD%CE%BF%CF%8A%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1_%CF%84%CE%BF_2020/) | -                      |
 
 ## 3. License of the COVID19gr repository
 
