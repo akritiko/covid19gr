@@ -26,9 +26,12 @@ library(formattable)
 library(tidyr)
 library(data.table)
 options(max.print = .Machine$integer.max)
+library(ggplot2)
+library(reshape2)
 
 # Set the datasets directory.
-setwd('C:\\akritiko\\github\\covid19gr\\data\\csv')
+#setwd('C:\\akritiko\\github\\covid19gr\\data\\csv')
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/04_github/covid19gr/data/csv/')
 
 # Parse Lockdowns dataset. Consumes CSV. 
 # First row contains headers and "," is used as a separator.
@@ -107,4 +110,54 @@ for (i in 11:17) {
   lock2[ nrow(lock2) + 1, ] <- list(i, round(mean(temp_week$avg_score)),  round(mean(temp_week$retail_and_recreation_percent_change_from_baseline)),  round(mean(temp_week$grocery_and_pharmacy_percent_change_from_baseline)),  round(mean(temp_week$parks_percent_change_from_baseline)),  round(mean(temp_week$transit_stations_percent_change_from_baseline)),  round(mean(temp_week$workplaces_percent_change_from_baseline)),  round(mean(temp_week$residential_percent_change_from_baseline)))
 }
 
+j_retail <- data.frame ( 
+  "Lockdown 1" = lock1$mean_retail, 
+  "Week Number" = lock1$week_number, 
+  "Lockdown 2" = c(lock2$mean_retail, NA, NA, NA)
+) 
+
+j_grocery <- data.frame ( 
+  "Lockdown 1" = lock1$mean_grocery, 
+  "Week Number" = lock1$week_number, 
+  "Lockdown 2" = c(lock2$mean_grocery, NA, NA, NA)
+) 
+
+j_parks <- data.frame ( 
+  "Lockdown 1" = lock1$mean_parks, 
+  "Week Number" = lock1$week_number, 
+  "Lockdown 2" = c(lock2$mean_parks, NA, NA, NA)
+) 
+
+j_transit <- data.frame ( 
+  "Lockdown 1" = lock1$mean_transit, 
+  "Week Number" = lock1$week_number, 
+  "Lockdown 2" = c(lock2$mean_transit, NA, NA, NA)
+) 
+
+j_workplaces <- data.frame ( 
+  "Lockdown 1" = lock1$mean_workplaces, 
+  "Week Number" = lock1$week_number, 
+  "Lockdown 2" = c(lock2$mean_workplaces, NA, NA, NA)
+) 
+
+j_residential <- data.frame ( 
+  "Lockdown 1" = lock1$mean_residential, 
+  "Week Number" = lock1$week_number, 
+  "Lockdown 2" = c(lock2$mean_residential, NA, NA, NA)
+) 
+
+# library
+library(ggplot2)
+library(dplyr)
+library(hrbrthemes)
+
+ins
+
+# Represent it
+p <- j_workplaces %>%
+  ggplot( aes(x=value, fill=type)) +
+  geom_histogram( color="#e9ecef", alpha=0.6, position = 'identity') +
+  scale_fill_manual(values=c("#69b3a2", "#404080")) +
+  theme_ipsum() +
+  labs(fill="")
 
