@@ -25,13 +25,15 @@ library(ggplot2)
 library(formattable)
 library(tidyr)
 library(data.table)
-options(max.print = .Machine$integer.max)
-library(ggplot2)
 library(reshape2)
+library(hrbrthemes)
+library(plotly)
+library(fmsb)
+options(max.print = .Machine$integer.max)
 
 # Set the datasets directory.
-#setwd('C:\\akritiko\\github\\covid19gr\\data\\csv')
-setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/04_github/covid19gr/data/csv/')
+setwd('C:\\akritiko\\github\\covid19gr\\data\\csv')
+#setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/04_github/covid19gr/data/csv/')
 
 # Parse Lockdowns dataset. Consumes CSV. 
 # First row contains headers and "," is used as a separator.
@@ -40,6 +42,10 @@ lockdown_data <- read.csv(file="helper_lockdowns_gr.csv", head=TRUE, sep=",")
 # Parse date columns as dates.
 lockdown_data$start_date <- as.Date(lockdown_data$start_date, format= "%Y-%m-%d")
 lockdown_data$end_date <- as.Date(lockdown_data$end_date, format= "%Y-%m-%d")
+
+lock_counts <- lockdown_data %>% count(lockdown_number)
+lock1_count <- lock_counts[c(1), c(2)]
+lock2_count <- lock_counts[c(2), c(2)]
 
 # Parse Google Mobility dataset. Consumes CSV. 
 # First row contains headers and "," is used as a separator.
@@ -97,7 +103,7 @@ google$avg_score = rowMeans(google[,c(9,10,11,12,13,14)])
 # Lockdown 1.
 lock1 <- data.frame(week_number = integer(),mean_total = double(), mean_retail = double(), mean_grocery = double(), mean_parks = double(), mean_transit = double(), mean_workplaces = double(), mean_residential = double()) 
 
-for (i in 1:10) {
+for (i in 1:lock1_count) {
   temp_week <- filter(google, google$date >= lockdown_data[c(i), c(4)] & google$date <= lockdown_data[c(i), c(5)])
   lock1[ nrow(lock1) + 1, ] <- list(i, round(mean(temp_week$avg_score)),  round(mean(temp_week$retail_and_recreation_percent_change_from_baseline)),  round(mean(temp_week$grocery_and_pharmacy_percent_change_from_baseline)),  round(mean(temp_week$parks_percent_change_from_baseline)),  round(mean(temp_week$transit_stations_percent_change_from_baseline)),  round(mean(temp_week$workplaces_percent_change_from_baseline)),  round(mean(temp_week$residential_percent_change_from_baseline)))
 }
@@ -105,59 +111,67 @@ for (i in 1:10) {
 # Lockdown 2.
 lock2 <- data.frame(week_number = integer(),mean_total = double(), mean_retail = double(), mean_grocery = double(), mean_parks = double(), mean_transit = double(), mean_workplaces = double(), mean_residential = double()) 
 
-for (i in 11:17) {
+for (i in (lock1_count + 1):(lock1_count + lock2_count)) {
   temp_week <- filter(google, google$date >= lockdown_data[c(i), c(4)] & google$date <= lockdown_data[c(i), c(5)])
-  lock2[ nrow(lock2) + 1, ] <- list(i, round(mean(temp_week$avg_score)),  round(mean(temp_week$retail_and_recreation_percent_change_from_baseline)),  round(mean(temp_week$grocery_and_pharmacy_percent_change_from_baseline)),  round(mean(temp_week$parks_percent_change_from_baseline)),  round(mean(temp_week$transit_stations_percent_change_from_baseline)),  round(mean(temp_week$workplaces_percent_change_from_baseline)),  round(mean(temp_week$residential_percent_change_from_baseline)))
+  lock2[ nrow(lock2) + 1, ] <- list(i-lock1_count, round(mean(temp_week$avg_score)),  round(mean(temp_week$retail_and_recreation_percent_change_from_baseline)),  round(mean(temp_week$grocery_and_pharmacy_percent_change_from_baseline)),  round(mean(temp_week$parks_percent_change_from_baseline)),  round(mean(temp_week$transit_stations_percent_change_from_baseline)),  round(mean(temp_week$workplaces_percent_change_from_baseline)),  round(mean(temp_week$residential_percent_change_from_baseline)))
 }
 
-j_retail <- data.frame ( 
-  "Lockdown 1" = lock1$mean_retail, 
-  "Week Number" = lock1$week_number, 
-  "Lockdown 2" = c(lock2$mean_retail, NA, NA, NA)
-) 
+lock2[ nrow(lock2) + 1, ] <- c(NA)
+lock2[ nrow(lock2) + 1, ] <- c(NA)
 
-j_grocery <- data.frame ( 
-  "Lockdown 1" = lock1$mean_grocery, 
-  "Week Number" = lock1$week_number, 
-  "Lockdown 2" = c(lock2$mean_grocery, NA, NA, NA)
-) 
 
-j_parks <- data.frame ( 
-  "Lockdown 1" = lock1$mean_parks, 
-  "Week Number" = lock1$week_number, 
-  "Lockdown 2" = c(lock2$mean_parks, NA, NA, NA)
-) 
+for(i in 1:lock1_count) {
+  
+  thenames <- colnames(lock1)
+  test <- data.frame(matrix(ncol=7,nrow=0))
+  names(test) <- thenames[c(2:8)]
 
-j_transit <- data.frame ( 
-  "Lockdown 1" = lock1$mean_transit, 
-  "Week Number" = lock1$week_number, 
-  "Lockdown 2" = c(lock2$mean_transit, NA, NA, NA)
-) 
+  test[  nrow(test) + 1, ] <- list(seq(-100,-100,length.out=7))
+  test[  nrow(test) + 1, ] <- list(seq(0,0,length.out=7))
+  test[  nrow(test) + 1, ] <- lock1[c(i),c(2:8)]
+  
+  thefn = paste("lockdown1", "week", i, ".png", sep = "_") 
+  png(filename=thefn)
+  radarchart(test,
+             axistype=1, 
+             pcol='red',
+             pfcol=adjustcolor("pink", alpha.f = 0.3),
+             plwd=3, 
+             cglcol='grey',
+             cglty=1,
+             axislabcol='black',
+             cglwd=1,
+             vlcex=1.1,
+             title=paste('Google Mobility - Week', i, sep = " ")
+  )
+  graphics.off()
 
-j_workplaces <- data.frame ( 
-  "Lockdown 1" = lock1$mean_workplaces, 
-  "Week Number" = lock1$week_number, 
-  "Lockdown 2" = c(lock2$mean_workplaces, NA, NA, NA)
-) 
+}
 
-j_residential <- data.frame ( 
-  "Lockdown 1" = lock1$mean_residential, 
-  "Week Number" = lock1$week_number, 
-  "Lockdown 2" = c(lock2$mean_residential, NA, NA, NA)
-) 
-
-# library
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
-
-ins
-
-# Represent it
-p <- j_workplaces %>%
-  ggplot( aes(x=value, fill=type)) +
-  geom_histogram( color="#e9ecef", alpha=0.6, position = 'identity') +
-  scale_fill_manual(values=c("#69b3a2", "#404080")) +
-  theme_ipsum() +
-  labs(fill="")
-
+for(i in 1:lock2_count) {
+  
+  thenames <- colnames(lock1)
+  test <- data.frame(matrix(ncol=7,nrow=0))
+  names(test) <- thenames[c(2:8)]
+  
+  test[  nrow(test) + 1, ] <- list(seq(-100,-100,length.out=7))
+  test[  nrow(test) + 1, ] <- list(seq(0,0,length.out=7))
+  test[  nrow(test) + 1, ] <- lock2[c(i),c(2:8)]
+  
+  thefn = paste("lockdown2", "week", i, ".png", sep = "_") 
+  png(filename=thefn)
+  radarchart(test,
+             axistype=1, 
+             pcol='blue',
+             pfcol=adjustcolor("cyan", alpha.f = 0.3),
+             plwd=3, 
+             cglcol='grey',
+             cglty=1,
+             axislabcol='black',
+             cglwd=1,
+             vlcex=1.1,
+             title=paste('Google Mobility - Week', i, sep = " ")
+  )
+  graphics.off()
+  
+}
