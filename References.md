@@ -43,7 +43,7 @@ TBA
 
 ### Communication
 
-1. Γιώργος Παππάς: “Η σημασία της επικοινωνίας στην επιστήμη είναι τεράστια”, Fact News, 2020 | [EL](http://factnews.gr/giorgos-pappas-simasia-tis-epikoinonias-stin-epistimi-einai-terastia/)
+TBA
 
 ### Transparency
 
