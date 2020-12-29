@@ -13,8 +13,8 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [22 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [22 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [23 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [23 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
 
@@ -111,6 +111,12 @@ Greek Government's reports as they are published through the official websites o
 |------------------------------------------------------------------------------------	|------------------	|-------------	|------------------------------------------	|------------------------	|
 | Greek Prefectures      | Greece           | A. Kritikos | [NTA](https://aead.gr/press/covid19/)                                                                                                                                                                                                                      | -                      |
 | Lockdown Periods Data | Greece           | A. Kritikos | [Wikipedia](https://el.wikipedia.org/wiki/%CE%A0%CE%B1%CE%BD%CE%B4%CE%B7%CE%BC%CE%AF%CE%B1_%CF%84%CE%BF%CF%85_%CE%BA%CE%BF%CF%81%CE%BF%CE%BD%CE%BF%CF%8A%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1_%CF%84%CE%BF_2020/) | -                      |
+
+### 2.7. Legislation Datasets
+
+| Dataset              	| Reference Area 	| Author      	| Data Source                                                           	| Data Visualization                                                    	|
+|----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
+| COVID-19 Legislation 	| Greece         	| A. Kritikos 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
 
 ## 3. License of the COVID19gr repository
 
