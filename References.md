@@ -1,6 +1,6 @@
 # References
 
-## Data
+## Digital Aspects
 
 ### Data Related
 
@@ -26,7 +26,11 @@
 1. [Octopub by Open Data Institute](https://octopub.io/)
 1. [CSV Lint by Open Data Institute](https://csvlint.io/)
 
-## Science
+### Policy
+
+1. New report on European digital infrastructure and data sovereignty, European Institute of Innovation & Technology, 2020 | [EN](https://eit.europa.eu/news-events/news/new-report-european-digital-infrastructure-and-data-sovereignty)
+
+## Scientific Aspects
 
 ### Health Related 
 
@@ -39,7 +43,7 @@
 
 TBA
 
-## Democracy & Transparency
+## Democracy & Transparency Aspects
 
 ### Communication
 
