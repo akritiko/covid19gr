@@ -1,5 +1,6 @@
 ###
 # Title: covid19gr - TomTom Traffic Index
+# Script Name: tomtom.r
 # Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
 # Script Version: 1.0, Dec 20th, 2020 
 # Script License: Public Domain, CC0-1.0

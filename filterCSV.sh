@@ -1,7 +1,21 @@
 #!/bin/bash
 
+###
+# Script Name: filterCSV.sh 
+# Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
+# Script Version: 1.0, Dec 20th, 2020 
+# Script License: Public Domain, CC0-1.0
+# Script License URL: https://github.com/akritiko/covid19gr/blob/master/LICENSE
+#
+# NOTE: This script is part of the covid19gr project: https://github.com/akritiko/covid19gr
+# 
+# CITATION (optional): 
+# Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). 
+# Zenodo. http://doi.org/10.5281/zenodo.4323541.
+##
+
 # 1. Read header line from .csv to a temp file
-# 2. Filter with awk the relevant lines based on the regex
+# 2. Filter with awk the relevant lines based on the regex (matching records related to Greece)
 # 3. Remove the initial file
 # 4. Rename the temp file with the filename of the original
 
