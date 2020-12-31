@@ -20,7 +20,7 @@ _[(click here to view an english version of the page 🇬🇧)](https://github.c
 
 ### 1.2. Αναφορές (archived)
 
-_(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν σταματήσει να είναι διαθέσιμες για λόγους οικονομίας μεγέθους του repository. Αντ' αυτών θα βρείτε σετ δεδομένων [1](https://github.com/akritiko/covid19gr/blob/master/data/csv/eody_daily.csv), [2](https://github.com/akritiko/covid19gr/blob/master/data/csv/govgr_paratiritirio.csv), [3](#), που εμπεριέχουν URLS προς τις επίσημες σελίδες των κυβερνητικών σελίδων που τις φιλοξενούν.)_
+_(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν σταματήσει να είναι διαθέσιμες για λόγους οικονομίας μεγέθους του repository. Αντ' αυτών θα βρείτε σετ δεδομένων [1](https://github.com/akritiko/covid19gr/blob/master/data/csv/eody_daily.csv), [2](https://github.com/akritiko/covid19gr/blob/master/data/csv/govgr_paratiritirio.csv), [3](https://github.com/akritiko/covid19gr/blob/master/data/csv/nta_covid19.csv), που εμπεριέχουν URLS προς τις επίσημες σελίδες των κυβερνητικών σελίδων που τις φιλοξενούν.)_
 
 Αποδελτίωση των αναφορών την επίσημης ελληνικής κυβέρνησης όπως γίνονται διαθέσιμες μέσα από τους ιστότοπους COVID19.gov.gr, του Εθνικού Ορφανισμού Δημόσιας Υγείας (ΕΟΔΥ), της Διεθνούς Αρχής Διάφάνειας, κ.ο.κ. Ο σκοπός της αποδελτίωσης των αναφορών αυτών είναι να μπορεί να γίνει έλεγχος των σετ δεδομένων από τους ενδιαφερόμενους.
 
