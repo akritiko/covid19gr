@@ -20,7 +20,7 @@ Available in machine readable format and frequently updated:
 
 ### 1.2. Reports (archived)
 
-_(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν σταματήσει να είναι διαθέσιμες για λόγους οικονομίας μεγέθους του repository. Αντ' αυτών θα βρείτε σετ δεδομένων [1](https://github.com/akritiko/covid19gr/blob/master/data/csv/eody_daily.csv), [2](https://github.com/akritiko/covid19gr/blob/master/data/csv/govgr_paratiritirio.csv), [3](#), που εμπεριέχουν URLS προς τις επίσημες σελίδες των κυβερνητικών σελίδων που τις φιλοξενούν.)_
+_(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν σταματήσει να είναι διαθέσιμες για λόγους οικονομίας μεγέθους του repository. Αντ' αυτών θα βρείτε σετ δεδομένων [1](https://github.com/akritiko/covid19gr/blob/master/data/csv/eody_daily.csv), [2](https://github.com/akritiko/covid19gr/blob/master/data/csv/govgr_paratiritirio.csv), [3](https://github.com/akritiko/covid19gr/blob/master/data/csv/nta_covid19.csv), που εμπεριέχουν URLS προς τις επίσημες σελίδες των κυβερνητικών σελίδων που τις φιλοξενούν.)_
 
 Greek Government's reports as they are published through the official websites of COVID19.gov.gr, the National Organization of Public Health (EODY), the National Transparency Agency, etc. The reason behind recording those reports is for the intended audience to be able to cross check the extracted data for validity reasons.
 
