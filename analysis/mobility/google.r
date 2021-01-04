@@ -27,14 +27,14 @@ library(formattable)
 library(tidyr)
 library(data.table)
 library(reshape2)
-library(hrbrthemes)
+#library(hrbrthemes)
 library(plotly)
 library(fmsb)
 options(max.print = .Machine$integer.max)
 
 # Set the datasets directory.
-setwd('C:\\akritiko\\github\\covid19gr\\data\\csv')
-#setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/04_github/covid19gr/data/csv/')
+#setwd('C:\\akritiko\\github\\covid19gr\\data\\csv')
+setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/04_github/covid19gr/data/csv/')
 
 # Parse Lockdowns dataset. Consumes CSV. 
 # First row contains headers and "," is used as a separator.
