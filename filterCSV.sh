@@ -43,4 +43,10 @@ awk -F, '$3 ~ /Greece/ {print}' data/csv/riskindex_timeseries_latest.csv >> data
 rm data/csv/riskindex_timeseries_latest.csv
 mv data/csv/riskindex_timeseries_latest2.csv data/csv/riskindex_timeseries_latest.csv
 
+# Vaccinations Dataset
+head -n 1 data/csv/vaccinations.csv > data/csv/vaccinations2.csv
+awk -F, '$1 ~ /Greece/ {print}' data/csv/vaccinations.csv >> data/csv/vaccinations2.csv
+rm data/csv/vaccinations.csv
+mv data/csv/vaccinations2.csv data/csv/vaccinations.csv
+
 exit 0
