@@ -155,10 +155,8 @@ _** Βάση της ελληνικής [απογραφής πληθυσμού 20
 
 _*** Σε αυτές τις περιφέρειες ο αριθμός ελέγχων είναι μεγαλύτερος ή ίσος (ποσοστιαία) από την αντίστοιχη αναλογία σε πληθυσμό._
 
-<figure class="wp-block-image size-large is-resized">
-  [![](https://i1.wp.com/apostolos.kritikos.me/wp-content/uploads/2021/01/2itRi-.png?resize=580%2C664&ssl=1)](https://i1.wp.com/apostolos.kritikos.me/wp-content/uploads/2021/01/2itRi-.png?ssl=1)
-  <figcaption>_Μπορείτε να βρείτε το γράφημα [σε διαδραστική μορφή εδώ](https://datawrapper.dwcdn.net/2itRi/3/)._</figcaption>
-</figure>
+<iframe title="" aria-label="map" id="datawrapper-chart-2itRi" src="https://datawrapper.dwcdn.net/2itRi/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="693"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
 
 ## Γ. Μεθοδολογία.
 
