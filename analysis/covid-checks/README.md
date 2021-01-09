@@ -155,8 +155,7 @@ _** Βάση της ελληνικής [απογραφής πληθυσμού 20
 
 _*** Σε αυτές τις περιφέρειες ο αριθμός ελέγχων είναι μεγαλύτερος ή ίσος (ποσοστιαία) από την αντίστοιχη αναλογία σε πληθυσμό._
 
-<iframe title="" aria-label="map" id="datawrapper-chart-2itRi" src="https://datawrapper.dwcdn.net/2itRi/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="693"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
+![](map.png)
 
 ## Γ. Μεθοδολογία.
 
