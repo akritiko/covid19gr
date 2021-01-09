@@ -35,13 +35,13 @@ _Ημερομηνίες αναφοράς: **6/11/2020 – 04/01/2021**._
 
 <table class="has-subtle-light-gray-background-color has-background">
   <tbody>
-  <th>
-    <td>Περιφέρεια:</td>
-    <td>Έλεγχοι*</td>
-    <td>%</td>
-    <td>Πληθυσμός**</td>
-    <td>%</td>
-  </th>
+  <tr>
+    <td><b>Περιφέρεια:</b></td>
+    <td><b>Έλεγχοι*</b></td>
+    <td><b>%</b></td>
+    <td><b>Πληθυσμός**</b></td>
+    <td><b>%</b></td>
+  </tr>
   <tr>
     <td>Ανατ. Μακ. & Θράκη</td>
     <td>159.501</td>
