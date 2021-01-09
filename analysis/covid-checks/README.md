@@ -151,7 +151,9 @@ _Ημερομηνίες αναφοράς: **6/11/2020 – 04/01/2021**._
 
 _* Οι συνολικοί έλεγχοι ανά περιφέρει προκύπτουν από το άθροισμα των αριθμών που δηλώνονται στο χάρτη της εκάστοτε αναφοράς της Αρχής Διεθνούς Διαφάνειας. Σημειώνουμε ότι το σύνολο των ελέγχων στην επικράτεια προέκυψε από το άθροισμα των συνόλων όλων των περιφερειών για ολόκληρο το διάστημα αναφοράς._
 
-_** Βάση της ελληνικής [απογραφής πληθυσμού 2011](https://el.wikipedia.org/wiki/%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE_%CE%B1%CF%80%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AE_2011#%CE%91%CF%80%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AE_%CE%9A%CF%84%CE%B7%CF%81%CE%AF%CF%89%CE%BD_(%CE%A6%CE%B5%CE%B2%CF%81%CE%BF%CF%85%CE%AC%CF%81%CE%B9%CE%BF%CF%82_2011))_._*** Σε αυτές τις περιφέρειες ο αριθμός ελέγχων είναι μεγαλύτερος ή ίσος (ποσοστιαία) από την αντίστοιχη αναλογία σε πληθυσμό._
+_** Βάση της ελληνικής [απογραφής πληθυσμού 2011](https://el.wikipedia.org/wiki/%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE_%CE%B1%CF%80%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AE_2011#%CE%91%CF%80%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AE_%CE%9A%CF%84%CE%B7%CF%81%CE%AF%CF%89%CE%BD_(%CE%A6%CE%B5%CE%B2%CF%81%CE%BF%CF%85%CE%AC%CF%81%CE%B9%CE%BF%CF%82_2011))._
+
+_*** Σε αυτές τις περιφέρειες ο αριθμός ελέγχων είναι μεγαλύτερος ή ίσος (ποσοστιαία) από την αντίστοιχη αναλογία σε πληθυσμό._
 
 <figure class="wp-block-image size-large is-resized">
   [![](https://i1.wp.com/apostolos.kritikos.me/wp-content/uploads/2021/01/2itRi-.png?resize=580%2C664&ssl=1)](https://i1.wp.com/apostolos.kritikos.me/wp-content/uploads/2021/01/2itRi-.png?ssl=1)
