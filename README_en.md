@@ -118,6 +118,17 @@ Greek Government's reports as they are published through the official websites o
 |----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
 | COVID-19 Legislation 	| Greece         	| A. Kritikos 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
 
+
+### 2.8. Economic Datasets
+
+| Dataset              	| Reference Area 	| Author      	| Data Source                                                           	| Data Visualization                                                    	|
+|----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
+| Unemployment Data 	| Greece           	| A. Kritikos 	| [Sandbird](https://github.com/Sandbird/)  	| [Github](https://github.com/Sandbird/covid19-Greece)  	| -  	|
+
+**Notes on the dataset**
+
+1. Data originally available at the [National Unemployment Agency (OAED)](http://www.oaed.gr/statistika-stoicheia-ana-mena).
+
 ## 3. License of the COVID19gr repository
 
 Data is power. Especially in times of crises, should they be used right the can make the difference by protecting our fellow citizen and ourselves. Having that in mind, we are making the contents of this repository, unless explicitly stated otherwise, under the license: [Public Domain: CC0-1.0](https://github.com/akritiko/covid19gr/blob/master/LICENSE).
