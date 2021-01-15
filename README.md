@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/289492104.svg)](https://zenodo.org/badge/latestdoi/289492104)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4444185.svg)](https://doi.org/10.5281/zenodo.4444185)
 
 _[(click here to view an english version of the page 🇬🇧)](https://github.com/akritiko/covid19gr/blob/master/README_en.md)_
 
