@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/289492104.svg)](https://zenodo.org/badge/latestdoi/289492104)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4444185.svg)](https://doi.org/10.5281/zenodo.4444185)
 
 _[(click here to view an english version of the page 🇬🇧)](https://github.com/akritiko/covid19gr/blob/master/README_en.md)_
 
@@ -13,8 +13,8 @@ _[(click here to view an english version of the page 🇬🇧)](https://github.c
 ### 1.1. Σετ δεδομένων
 
 Διαθέσιμα σε μηχαναγνώσιμη μορφή, που ενημερώνονται τακτικά:
-- [23 από αυτά σε μορφή .CSV](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [23 από αυτά σε μορφή .JSON](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [24 από αυτά σε μορφή .CSV](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [24 από αυτά σε μορφή .JSON](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **ΣΗΜΕΙΩΣΗ:** Τα προαναφερθέντα σετ δεδομένων δημιουργήθηκαν και συντηρούνται, ως επι το πλέιστον είτε από **ιδιωτική πρωτοβουλία συμπολιτών μας** οι οποίοι τα διαθέτουν κάτω από άδειες ανοικτών δεδομένων και, φυσικά, εντελώς δωρεάν, είτε από μεγάλους φορείς (ερευνητικά κέντρα, εταιρίες, κ.ο.κ.). Στην συνέχεια θα βρείτε μια αναλυτική παρουσίαση για τι πηγές δεδομένων.
 
@@ -116,7 +116,18 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 | Σετ Δεδομένων      	| Περιοχή Αναφοράς 	| Δημιουργός  	| Πηγή δεδομένων                                                        	| Οπτικοποίηση δεδομένων                                                	|
 |--------------------	|------------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
-| Νομοθεσία COVID-19 	| Ελλάδα           	| Α. Κρητικός 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
+| Νομοθεσία COVID-19 	| Ελλάδα           	| Α. Κρητικός  	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/)  	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
+
+
+### 2.8. Οικονομία
+
+| Σετ Δεδομένων      	| Περιοχή Αναφοράς 	| Δημιουργός  	| Πηγή δεδομένων                                                        	| Οπτικοποίηση δεδομένων                                                	|
+|--------------------	|------------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
+| Δεδομένα Ανεργίας 	| Ελλάδα           	| [Sandbird](https://github.com/Sandbird/)  	| [Github](https://github.com/Sandbird/covid19-Greece)  	|  [covid19-greece.tk/](https://covid19-greece.tk/)  	|
+
+**Σημειώσεις επί των συνόλων δεδομένων**
+
+1. Τα δεδομένα προέρχονται από τον [Οργανισμό Απασχόλησης Εργατικού Δυναμικού](http://www.oaed.gr/statistika-stoicheia-ana-mena).
 
 ## 3. Άδεια χρήσης των πληροφοριών του COVID19gr
 
@@ -134,6 +145,6 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 Καθώς το αποθετήριο προσφέρεται κάτω από άδεια Κοινού Κτήματος CC0-1.0, δεν έχετε καμία απολύτως υποχρέωση να κάνετε κανενός είδους αναφοράς. Εάν παρόλα αυτά θέλετε να κάνετε κάποια αναφορά θα μπορούσατε να χρησιμοποιήσετε την παρακάτω μορφή:
 
-_Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4323541._
+_Apostolos Kritikos. (2021, January 15). akritiko/covid19gr: Cebes (Version 2.0.0). Zenodo. http://doi.org/10.5281/zenodo.4444185._
 
-ή σε μορφή [BibTEX version](https://zenodo.org/record/4323541/export/hx).
+ή σε μορφή [BibTEX version](https://zenodo.org/record/4444185/export/hx).

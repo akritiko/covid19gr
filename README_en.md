@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/289492104.svg)](https://zenodo.org/badge/latestdoi/289492104)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4444185.svg)](https://doi.org/10.5281/zenodo.4444185)
 
 _[(κάντε κλικ εδώ για να δείτε την εκδοχή της σελίδας στα ελληνικά 🇬🇷)](https://github.com/akritiko/covid19gr/)_
 
@@ -13,8 +13,8 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [23 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [23 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [24 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [24 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
 
@@ -72,11 +72,11 @@ Greek Government's reports as they are published through the official websites o
 
 ### 2.3. Social Distancing Measures and governmental checks
 
-| Dataset                                                                             	| Reference Area 	| Author 	| Data source                                                                      	| Data visualization                                                                                                                                                	|
-|-------------------------------------------------------------------------------------	|----------------	|--------	|----------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Irregular mobility metrics* per decentralized administration and various activities 	| Greece         	| Google 	| [Community Mobility Reports](https://www.google.com/covid19/mobility/)           	| [Community Mobility Reports](https://ourworldindata.org/grapher/changes-visitors-covid?tab=chart&stackMode=absolute&time=earliest..latest&country=~GRC®ion=World) 	|
-| Daily mobility metrics (nationwide)                                                 	| Greece         	| Apple  	| [Mobility Trends Reports](https://github.com/ActiveConclusion/COVID19_mobility/) 	| [Mobility Trends Reports](https://covid19.apple.com/mobility)                                                                                                     	|
-| Daily mobility metrics for Athens and Thessaloniki cities                           	| Greece         	| TomTom 	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                                                                                                                 	|
+| Dataset                                        	| Reference Area 	| Author                                                                   	| Data source                                                                                      	| Data visualization                                                                                                                     	|
+|------------------------------------------------	|----------------	|--------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------------	|
+| Covid-19 checks (National Transparency Agency) 	| Greece         	| [A. Kritikos](https://github.com/akritiko/)                              	| [Github](https://github.com/akritiko/covid19)                                                    	| -                                                                                                                                      	|
+| Covid-19 Risk of openess                       	| Ελλάδα         	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT) 	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad) 	| -                                                                                                                                      	|
+| Covid-19 Government measures strictness        	| Ελλάδα         	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT) 	| [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-tracker)    	| [Oxford Covid-19 Government Response Tracker](https://ourworldindata.org/grapher/covid-stringency-index?stackMode=absolute®ion=Europe) 	|
 
 **Notes on the dataset**
 
@@ -118,6 +118,17 @@ Greek Government's reports as they are published through the official websites o
 |----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
 | COVID-19 Legislation 	| Greece         	| A. Kritikos 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
 
+
+### 2.8. Economic Datasets
+
+| Dataset              	| Reference Area 	| Author      	| Data Source                                                           	| Data Visualization                                                    	|
+|----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
+| Unemployment Data 	| Greece           	| [Sandbird](https://github.com/Sandbird/)  	| [Github](https://github.com/Sandbird/covid19-Greece)  	| [covid19-greece.tk/](covid19-greece.tk/)  	|
+
+**Notes on the dataset**
+
+1. Data originally available at the [National Unemployment Agency (OAED)](http://www.oaed.gr/statistika-stoicheia-ana-mena).
+
 ## 3. License of the COVID19gr repository
 
 Data is power. Especially in times of crises, should they be used right the can make the difference by protecting our fellow citizen and ourselves. Having that in mind, we are making the contents of this repository, unless explicitly stated otherwise, under the license: [Public Domain: CC0-1.0](https://github.com/akritiko/covid19gr/blob/master/LICENSE).
@@ -134,6 +145,6 @@ This repository is nothing more that a collection of datasets. For those dataset
 
 Since this repository is published under the Public Domain CC0-1.0, there is absolutely no requirement to refer to it in any way. However, if you would like to do so, you can use the following citation:
 
-_Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4323541._
+_Apostolos Kritikos. (2021, January 15). akritiko/covid19gr: Cebes (Version 2.0.0). Zenodo. http://doi.org/10.5281/zenodo.4444185._
 
-in [BibTEX version](https://zenodo.org/record/4323541/export/hx) format. 
+ή σε μορφή [BibTEX version](https://zenodo.org/record/4444185/export/hx).
