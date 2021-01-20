@@ -13,8 +13,8 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [24 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [24 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [29 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [29 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 **NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
 
@@ -50,6 +50,10 @@ Greek Government's reports as they are published through the official websites o
 | Projections                                            	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Various metrics (daily) - Per prefecture               	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
 | Various metrics (daily) - Per region                   	| Greece         	| [Sandbird]( https://github.com/Sandbird/) 	| [Github]( https://github.com/Sandbird/covid19-Greece) 	| [covid19-greece.tk/]( https://covid19-greece.tk/) 	|
+| Various metrics (daily) - Greece (nationwide)                               	| Greece           	| [iMEdD-Lab]( https://www.imedd.org/imedd-lab/) 	| [Github]( https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 	| [iMEdD-Lab COVID-19]( https://lab.imedd.org/covid19/) 	|
+| Infections (daily) - Per prefecture                                	| Greece           	| [iMEdD-Lab]( https://www.imedd.org/imedd-lab/) 	| [Github]( https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 	| [iMEdD-Lab COVID-19]( https://lab.imedd.org/covid19/) 	|
+| Deaths (daily) - Per prefecture                                	| Greece           	| [iMEdD-Lab]( https://www.imedd.org/imedd-lab/) 	| [Github]( https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 	| [iMEdD-Lab COVID-19]( https://lab.imedd.org/covid19/) 	|
+| Schools information                                	| Greece           	| [iMEdD-Lab]( https://www.imedd.org/imedd-lab/) 	| [Github]( https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 	| [iMEdD-Lab COVID-19]( https://lab.imedd.org/covid19/) 	|
 
 **Notes on the dataset:**
 1. Notes: Moving averages are 7-day backward. The number is based on the daily value. It is assumed to be the same as the previous day if not updated. On the days with no continuity from the previous day due to change of standards, "New" number is treated as 0 and the bar color is changed. Data may be corrected by the developer when it is considered as an obvious misstatement, such as minus value of Tested Positive.
@@ -87,7 +91,8 @@ Greek Government's reports as they are published through the official websites o
 
 | Dataset        	| Reference Area 	| Author                                   	| Data source                                  	| Data visualization                                                                                                                                	|
 |----------------------	|------------------	|----------------------------------------------	|-------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Vaccinations per country 	| Worldwide        	| [Our World in Data](https://github.com/owid) 	| [Github](https://github.com/owid/covid-19-data) 	| [Our World in Data](https://ourworldindata.org/grapher/cumulative-covid-vaccinations?tab=chart&stackMode=absolute&time=earliest..latest&region=World) 	|
+| Vaccinations (Greece) 	| Greece        	| [Our World in Data](https://github.com/owid) 	| [Github](https://github.com/owid/covid-19-data) 	| [Our World in Data](https://ourworldindata.org/grapher/cumulative-covid-vaccinations?tab=chart&stackMode=absolute&time=earliest..latest&region=World) 	|
+| Vaccinations (Per prefecture) 	| Greece        	| [Α. Κρητικός](https://github.com/akritiko/)	| [Github](https://github.com/akritiko/covid19)  	| [GOV.GR](https://emvolio.gov.gr/vaccinationtracker) 	|
 
 **Notes on the dataset**
 
