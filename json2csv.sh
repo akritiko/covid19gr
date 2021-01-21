@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###
-# Script Name: csv2json.sh 
+# Script Name: json2csv.sh 
 # Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
 # Script Version: 1.0, Dec 20th, 2020 
 # Script License: Public Domain, CC0-1.0
@@ -11,16 +11,4 @@
 # 
 ##
 
-# From the /data/csv folder
-for file in data/csv/*.csv
-
-# Reformat all .csv files to .json using csv2json.py script
-do
-  fileIn="$file"
-  theFile=$(basename "$file")
-  theFilename="${theFile%.*}"
-  fileOut="data/json/$theFilename.json"
-  python3 csv2json.py "$fileIn" "$fileOut"
-done
-
-exit 0
+python3 json2csv.py "data/json/vaccinations_regions.json" "data/csv/vaccination_regions.csv"

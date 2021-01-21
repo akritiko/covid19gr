@@ -1,0 +1,10 @@
+The scripts must be used in the following order in order to aggregate the data correctly.
+
+1. sh aggregate.sh
+2. sh filterCSV.sh
+3. sh csv2json.sh
+4*. python3 aggregate_govgr_data.py
+5. sh json2csv.sh
+
+* NOTE ON 4: In order for the script to run you need to use your own API KEY for the GOV.GR platform which you can request here: https://data.gov.gr/token/
+

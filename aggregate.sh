@@ -9,9 +9,6 @@
 #
 # NOTE: This script is part of the covid19gr project: https://github.com/akritiko/covid19gr
 # 
-# CITATION (optional): 
-# Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). 
-# Zenodo. http://doi.org/10.5281/zenodo.4323541.
 ##
 
 
