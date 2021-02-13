@@ -5249,7 +5249,7 @@ id,date,region,region_id,cases,deaths,recovered,active,tests
 5248,2021-02-09,Crete,GR-M,2905,3,0,0,0
 5249,2021-02-09,Thessaly,GR-E,14175,34,0,0,0
 5250,2021-02-09,"North Aegean",GR-K,2629,13,0,0,0
-5251,2021-02-10,"Under Investigation",GR-U,8304,5252,0,0,0
+5251,2021-02-10,"Under Investigation",GR-U,8308,5252,0,0,0
 5252,2021-02-10,"Mount Athos",GR-69,11,0,0,0,0
 5253,2021-02-10,"Western Greece",GR-G,4765,18,0,0,0
 5254,2021-02-10,Peloponnese,GR-J,3347,1,0,0,0
@@ -5279,3 +5279,33 @@ id,date,region,region_id,cases,deaths,recovered,active,tests
 5278,2021-02-11,Crete,GR-M,3020,3,0,0,0
 5279,2021-02-11,Thessaly,GR-E,14276,34,0,0,0
 5280,2021-02-11,"North Aegean",GR-K,2639,13,0,0,0
+5281,2021-02-12,"Under Investigation",GR-U,8333,5291,0,0,0
+5282,2021-02-12,"Mount Athos",GR-69,11,0,0,0,0
+5283,2021-02-12,"Western Greece",GR-G,5012,18,0,0,0
+5284,2021-02-12,Peloponnese,GR-J,3427,1,0,0,0
+5285,2021-02-12,Epirus,GR-D,2351,17,0,0,0
+5286,2021-02-12,Attica,GR-I,51807,330,0,0,0
+5287,2021-02-12,"Central Greece",GR-H,4363,1,0,0,0
+5288,2021-02-12,"Western Macedonia",GR-C,5885,50,0,0,0
+5289,2021-02-12,"Eastern Macedonia and Thrace",GR-A,13317,57,0,0,0
+5290,2021-02-12,"South Aegean",GR-L,1455,0,0,0,0
+5291,2021-02-12,"Ionian Islands",GR-F,887,6,0,0,0
+5292,2021-02-12,"Central Macedonia",GR-B,53353,235,0,0,0
+5293,2021-02-12,Crete,GR-M,3064,3,0,0,0
+5294,2021-02-12,Thessaly,GR-E,14335,34,0,0,0
+5295,2021-02-12,"North Aegean",GR-K,2644,13,0,0,0
+5296,2021-02-13,"Under Investigation",GR-U,8380,5312,0,0,0
+5297,2021-02-13,"Mount Athos",GR-69,12,0,0,0,0
+5298,2021-02-13,"Western Greece",GR-G,5092,18,0,0,0
+5299,2021-02-13,Peloponnese,GR-J,3457,1,0,0,0
+5300,2021-02-13,Epirus,GR-D,2523,17,0,0,0
+5301,2021-02-13,Attica,GR-I,52390,330,0,0,0
+5302,2021-02-13,"Central Greece",GR-H,4444,1,0,0,0
+5303,2021-02-13,"Western Macedonia",GR-C,5909,50,0,0,0
+5304,2021-02-13,"Eastern Macedonia and Thrace",GR-A,13365,57,0,0,0
+5305,2021-02-13,"South Aegean",GR-L,1471,0,0,0,0
+5306,2021-02-13,"Ionian Islands",GR-F,896,6,0,0,0
+5307,2021-02-13,"Central Macedonia",GR-B,53387,235,0,0,0
+5308,2021-02-13,Crete,GR-M,3136,3,0,0,0
+5309,2021-02-13,Thessaly,GR-E,14352,34,0,0,0
+5310,2021-02-13,"North Aegean",GR-K,2652,13,0,0,0
