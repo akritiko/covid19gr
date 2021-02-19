@@ -1,6 +1,6 @@
 # Data Visualization
 
-## Greece Specific
+## Greece
 
 - [The spread of the disease in Greece and worldwide by iMEdD Lab](https://lab.imedd.org/covid19/?lang=en)
 - [Coronavirus Disease (COVID-19) Situation Report in Greece by Sandbird](https://covid19-greece.tk/index_en.html)
