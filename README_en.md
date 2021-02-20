@@ -56,10 +56,8 @@ Greek Government's reports as they are published through the official websites o
 | Schools information                                	| Greece           	| [iMEdD-Lab]( https://www.imedd.org/imedd-lab/) 	| [Github]( https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 	| [iMEdD-Lab COVID-19]( https://lab.imedd.org/covid19/) 	|
 
 **Notes on the dataset:**
-1. Notes: Moving averages are 7-day backward. The number is based on the daily value. It is assumed to be the same as the previous day if not updated. On the days with no continuity from the previous day due to change of standards, "New" number is treated as 0 and the bar color is changed. Data may be corrected by the developer when it is considered as an obvious misstatement, such as minus value of Tested Positive.
-2. Resources: [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/). Measures by [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json). Data on prefectures was taken from [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) and [covid19.gov.gr](http://covid19.gov.gr/). Predictions were taken from c[covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend). Used introductory text for IIFR from [WHO](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) and prediction model from ([link1](https://covid19-projections.com/estimating-true-infections/), [link2](https://covid19-projections.com/about/#infection-fatality-rate-ifr), [link3](https://github.com/youyanggu/covid19_projections/tree/master/implied_ifr)).
-3. Data updated: It will be updated on an irregular basis according to the announcement by the Ministry of Health.
-1. License: [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE). 
+
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
 
 ### 2.2. Mobility Data
 
@@ -70,9 +68,12 @@ Greek Government's reports as they are published through the official websites o
 | Daily mobility metrics for Athens and Thessaloniki cities                           	| Greece         	| TomTom 	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                                                                                                                 	|
 
 **Notes on the dataset**
-1. \*Mobility data by Google are irregularly published (every other day on average). Yet it is the only dataset which provides separate metrics for specific activities (retail, parks, workplaces, etc.). Google's reports will be available for use in order to help addressing the pandemic for as long as they are considered helpful by the health professionals and / or policy makers. They are not published under an open data license but they are publicly available during the pandemic.
-2. Apple's data are nationwide and we are aggregating them from the Github repository COVID19_mobility by ActiveConclusion. It is published under the [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE) license.
-3. TomTom data are about the cities Athens and Thessaloniki and we are aggregating them from the Github repository COVID19_mobility by ActiveConclusion. It is published under the [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE) license.
+
+- \*Mobility data by Google are irregularly published (every other day on average). Yet it is the only dataset which provides separate metrics for specific activities (retail, parks, workplaces, etc.). Google's reports will be available for use in order to help addressing the pandemic for as long as they are considered helpful by the health professionals and / or policy makers. They are not published under an open data license but they are publicly available during the pandemic.
+- Apple's data are nationwide and we are aggregating them from the Github repository COVID19_mobility by ActiveConclusion. It is published under the [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE) license.
+- TomTom data are about the cities Athens and Thessaloniki and we are aggregating them from the Github repository COVID19_mobility by ActiveConclusion. It is published under the [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE) license.
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
+
 
 ### 2.3. Social Distancing Measures and governmental checks
 
@@ -84,8 +85,9 @@ Greek Government's reports as they are published through the official websites o
 
 **Notes on the dataset**
 
-1. The data from the National Transparency Agency were extracted by the reports you can find [here (in Greek)](https://aead.gr/press/covid19). I am personally curating the dataset so in case you find any errors, I would be obliged if you could inform me to proceed in the appropriate corrections. You will find more information on how to contact us, at the end of this document. 
-1. Oxford Covid-19 Government Response Tracker datasets are the product of the respective research of this research group. In this repository you will find the latest measures on .CSV format but, before you use them we would propose that you refer to the respective literature of the research team available at their official website. License: [Creative Commons Attribution 4.0 International](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt).
+- The data from the National Transparency Agency were extracted by the reports you can find [here (in Greek)](https://aead.gr/press/covid19). I am personally curating the dataset so in case you find any errors, I would be obliged if you could inform me to proceed in the appropriate corrections. You will find more information on how to contact us, at the end of this document. 
+- Oxford Covid-19 Government Response Tracker datasets are the product of the respective research of this research group. In this repository you will find the latest measures on .CSV format but, before you use them we would propose that you refer to the respective literature of the research team available at their official website. License: [Creative Commons Attribution 4.0 International](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt).
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
 
 ### 2.4. Vaccination data
 
@@ -96,7 +98,9 @@ Greek Government's reports as they are published through the official websites o
 
 **Notes on the dataset**
 
-1. All the data available to Our World In Data are published under [Creative Commons Attribution (CC-BY) 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- All the data available to Our World In Data are published under [Creative Commons Attribution (CC-BY) 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
+
 
 ### 2.5. Official reports archive (urls)
 
@@ -108,7 +112,15 @@ Greek Government's reports as they are published through the official websites o
 
 **Notes on the dataset**
 
-1. For the extraction of the data we used [DEiXTo](https://deixto.com/) tool / single parse per website.
+- For the extraction of the data we used [DEiXTo](https://deixto.com/) tool / single parse per website.
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
+
+NOTE: In case one of the URLs leads to a page without content or to a page with error 404, we recommend that you search for the content through the Interet Archive Wayback Machine. The steps are as follows:
+
+1. Select the report link that is not available (i.e. https://eody.gov.gr/wp-content/uploads/2020/03/covid-gr-daily-report-20200320.pdf corresponding to the daily report of EODY for the date 20-03-2020).
+1. Visit the [Internet Archive's Wayback Machine](https://web.archive.org/) (click on the link).
+1. Paste the address of step one in the search box.
+1. In the calendar that will be displayed, select one of the circles and click on the date and time to upload your report.
 
 ### 2.6. Dataset helpers for data analysis
 
@@ -132,7 +144,9 @@ Greek Government's reports as they are published through the official websites o
 
 **Notes on the dataset**
 
-1. Data originally available at the [National Unemployment Agency (OAED)](http://www.oaed.gr/statistika-stoicheia-ana-mena).
+- Data originally available at the [National Unemployment Agency (OAED)](http://www.oaed.gr/statistika-stoicheia-ana-mena).
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
+
 
 ## 3. License of the COVID19gr repository
 
@@ -144,7 +158,21 @@ In case you came across an issue, you have some idea or you want a clarification
 
 ## 6. Acknowledgements 
 
-This repository is nothing more that a collection of datasets. For those datasets the following people / organizations have contributed: [Sandbird](https://github.com/Sandbird/), [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json), [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/blob/master/COVID-19/regions_greece_cases.csv), [covid19.gov.gr](http://covid19.gov.gr/), [CovidDEXP](https://covid19.csd.auth.gr/), [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend), [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad), [ActiveConclusion](https://github.com/ActiveConclusion), Google, Apple, TomTom.
+This repository is nothing more that a collection of datasets. For those datasets the following people / organizations have contributed: 
+
+- [Sandbird](https://github.com/Sandbird/)
+- [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json)
+- [@Nyrros](https://twitter.com/Nyrros)
+- [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 
+- [covid19.gov.gr](http://covid19.gov.gr/)
+- [CovidDEXP](https://covid19.csd.auth.gr/)
+- [covid19-projections.com](https://covid19-projections.com/greece)
+- [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend)
+- [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad)
+- [ActiveConclusion](https://github.com/ActiveConclusion)
+- Google
+- Apple
+- TomTom
 
 ## 7. How to refer to this repository (optional)
 

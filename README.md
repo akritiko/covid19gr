@@ -56,10 +56,8 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 | Πληροφορίες για σχολεία                                	| Ελλάδα           	| [iMEdD-Lab]( https://www.imedd.org/imedd-lab/) 	| [Github]( https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 	| [iMEdD-Lab COVID-19]( https://lab.imedd.org/covid19/) 	|
 
 **Σημειώσεις επί των συνόλων δεδομένων**
-1. Σημειώσεις: Οι κινούμενοι μέσοι όροι βγαίνουν από 7 ημέρες προς τα πίσω. Ο αριθμός βασίζεται στην ημερήσια τιμή. Θεωρείται ότι είναι ο ίδιος με την προηγούμενη ημέρα, εάν δεν έχει ενημερωθεί. Τις ημέρες χωρίς συνέχεια από την προηγούμενη, ο αριθμός των "Νέων" κρουσμάτων αντιμετωπίζεται ως 0\. Τα δεδομένα μπορεί να διορθωθούν από τον προγραμματιστή όταν βρεθούν ανακρίβειες, όπως αρνητική τιμή στα Κρούσματα.
-1. Δεδομένα: [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/). Οι ημερομηνίες των μέτρων ελήφθησαν από [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json). Τα δεδομένα για τους νομούς ελήφθησαν από [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/blob/master/COVID-19/regions_greece_cases.csv) και [covid19.gov.gr](http://covid19.gov.gr/). Οι προβλέψεις ελήφθησαν από [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend). Ο αλγόριθμος του αριθμού αναπαραγωγής Rj προέρχεται από [American Journal of Epidemiology](https://academic.oup.com/aje/article/160/6/509/79472?fbclid=IwAR2nDT0TyBciFQuNOU0vW3z4OcAJBRPh_x1E8HwCI-i9a4y5KLimY5D3aG4) και από [Richard Schubert](https://mshfd.github.io/reproduction-number/). Χρησιμοποιήθηκε εισαγωγικό κείμενο για τον IIFR από [wikipedia](https://el.wikipedia.org/wiki/%CE%98%CE%BD%CE%B7%CF%84%CF%8C%CF%84%CE%B7%CF%84%CE%B1) και ο αλγόριθμος και τα δεδομένα από ([link1](https://covid19-projections.com/estimating-true-infections/), [link2](https://covid19-projections.com/about/#infection-fatality-rate-ifr), [link3](https://github.com/youyanggu/covid19_projections/tree/master/implied_ifr)).
-1. Ανανέωση δεδομένων: τα δεδομένα ανανεώνονται σε μη ορισμένη συχνότητα ανάλογα με τις ανακοινώσεις του Υπουργείου Υγείας.
-1. Άδεια χρήσης: [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE). 
+
+- Για την καλύτερη ενημέρωσή σας σχετικά με τις σημειώσεις επί των συνόλων δεδομένων, την άδεια χρήσης αλλά και τα προαπαιτοόυμενα για την χρήση ή επανάχρησή τους παρακαλούμε να επισκέπτεστε την "Πηγή Δεδομένων" που παρέχεται με υπερσύνδεσμο (url) για κάθε ένα από τα σύνολα δεδομένων.
 
 ### 2.2. Δεδομένα Κινητικότητας
 
@@ -70,9 +68,11 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 | Ημερήσια κινητικότητα για Αθήνα και Θεσσαλονίκη                        	| Ελλάδα           	| TomTom     	| [Traffic Index](https://github.com/ActiveConclusion/COVID19_mobility/)           	| -                                                                                                                                                                 	|
 
 **Σημειώσεις επί των συνόλων δεδομένων**
-1. \*Τα δεδομένα κινητικότητας της Google δεν βγαίνουν σε ημερήσια βάση αλλά τακτικά (κάθε 2 ημέρες κατά Μ.Ο. περίπου). Είναι όμως το μοναδικό dataset που διαχωρίζει τα δεδομένα ανά δραστηριότητα (λιανική, πάρκα, χώροι εργασίας, κλπ.). Τα reports της Google θα είναι διαθέσιμα για χρήση με στόχο την καταπολέμηση της πανδημίας για όσο κρίνεται ότι βοηθούν την παγκόσμια κοινότητα στο να λάβει τις κατάλληλες αποφάσεις. Δεν δίδεται δηλαδή κάποια ξεκάθαρη άδεια χρήσης, αλλά αποτελούν δεδομένα δημόσια διαθέσιμα για την καταπολέμηση της πανδημίας.
-2. Τα δεδομένα της Apple αφορούν στο σύνολο της χώρας και τα λαμβάνουμε από το αποθετήριο COVID19_mobility του χρήστη ActiveConclusion που διατίθεται κάτω από άδεια χρήσης [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE).
-3. Τα δεδομένα της TomTom αφορούν τις πόλεις Αθήνα και Θεσσαλονίκη και τα λαμβάνουμε από το αποθετήριο COVID19_mobility του χρήστη ActiveConclusion που διατίθεται κάτω από άδεια χρήσης [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE).
+
+- \*Τα δεδομένα κινητικότητας της Google δεν βγαίνουν σε ημερήσια βάση αλλά τακτικά (κάθε 2 ημέρες κατά Μ.Ο. περίπου). Είναι όμως το μοναδικό dataset που διαχωρίζει τα δεδομένα ανά δραστηριότητα (λιανική, πάρκα, χώροι εργασίας, κλπ.). Τα reports της Google θα είναι διαθέσιμα για χρήση με στόχο την καταπολέμηση της πανδημίας για όσο κρίνεται ότι βοηθούν την παγκόσμια κοινότητα στο να λάβει τις κατάλληλες αποφάσεις. Δεν δίδεται δηλαδή κάποια ξεκάθαρη άδεια χρήσης, αλλά αποτελούν δεδομένα δημόσια διαθέσιμα για την καταπολέμηση της πανδημίας.
+- Τα δεδομένα της Apple αφορούν στο σύνολο της χώρας και τα λαμβάνουμε από το αποθετήριο COVID19_mobility του χρήστη ActiveConclusion που διατίθεται κάτω από άδεια χρήσης [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE).
+- Τα δεδομένα της TomTom αφορούν τις πόλεις Αθήνα και Θεσσαλονίκη και τα λαμβάνουμε από το αποθετήριο COVID19_mobility του χρήστη ActiveConclusion που διατίθεται κάτω από άδεια χρήσης [MIT license](https://github.com/Sandbird/covid19-gr/blob/main/LICENSE).
+- Για την καλύτερη ενημέρωσή σας σχετικά με τις σημειώσεις επί των συνόλων δεδομένων, την άδεια χρήσης αλλά και τα προαπαιτοόυμενα για την χρήση ή επανάχρησή τους παρακαλούμε να επισκέπτεστε την "Πηγή Δεδομένων" που παρέχεται με υπερσύνδεσμο (url) για κάθε ένα από τα σύνολα δεδομένων.
 
 ### 2.3. Δεδομένα που αφορούν τα μέτρα αποστασιοποίησης & τον έλεγχο αυτών
 
@@ -84,8 +84,9 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 **Σημειώσεις επί των συνόλων δεδομένων**
 
-1. Τα δεδομένα από την Εθνική Αρχή Διαφάνειας βρίσκονται στην αρχή τους μορφή [εδώ](https://aead.gr/press/covid19). Συντηρώ το σετ δεδομένων προσωπικά οπότε εάν βρέιτε λάθη ή αστοχίες σας παρακαλώ να με ενημερώσετε με τους τρόπους που αναφέρουμε παρακάτω, ώστε να κάνω τις απαραίτητες διορθώσεις. 
-1. Τα σετ δεδομένων του Oxford Covid-19 Government Response Tracker αφορούν σε επιστημονική εργασία της συγκεκριμένης ομάδας. Στο αποθετήριο αυτό θα βρείτε τα CSV με τις τελικές μετρήσεις όμως, πριν τις χρησιμοποιήσετε είναι καλό να συμβουλευτείτε την βιβλιογραφία της ερευνητικής ομάδας στον επίσημο ιστότοπό τους. Διατίθενται κάτω από άδεια [Creative Commons Attribution 4.0 International](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt).
+- Τα δεδομένα από την Εθνική Αρχή Διαφάνειας βρίσκονται στην αρχή τους μορφή [εδώ](https://aead.gr/press/covid19). Συντηρώ το σετ δεδομένων προσωπικά οπότε εάν βρέιτε λάθη ή αστοχίες σας παρακαλώ να με ενημερώσετε με τους τρόπους που αναφέρουμε παρακάτω, ώστε να κάνω τις απαραίτητες διορθώσεις. 
+- Τα σετ δεδομένων του Oxford Covid-19 Government Response Tracker αφορούν σε επιστημονική εργασία της συγκεκριμένης ομάδας. Στο αποθετήριο αυτό θα βρείτε τα CSV με τις τελικές μετρήσεις όμως, πριν τις χρησιμοποιήσετε είναι καλό να συμβουλευτείτε την βιβλιογραφία της ερευνητικής ομάδας στον επίσημο ιστότοπό τους. Διατίθενται κάτω από άδεια [Creative Commons Attribution 4.0 International](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt).
+- Για την καλύτερη ενημέρωσή σας σχετικά με τις σημειώσεις επί των συνόλων δεδομένων, την άδεια χρήσης αλλά και τα προαπαιτοόυμενα για την χρήση ή επανάχρησή τους παρακαλούμε να επισκέπτεστε την "Πηγή Δεδομένων" που παρέχεται με υπερσύνδεσμο (url) για κάθε ένα από τα σύνολα δεδομένων.
 
 ### 2.4. Δεδομένα που αφορούν τους εμβολιασμούς
 
@@ -96,7 +97,9 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 **Σημειώσεις επί των συνόλων δεδομένων**
 
-1. Τα δεδομένα από τον οργανισμό Our World In Data διατίθενται κάτω από άδεια [Creative Commons Attribution (CC-BY) 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- Τα δεδομένα από τον οργανισμό Our World In Data διατίθενται κάτω από άδεια [Creative Commons Attribution (CC-BY) 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+- Για την καλύτερη ενημέρωσή σας σχετικά με τις σημειώσεις επί των συνόλων δεδομένων, την άδεια χρήσης αλλά και τα προαπαιτοόυμενα για την χρήση ή επανάχρησή τους παρακαλούμε να επισκέπτεστε την "Πηγή Δεδομένων" που παρέχεται με υπερσύνδεσμο (url) για κάθε ένα από τα σύνολα δεδομένων.
+
 
 ### 2.5. Αρχείο επίσημων αναφορών (urls)
 
@@ -108,7 +111,16 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 **Σημειώσεις επί των συνόλων δεδομένων**
 
-1. Για την εξαγωγή των δεδομένων χρησιμοποιήθηκε το εργαλείο [DEiXTo](https://deixto.com/) με το οποίο έγινε ένα και μοναδικό parse ανά site.
+- Για την εξαγωγή των δεδομένων χρησιμοποιήθηκε το εργαλείο [DEiXTo](https://deixto.com/) με το οποίο έγινε ένα και μοναδικό parse ανά site.
+- Για την καλύτερη ενημέρωσή σας σχετικά με τις σημειώσεις επί των συνόλων δεδομένων, την άδεια χρήσης αλλά και τα προαπαιτοόυμενα για την χρήση ή επανάχρησή τους παρακαλούμε να επισκέπτεστε την "Πηγή Δεδομένων" που παρέχεται με υπερσύνδεσμο (url) για κάθε ένα από τα σύνολα δεδομένων.
+
+ΣΗΜΕΙΩΣΗ: Σε περίπτωση που κάποιο από τα URLs οδηγεί σε σελίδα χωρίς περιεχόμενο ή σε σελίδα με σφάλμα 404, προτείνω να αναζητήσετε το περιεχόμενο μέσω της Wayback Machine του Inernet Archive. Τα βήματα είναι τα εξής:
+
+1. Επιλέγεται τον σύνδεσμο του report που δεν είναι διαθέσιμος (λ.χ. https://eody.gov.gr/wp-content/uploads/2020/03/covid-gr-daily-report-20200320.pdf που αντιστοιχεί στο ημερήσιο report του ΕΟΔΥ για την ημερομηνία 20-03-2020.).
+1. Επισκέπτεστε την Wayback Machine του [Internet Archive](https://web.archive.org/) (κλικ στον σύνδεσμο).
+1. Επικολλάτε την διεύθυνση του βήματος ένα στο πλαίσιο αναζήτησης. 
+1. Στο ημερολόγιο που θα σας εμφανίσει επιλέγεται ένα από τα κυκλάκια και κάνετε κλικ στην ημερομηνία και ώρα ώστε να σας φορτώσει την αναφορά.
+
 
 ### 2.6. Βοηθητικά datasets για την ανάλυση των δεδομένων
 
@@ -132,7 +144,8 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 **Σημειώσεις επί των συνόλων δεδομένων**
 
-1. Τα δεδομένα προέρχονται από τον [Οργανισμό Απασχόλησης Εργατικού Δυναμικού](http://www.oaed.gr/statistika-stoicheia-ana-mena).
+- Τα δεδομένα προέρχονται από τον [Οργανισμό Απασχόλησης Εργατικού Δυναμικού](http://www.oaed.gr/statistika-stoicheia-ana-mena).
+- Για την καλύτερη ενημέρωσή σας σχετικά με τις σημειώσεις επί των συνόλων δεδομένων, την άδεια χρήσης αλλά και τα προαπαιτοόυμενα για την χρήση ή επανάχρησή τους παρακαλούμε να επισκέπτεστε την "Πηγή Δεδομένων" που παρέχεται με υπερσύνδεσμο (url) για κάθε ένα από τα σύνολα δεδομένων.
 
 ## 3. Άδεια χρήσης των πληροφοριών του COVID19gr
 
@@ -144,7 +157,21 @@ _(οι αναφορές σε .pdf μορφή από 17/12/2020 έχουν στα
 
 ## 6. Αναγνώριση & Ευχαριστίες
 
-Το αποθετήριο αυτό δεν είναι τίποτε άλλο παρά μία συλλογή από σετ δεδομένων. Για τα σύνολα δεδομένων που περιλαμβάνει εργάσθηκαν οι εξής: [Sandbird](https://github.com/Sandbird/), [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json), [@Nyrros](https://twitter.com/Nyrros), [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19), [covid19.gov.gr](http://covid19.gov.gr/), [CovidDEXP](https://covid19.csd.auth.gr/), [covid19-projections.com](https://covid19-projections.com/greece), [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend), [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad), [ActiveConclusion](https://github.com/ActiveConclusion), Google, Apple, TomTom.
+Το αποθετήριο αυτό δεν είναι τίποτε άλλο παρά μία συλλογή από σετ δεδομένων. Για τα σύνολα δεδομένων που περιλαμβάνει εργάσθηκαν οι εξής: 
+
+- [Sandbird](https://github.com/Sandbird/)
+- [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json)
+- [@Nyrros](https://twitter.com/Nyrros)
+- [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 
+- [covid19.gov.gr](http://covid19.gov.gr/)
+- [CovidDEXP](https://covid19.csd.auth.gr/)
+- [covid19-projections.com](https://covid19-projections.com/greece)
+- [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend)
+- [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad)
+- [ActiveConclusion](https://github.com/ActiveConclusion)
+- Google
+- Apple
+- TomTom
 
 ## 7. Πως να αναφερθείτε σε αυτό το αποθετήριο (πραιρετικά)
 
