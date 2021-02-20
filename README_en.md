@@ -18,7 +18,7 @@ Available in machine readable format and frequently updated:
 
 _**NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources._
 
-### 1.2. Reports (archived)
+### 1.2. Reports _( archived )_
 
 _(reports in .pdf format are not available since 12/17/2020 due to size brevity reasons for this repository. Instead you [can find them as datasets here](https://github.com/akritiko/covid19gr/blob/master/README_en.md#25-official-reports-archive-urls))_
 
@@ -33,6 +33,10 @@ _**NOTE:** Many of the available datasets are product of the combination of vari
 ### 1.4. Open Data Framework / Policy (Greece)
 
 [Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -](https://github.com/akritiko/covid19gr/wiki). 
+
+### 1.5. [Resources](https://github.com/akritiko/covid19gr/blob/master/RESOURCES.md)
+
+A collection of resources & tools that help monitor the situation of COVID-19 pandemic. Not necessarily related to the datasets of this repository.
 
 ## 2. Datasets available on the COVID19gr repository
 
