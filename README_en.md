@@ -16,15 +16,15 @@ Available in machine readable format and frequently updated:
 - [29 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
 - [29 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
-**NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources.
+_**NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources._
 
 ### 1.2. Reports (archived)
 
-_(reports in .pdf format are not available since 12/17/2020 due to size brevity reasons for this repository. Instead you can find them as datasets here: [1](https://github.com/akritiko/covid19gr/blob/master/data/csv/eody_daily.csv), [2](https://github.com/akritiko/covid19gr/blob/master/data/csv/govgr_paratiritirio.csv), [3](https://github.com/akritiko/covid19gr/blob/master/data/csv/nta_covid19.csv).)_
+_(reports in .pdf format are not available since 12/17/2020 due to size brevity reasons for this repository. Instead you [can find them as datasets here](https://github.com/akritiko/covid19gr/blob/master/README_en.md#25-official-reports-archive-urls))_
 
 Greek Government's reports as they are published through the official websites of COVID19.gov.gr, the National Organization of Public Health (EODY), the National Transparency Agency, etc. The reason behind recording those reports is for the intended audience to be able to cross check the extracted data for validity reasons.
 
-**NOTE:** Many of the available datasets are product of the combination of various sources of raw data. For the best possible validation please refer to the data sources catalogue that will follow, to get informed on how each dataset was created. 
+_**NOTE:** Many of the available datasets are product of the combination of various sources of raw data. For the best possible validation please refer to the data sources catalogue that will follow, to get informed on how each dataset was created._
 
 ### 1.3. Analysis
 
@@ -115,12 +115,12 @@ Greek Government's reports as they are published through the official websites o
 - For the extraction of the data we used [DEiXTo](https://deixto.com/) tool / single parse per website.
 - In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
 
-NOTE: In case one of the URLs leads to a page without content or to a page with error 404, we recommend that you search for the content through the Interet Archive Wayback Machine. The steps are as follows:
+_**NOTE:** In case one of the URLs leads to a page without content or to a page with error 404, we recommend that you search for the content through the Interet Archive Wayback Machine. The steps are as follows:_
 
-1. Select the report link that is not available (i.e. https://eody.gov.gr/wp-content/uploads/2020/03/covid-gr-daily-report-20200320.pdf corresponding to the daily report of EODY for the date 20-03-2020).
-1. Visit the [Internet Archive's Wayback Machine](https://web.archive.org/) (click on the link).
-1. Paste the address of step one in the search box.
-1. In the calendar that will be displayed, select one of the circles and click on the date and time to upload your report.
+1. _Select the report link that is not available (i.e. https://eody.gov.gr/wp-content/uploads/2020/03/covid-gr-daily-report-20200320.pdf corresponding to the daily report of EODY for the date 20-03-2020)._
+1. _Visit the [Internet Archive's Wayback Machine](https://web.archive.org/) (click on the link)._
+1. _Paste the address of step one in the search box._
+1. _In the calendar that will be displayed, select one of the circles and click on the date and time to upload your report._
 
 ### 2.6. Dataset helpers for data analysis
 
@@ -134,6 +134,10 @@ NOTE: In case one of the URLs leads to a page without content or to a page with 
 | Dataset              	| Reference Area 	| Author      	| Data Source                                                           	| Data Visualization                                                    	|
 |----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
 | COVID-19 Legislation 	| Greece         	| A. Kritikos 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
+
+**Notes on the dataset**
+
+- In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
 
 
 ### 2.8. Economic Datasets
