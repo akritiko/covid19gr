@@ -11,4 +11,4 @@
 # 
 ##
 
-python3 json2csv.py "data/json/vaccinations_regions.json" "data/csv/vaccination_regions.csv"
+python3 json2csv.py "data/json/vaccinations_regions.json" "data/csv/vaccinations_regions.csv"
