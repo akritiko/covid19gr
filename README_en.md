@@ -30,7 +30,7 @@ _**NOTE:** Many of the available datasets are product of the combination of vari
 
 [Data Analysis](https://github.com/akritiko/covid19gr/tree/master/analysis): After aggregating the data analysing them is the next logical step. Here you will find a series of attempts to extract valuable knowledge from data analysis. 
 
-### 1.4. Open Data Framework / Policy (Greece)
+### 1.4. Open Data Framework / Policy (Greece) _( archived )_
 
 [Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -](https://github.com/akritiko/covid19gr/wiki). 
 
