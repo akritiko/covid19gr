@@ -4,6 +4,7 @@
 
 ### Dashboards
 
+- [Ελληνική Κυβέρνηση - Ημερήσια επισκόπιση](https://covid19.gov.gr/covid19-live-analytics/)
 - [The spread of the disease in Greece and worldwide by iMEdD Lab](https://lab.imedd.org/covid19/?lang=en)
 - [Coronavirus Disease (COVID-19) Situation Report in Greece by Sandbird](https://covid19-greece.tk/index_en.html)
 - [covid_19gr by Nyrros](https://docs.google.com/spreadsheets/d/14rKl4TAM05YWj94u3rAkS2PKTSIqYzdCeuXVMtV6ptM/edit#gid=784106715)
