@@ -1,22 +1,22 @@
-###    
+###
 # Title: covid19gr - COVID-19 Checks. National Transparency Agency Greece
 # Script Author: Apostolos Kritikos <akritiko@csd.auth.gr>
-# Script Version: 1.0, Jan 9th, 2021 
+# Script Version: 1.0, Jan 9th, 2021
 # Script License: Public Domain, CC0-1.0
 # Script License URL: https://github.com/akritiko/covid19gr/blob/master/LICENSE
 #
 # NOTE: This script is part of the covid19gr project: https://github.com/akritiko/covid19gr
-# 
-# CITATION (optional): 
-# Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0). 
+#
+# CITATION (optional):
+# Apostolos Kritikos. (2020, December 15). akritiko/covid19gr: Aristotle (Version v1.0.0).
 # Zenodo. http://doi.org/10.5281/zenodo.4323541.
-# 
+#
 # Original Dataset by: National Transparency Agency Greece
 # Original Dataset's URL: https://github.com/akritiko/covid19gr/blob/master/data/csv/covid_checks.csv
 ##
 
-# Imports libraries 
-library(psych)       
+# Imports libraries
+library(psych)
 library(psychTools)
 library(gridExtra)
 library(xtable)
@@ -31,11 +31,11 @@ options(max.print = .Machine$integer.max)
 # Set the datasets directory.
 setwd('/mnt/b5d8c462-b987-49ea-86df-1169b4a962db/04_github/covid19gr/data/csv')
 
-# Parse Apple Mobility dataset. Consumes CSV. 
+# Parse Apple Mobility dataset. Consumes CSV.
 # First row contains headers and "," is used as a separator.
 perifereies <- read.csv(file="helper_perifereies.csv", head=TRUE, sep=",", dec=".", stringsAsFactors=FALSE)
 
-# Parse Lockdowns dataset. Consumes CSV. 
+# Parse Lockdowns dataset. Consumes CSV.
 # First row contains headers and "," is used as a separator.
 lockdown_data <- read.csv(file="helper_lockdowns_gr.csv", head=TRUE, sep=",")
 
@@ -43,13 +43,13 @@ lockdown_data <- read.csv(file="helper_lockdowns_gr.csv", head=TRUE, sep=",")
 lockdown_data$start_date <- as.Date(lockdown_data$start_date, format= "%Y-%m-%d")
 lockdown_data$end_date <- as.Date(lockdown_data$end_date, format= "%Y-%m-%d")
 
-# Parse Apple Mobility dataset. Consumes CSV. 
+# Parse Apple Mobility dataset. Consumes CSV.
 # First row contains headers and "," is used as a separator.
 checks_data <- read.csv(file="covid_checks.csv", head=TRUE, sep=",", dec=".", stringsAsFactors=FALSE)
 checks_data$date <- as.Date(checks_data$date, format= "%Y-%m-%d")
 
 total_fines = sum(as.numeric(checks_data$fines_euro), na.rm = TRUE)
-total_checks = sum(as.numeric(checks_data$region_totals), na.rm = TRUE)
+total_checks = sum(as.numeric(checks_data$checks_validation), na.rm = TRUE)
 total_violations = sum(as.numeric(checks_data$violations), na.rm = TRUE)
 total_calls = sum(as.numeric(checks_data$calls_1520), na.rm = TRUE)
 business_closed = sum(as.numeric(checks_data$business_closed), na.rm = TRUE)
@@ -63,7 +63,7 @@ final <- data.frame(
   checks_percentage = as.numeric(),
   population_total = as.numeric(),
   population_percentage = as.numeric()
-) 
+)
 
 for(i in 14:ncol(checks_data)) {       # for-loop over columns
   thename <- perifereies[c(i-13), c(2)]
@@ -71,7 +71,7 @@ for(i in 14:ncol(checks_data)) {       # for-loop over columns
   theper <- round(thesum / total_checks * 100)
   thepop <- perifereies[c(i-13), c(4)]
   thepopper <- round(thepop / total_pop * 100)
-  
+
   final[ nrow(final) + 1, ] <- c(thename, thesum, theper, thepop, thepopper)
 }
 
@@ -85,7 +85,7 @@ write(exportJSON, "checks_regions.json")
 write.csv(final,"checks_regions.csv", row.names = FALSE)
 
 #totals
-checks_summary <- data.frame( 
+checks_summary <- data.frame(
   totalFines = as.numeric(),
   totalChecksRegions = as.numeric(),
   totalChecks = as.numeric(),
