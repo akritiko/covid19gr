@@ -8,6 +8,12 @@
 - [Coronavirus Disease (COVID-19) Situation Report in Greece by Sandbird](https://covid19-greece.tk/index_en.html)
 - [covid_19gr by Nyrros](https://docs.google.com/spreadsheets/d/14rKl4TAM05YWj94u3rAkS2PKTSIqYzdCeuXVMtV6ptM/edit#gid=784106715)
 
+## Europe
+
+### Dashboards
+
+- [COVID-19 situation in the WHO European Region](https://who.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR2mvedCeczfLMfRV1G1Puk85E0pTaZnhK-Bb7OV62gVKcwrVBAja4TNtec#/ead3c6475654481ca51c248d52ab9c61)
+
 ## Worldwide
 
 ### Dashboards
