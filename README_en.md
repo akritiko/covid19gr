@@ -26,15 +26,11 @@ Greek Government's reports as they are published through the official websites o
 
 _**NOTE:** Many of the available datasets are product of the combination of various sources of raw data. For the best possible validation please refer to the data sources catalogue that will follow, to get informed on how each dataset was created._
 
-### 1.3. Analysis
-
-[Data Analysis](https://github.com/akritiko/covid19gr/tree/master/analysis): After aggregating the data analysing them is the next logical step. Here you will find a series of attempts to extract valuable knowledge from data analysis. 
-
-### 1.4. Open Data Framework / Policy (Greece) _( archived )_
+### 1.3. Open Data Framework / Policy (Greece) _( archived )_
 
 [Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -](https://github.com/akritiko/covid19gr/wiki). 
 
-### 1.5. [Resources](https://github.com/akritiko/covid19gr/blob/master/RESOURCES.md)
+### 1.4. [Resources](https://github.com/akritiko/covid19gr/blob/master/RESOURCES.md)
 
 A collection of resources & tools that help monitor the situation of COVID-19 pandemic. Not necessarily related to the datasets of this repository.
 
