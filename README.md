@@ -30,9 +30,13 @@ _**ΣΗΜΕΙΩΣΗ:** Πολλά σύνολα δεδομένων αποτελο
 
 [Επισκόπηση του πλαισίου Ανοικτών Δεδομένων στην Ελλάδα](https://github.com/akritiko/covid19gr/wiki). 
 
-### 1.4. [Resources](https://github.com/akritiko/covid19gr/blob/master/RESOURCES.md)
+### 1.4. Resources
 
-Μια συλλογή πόρων και εργαλείων που βοηθούν στην παρακολούθηση της κατάστασης της πανδημίας COVID-19. Δεν σχετίζονται απαραίτητα με τα σύνολα δεδομένων αυτού του αποθετηρίου.
+Μια καταγραφή πόρων και εργαλείων που βοηθούν στην παρακολούθηση της κατάστασης της πανδημίας COVID-19. Δεν σχετίζονται απαραίτητα με τα σύνολα δεδομένων αυτού του αποθετηρίου. Πιο συγκεκριμένα είναι διαθέσιμες οι ακόλουθες συλλογές:
+
+1. [Data related](https://github.com/akritiko/covid19gr/blob/master/resources/data.md)
+1. [Guides](https://github.com/akritiko/covid19gr/blob/master/resources/guides.md)
+1. [Applications](https://github.com/akritiko/covid19gr/blob/master/resources/apps.md)
 
 ## 2. Σύνολα δεδομένων που φιλοξενούνται στο αποθετήριο COVID19gr
 
