@@ -22,6 +22,7 @@
 - [World Health Organization](https://covid19.who.int/)
 - [European Centre for Disease Prevention and Control](https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html#global-overview-tab)
 - [Johns Hopkins University](https://coronavirus.jhu.edu/map.html)
+- [Wikipedia: COVID-19 pandemic by country and territory](https://en.wikipedia.org/wiki/COVID-19_pandemic_by_country_and_territory)
 
 ### Various charts by Our World in Data
 
