@@ -9,3 +9,9 @@
   - [Android](https://play.google.com/store/apps/details?id=org.who.infoapp)
   - [Apple](https://apps.apple.com/us/app/who-info/id895463794)
 - [Apple's COVID-19 app](https://apps.apple.com/us/app/apple-covid-19/id1504132184)
+
+## Data Analysis 
+
+- [Open Data Certificate by Open Data Institute](https://certificates.theodi.org/en)
+- [Octopub by Open Data Institute](https://octopub.io/)
+- [CSV Lint by Open Data Institute](https://csvlint.io/)
