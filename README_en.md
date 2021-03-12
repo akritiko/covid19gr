@@ -30,9 +30,14 @@ _**NOTE:** Many of the available datasets are product of the combination of vari
 
 [Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -](https://github.com/akritiko/covid19gr/wiki). 
 
-### 1.4. [Resources](https://github.com/akritiko/covid19gr/blob/master/RESOURCES.md)
+### 1.4. Resources
 
-A collection of resources & tools that help monitor the situation of COVID-19 pandemic. Not necessarily related to the datasets of this repository.
+A catalogue of resources & tools that help monitor the situation of COVID-19 pandemic. Not necessarily related to the datasets of this repository. More specifically you can find the following categories.
+
+1. [Data related](https://github.com/akritiko/covid19gr/blob/master/resources/data.md)
+1. [Guides](https://github.com/akritiko/covid19gr/blob/master/resources/guides.md)
+1. [Applications](https://github.com/akritiko/covid19gr/blob/master/resources/apps.md)
+
 
 ## 2. Datasets available on the COVID19gr repository
 
