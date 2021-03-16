@@ -21,7 +21,7 @@ todayday = today.strftime("%Y-%m-%d")
 
 # Retrieves data via FOV.GR api service (requires certified API KEY)
 url = 'https://data.gov.gr/api/v1/query/mdg_emvolio?date_from=2020-12-28&date_to=' + todayday
-headers = {'Authorization':''}
+headers = {'Authorization':'MYAPIKEY'}
 response = requests.get(url, headers=headers)
 
 # Creates the vaccinations_regions.json. encoding and ensure_ascii parameters ensure that 
