@@ -13,14 +13,14 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [29 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [29 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [27 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [27 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 _**NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources._
 
 ### 1.2. Reports _( archived )_
 
-_(reports in .pdf format are not available since 12/17/2020 due to size brevity reasons for this repository. Instead you [can find them as datasets here](https://github.com/akritiko/covid19gr/blob/master/README_en.md#25-official-reports-archive-urls))_
+_(reports in .pdf format are not available since 12/17/2020 due to size brevity reasons for this repository. Instead you [can find them on a single dataset here](https://github.com/akritiko/covid19gr/blob/master/data/csv/covid19_reports.csv))_
 
 Greek Government's reports as they are published through the official websites of COVID19.gov.gr, the National Organization of Public Health (EODY), the National Transparency Agency, etc. The reason behind recording those reports is for the intended audience to be able to cross check the extracted data for validity reasons.
 
@@ -111,12 +111,11 @@ A catalogue of resources & tools that help monitor the situation of COVID-19 pan
 
 | Dataset                                                                      	| Reference Area 	| Author  	| Data source                           	| Data visualization 	|
 |------------------------------------------------------------------------------------	|------------------	|-------------	|------------------------------------------	|------------------------	|
-| Epidemiological Daily Report of novel corona virus (COVID-19) infections 	| Greece           	| A. Kritikos 	| [EODY](https://eody.gov.gr/)             	| -                      	|
-| COVID-19 Observatory                                                             	| Greece           	| A. Kritikos 	| [COVID19.gov.gr](http://covid19.gov.gr/) 	| -                      	|
-| National Transparency Agency. COVID-19 checks.                                	| Greece           	| A. Kritikos 	| [NTA](https://aead.gr/press/covid19)    	| -                      	|
+| Official Reports 	| Greece           	| A. Kritikos 	| Various             	| -                      	|
 
 **Notes on the dataset**
 
+- This dataset includes reports from: ΕΟΔΥ (daily reports), COVID-19 Observatory (frequent reports), National Transparency Agency - Checks for compliance with measures (frequent reports), Clipnews Top Level Report - COVID-19 timeliness overview (frequent reports).
 - For the extraction of the data we used [DEiXTo](https://deixto.com/) tool / single parse per website.
 - In order to be fully updated about notes on the datasets, their license and the prerequisites for using or reusing them, please refer to the "Data Source" hyperlink (url) for each of the datasets.
 
