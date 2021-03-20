@@ -68,3 +68,15 @@ TBA
 ### Democracy
 
 TBA
+
+## Source evaluation & Fact checking
+
+1. [Fake Or Real? How To Self-Check The News And Get The Facts, NPR.org](https://www.npr.org/sections/alltechconsidered/2016/12/05/503581220/fake-or-real-how-to-self-check-the-news-and-get-the-facts)
+2. [Assessing Source Quality, The Pennsylvania State University](https://www.e-education.psu.edu/styleforstudents/c5_p3.html)
+3. [Evaluating Information, Johns Hopkins University](https://guides.library.jhu.edu/c.php?g=202581&p=1334872)
+4. [Research Using the Internet, University of Toronto](https://library.utm.utoronto.ca/services/alumni-visitors/internetresearch)
+5. [Evaluate Credibility of Online Sources, Google Course](https://applieddigitalskills.withgoogle.com/c/middle-and-high-school/en/evaluate-credibility-of-online-sources/overview.html)
+6. [How to Spot Fake News Online, PCMag](https://www.pcmag.com/how-to/how-to-spot-fake-news-online)
+7. [Evaluating Internet Resources, Georgetown University](https://www.library.georgetown.edu/tutorials/research-guides/evaluating-internet-content)
+8. [Evaluating Wikipedia: Tracing the evolution and evaluating the quality of articles, Wikimedia foundation](https://upload.wikimedia.org/wikipedia/commons/5/52/Evaluating_Wikipedia_brochure.pdf)
+
