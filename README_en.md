@@ -28,7 +28,7 @@ _**NOTE:** Many of the available datasets are product of the combination of vari
 
 ### 1.3. Open Data Framework / Policy (Greece) _( archived )_
 
-[Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -](https://github.com/akritiko/covid19gr/wiki). 
+Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -.
 
 ### 1.4. Resources
 
