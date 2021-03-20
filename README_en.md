@@ -28,7 +28,7 @@ _**NOTE:** Many of the available datasets are product of the combination of vari
 
 ### 1.3. Open Data Framework / Policy (Greece) _( archived )_
 
-Review of the Open Data Framework / Policy in Greece - currently available in Greek language only -.
+You can find the latest available version of the framework [here](https://docs.google.com/document/d/1eHWmtEIcy_K4UN8Op9jRtPGpNkoiw1e3b2Hr0qfjkdk/edit?usp=sharing) (available in Greek language only).
 
 ### 1.4. Resources
 
