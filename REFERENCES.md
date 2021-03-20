@@ -1,6 +1,7 @@
 # References
 
 ## Digital Aspects
+_(Curator: Apostolos Kritikos)_
 
 ### Data Related
 
@@ -29,6 +30,7 @@
 ### Health Related 
 
 #### Generic
+_(Curator: Apostolos Kritikos)_
 
 1. Strengthening and adjusting public health measures throughout the COVID-19 transition phases. Policy considerationsfor the WHO European Region, WHO / EU regional office, 2020 | [EN](https://apps.who.int/iris/bitstream/handle/10665/332467/WHO-EURO-2020-690-40425-54211-eng.pdf).
 1. State of Health in the EU, Greece. Country health profile, European Observatory on Health Systems and Policies, 2019 | [EN](https://ec.europa.eu/health/sites/health/files/state/docs/2019_chp_gr_english.pdf), [EL](https://ec.europa.eu/health/sites/health/files/state/docs/2019_chp_gr_greece.pdf)
@@ -36,6 +38,7 @@
 1. Health Systems in Transition, European Observatory on Health Systems and Policies, 2017 | [EN](https://www.euro.who.int/__data/assets/pdf_file/0006/373695/hit-greece-eng.pdf)
 
 #### Super Spreading Events
+_(Curator: Apostolos Kritikos)_
 
 1. [Identifying and Interrupting Superspreading Events—Implications for Control of Severe Acute Respiratory Syndrome Coronavirus 2, CDC](https://wwwnc.cdc.gov/eid/article/26/6/20-0495_article)
 2. [Will Protests Increase the Spread of COVID-19?, IEEE Spectrum](https://spectrum.ieee.org/the-human-os/biomedical/ethics/will-protests-increase-spread-covid19-coronavirus)
@@ -50,6 +53,8 @@
 11. [Controlling the coronavirus narrative, Nita Bharti, sciencemag.org, American Association for the Advancement of Science](https://science.sciencemag.org/content/369/6505/780.2)
 12. [Randall Valentine, Dawn Valentine, Jimmie L Valentine, Relationship of George Floyd protests to increases in COVID-19 cases using event study methodology, Journal of Public Health, Volume 42, Issue 4, December 2020, Pages 696–697](https://doi.org/10.1093/pubmed/fdaa127)
 13. [Mass Gatherings Contributed to Early COVID-19 Spread: Evidence from US Sports by Alexander AHAMMER, Martin HALLA, Mario LACKNER, Christian Doppler Laboratory](https://www.econstor.eu/bitstream/10419/222442/1/1724162950.pdf)
+
+_(Special thanks - in alphabetical order - for providing citation to: Aphrodite Bouikidis, Nikos Pitelis,Tom Tziros, Stelios Leris, Vangelis Vassiliadis)_
 
 ### Vaccination Related
 
