@@ -26,11 +26,11 @@ _(Curator: Apostolos Kritikos)_
 1. New report on European digital infrastructure and data sovereignty, European Institute of Innovation & Technology, 2020 | [EN](https://eit.europa.eu/news-events/news/new-report-european-digital-infrastructure-and-data-sovereignty)
 
 ## Scientific Aspects
+_(Curator: Apostolos Kritikos)_
 
 ### Health Related 
 
 #### Generic
-_(Curator: Apostolos Kritikos)_
 
 1. Strengthening and adjusting public health measures throughout the COVID-19 transition phases. Policy considerationsfor the WHO European Region, WHO / EU regional office, 2020 | [EN](https://apps.who.int/iris/bitstream/handle/10665/332467/WHO-EURO-2020-690-40425-54211-eng.pdf).
 1. State of Health in the EU, Greece. Country health profile, European Observatory on Health Systems and Policies, 2019 | [EN](https://ec.europa.eu/health/sites/health/files/state/docs/2019_chp_gr_english.pdf), [EL](https://ec.europa.eu/health/sites/health/files/state/docs/2019_chp_gr_greece.pdf)
@@ -38,7 +38,6 @@ _(Curator: Apostolos Kritikos)_
 1. Health Systems in Transition, European Observatory on Health Systems and Policies, 2017 | [EN](https://www.euro.who.int/__data/assets/pdf_file/0006/373695/hit-greece-eng.pdf)
 
 #### Super Spreading Events
-_(Curator: Apostolos Kritikos)_
 
 1. [Identifying and Interrupting Superspreading Events—Implications for Control of Severe Acute Respiratory Syndrome Coronavirus 2, CDC](https://wwwnc.cdc.gov/eid/article/26/6/20-0495_article)
 2. [Will Protests Increase the Spread of COVID-19?, IEEE Spectrum](https://spectrum.ieee.org/the-human-os/biomedical/ethics/will-protests-increase-spread-covid19-coronavirus)
