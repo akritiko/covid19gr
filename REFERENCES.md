@@ -70,6 +70,7 @@ TBA
 TBA
 
 ## Source evaluation & Fact checking
+_(Curator: Apostolos Kritikos)_
 
 1. [Fake Or Real? How To Self-Check The News And Get The Facts, NPR.org](https://www.npr.org/sections/alltechconsidered/2016/12/05/503581220/fake-or-real-how-to-self-check-the-news-and-get-the-facts)
 2. [Assessing Source Quality, The Pennsylvania State University](https://www.e-education.psu.edu/styleforstudents/c5_p3.html)
