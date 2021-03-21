@@ -18,6 +18,19 @@ __NOTE:__ The selection of such articles will be made, as far as our time allows
 For any comments or remarks please let us know using the [issues report mechanism] (https://github.com/akritiko/covid19gr/issues) of this repository.
 ___
 
+# Επιστημονική Επικοινώνηση Scholarly Communion (EESC) - Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών
+
+Ο Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών δημοσιεύει αναφορά των ελληνικών ερευνητικών εργασιών για τον νέο κορωνοϊό. Η αναφορά βασίζεται σε δεδομένα από το COVID-19 Dataset of Global Research της βάσης Dimensions (Digital Science & Research Solutions Inc) και για την παραγωγή της χρησιμοποιήθηκαν τα εργαλεία BigQuery και DataStudio της Google. Η αναφορά διατίθεται με άδεια “Creative Commons – Αναφορά”. Κάθε γράφημα είναι δυναμικό και επιτρέπει την πλοήγηση στα δεδομένα, ενώ όπου απαιτείται παρέχονται περισσότερες οδηγίες.
+
+- [Επίσημη ιστοσελίδα](https://scholarly.heal-link.gr/coviddashboard/)
+- [Όλες η αναφορές σε μορφή CSV](https://github.com/akritiko/covid19gr/blob/master/references/covid19_publications_greece.csv)
+
+_(Ευχαριστούμε τον κ. Γιάννη Τσάκωνα για την ενημέρωση.)_
+
+
+
+
+
 ## Digital Aspects
 _(Curator: Apostolos Kritikos)_
 
