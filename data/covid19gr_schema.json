@@ -1,0 +1,44 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "covid_checks",
+      "path": "csv/covid_checks.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "format": "YYYY-MM-DD",
+            "title": "Date",
+            "description": "the date of the record"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "coronavirus",
+    "COVID-19",
+    "covid19gr",
+    "SarsCov2"
+  ],
+  "name": "covid19gr",
+  "title": "COVID-19 Open Data for Greece",
+  "description": "Towards an Open Data Schema for COVID-19 data available for Greece",
+  "homepage": "https://github.com/akritiko/covid19gr",
+  "contributors": [
+    {
+      "title": "Apostolos Kritikos",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
