@@ -43,7 +43,7 @@ A catalogue of resources & tools that help monitor the situation of COVID-19 pan
 
 A catalogue of scientific publications and studies of official international bodies for the COVID-19 pandemic. The collection includes reports on health sciences, epidemiology, sociology, technology and will be updated frequently.
 
-[All references available here.] (Https://github.com/akritiko/covid19gr/tree/master/references)
+[All references available here.](Https://github.com/akritiko/covid19gr/tree/master/references)
 
 ### 1.6. Ενωποιημένο σχήμα Ανοικτών Δεδομένων
 
