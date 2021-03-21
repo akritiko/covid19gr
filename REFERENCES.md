@@ -1,5 +1,21 @@
 # References
 
+🇬🇷 Εδώ συγκεντρώνουμε επιστημονικές αναφορές σχετικά με την πανδημία SARS-COV-2. Οι αναφορές αυτές είναι δημοσιευμένες σε διεθνή επιστημονικά περιοδικά ή σε πρακτικά διεθνών συνεδρίων. Σε περίπτωση που η συλλογή προέρχετάι από κάποιον τρίτο φορέα, αποδίδονται τα σχετίκά credits μαζί με τις από καρδιάς ευχαριστίες μας.
+
+Πιθανώς να φιλοξενήσουμε, εκτός των επιστημονικών αναφορών επιλεκτική αρθρογραφία από διεθνή μέσα (εφημερίδες, περιοδικά, ενημερωτικά blogs) που θεωρούνται έγκριτα. 
+
+ΣΗΜΕΙΩΣΗ: Η επιλογή γίνεται, στο βαθμό που το επιτρέπει ο χρόνος μας, ακολουθώντας την μεθοδολογία [T.R.A.A.P. (Timeframe Relevance Authority Accuracy Purpose)](https://guides.library.jhu.edu/c.php?g=202581&p=1334872), The Sheridan Libraries, Johns Hopkins University. 
+
+Για τυχόν σχόλια ή παρατηρήσεις παρακολούμε να μας ενημερώσετε χρησιμοποιώντας τον [μηχανισμό υποβολής προτάσεων](https://github.com/akritiko/covid19gr/issues) που προσφέρει το αποθετήριο.
+
+🇬🇧 In this section we are cataloguing scientific reports re the SARS-COV-2 pandemic. These papers are either published in international scientific journals or in the proceedings of international conferences. In case a collection comes from a third party, the collection is accompanyed with credits and our heartfelt thanks.
+
+We may host, in addition to scientific reports, selective articles from international media (newspapers, magazines, news blogs) that are considered fact-checked and of quality.
+
+NOTE: The selection of such articles will be made, as far as our time allows, following the methodology [T.R.A.A.P. (Timeframe Relevance Authority Accuracy Purpose)] (https://guides.library.jhu.edu/c.php?g=202581&p=1334872), The Sheridan Libraries, Johns Hopkins University.
+
+For any comments or remarks please let us know using the [issues report mechanism] (https://github.com/akritiko/covid19gr/issues) of this repository.
+
 ## Digital Aspects
 _(Curator: Apostolos Kritikos)_
 
