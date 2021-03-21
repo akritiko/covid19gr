@@ -18,7 +18,9 @@ __NOTE:__ The selection of such articles will be made, as far as our time allows
 For any comments or remarks please let us know using the [issues report mechanism] (https://github.com/akritiko/covid19gr/issues) of this repository.
 ___
 
-# Επιστημονική Επικοινώνηση Scholarly Communion (EESC) - Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών
+## Organizations / Οργανισμοί
+
+### Επιστημονική Επικοινώνηση Scholarly Communion (EESC) - Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών
 
 Ο Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών δημοσιεύει αναφορά των ελληνικών ερευνητικών εργασιών για τον νέο κορωνοϊό. Η αναφορά βασίζεται σε δεδομένα από το COVID-19 Dataset of Global Research της βάσης Dimensions (Digital Science & Research Solutions Inc) και για την παραγωγή της χρησιμοποιήθηκαν τα εργαλεία BigQuery και DataStudio της Google. Η αναφορά διατίθεται με άδεια “Creative Commons – Αναφορά”. Κάθε γράφημα είναι δυναμικό και επιτρέπει την πλοήγηση στα δεδομένα, ενώ όπου απαιτείται παρέχονται περισσότερες οδηγίες.
 
@@ -27,9 +29,53 @@ ___
 
 _(Ευχαριστούμε τον κ. Γιάννη Τσάκωνα για την ενημέρωση.)_
 
+__TAGS:__ Scientific Research
 
+### The Open Data Institute (ODI)
 
+The ODI was co-founded in 2012 by the inventor of the web Sir Tim Berners-Lee and artificial intelligence expert Sir Nigel Shadbolt to show the value of open data, and to advocate for the innovative use of open data to effect positive change across the globe.
 
+The ODI has done extensive work on COVID-19 and open data. You can find it following [this link](https://theodi.org/?s=covid-19).
+
+__Disclaimer:__ I am a registered Open Data trainer with The ODI since 2015.
+
+__TAGS:__ Open Data
+
+### Open Knowledge Foundation (OKFN)
+
+OKFN's mission is an open world, where all non-personal information is open, free for everyone to use, build on and share; and creators and innovators are fairly recognised and rewarded.
+
+OKFN has done extensive work on COVID-19 and open data. You can find it following [this link](https://okfn.org/search/?q=covid-19).
+
+__TAGS:__ Open Data
+
+### World Health Organization (WHO)
+
+WHO began when our Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day. We are now more than 7000 people working in 150 country offices, in six regional offices and at our headquarters in Geneva, Switzerland.
+
+You can find all the COVID-19 related publications of WHO following [this link](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance-publications).
+
+__TAGS:__ Health
+
+### European Centre for Desease Prevention and Control (ECDC)
+
+ECDC is an EU agency aimed at strengthening Europe's defences against infectious diseases. The core functions cover a wide spectrum of activities: surveillance, epidemic intelligence, response, scientific advice, microbiology, preparedness, public health training, international relations, health communication, and the scientific journal Eurosurveillance.
+
+You can find all the COVID-19 related publications and data of ECDC following [this link](https://www.ecdc.europa.eu/en/publications-data?s=covid-19).
+
+__TAGS:__ Health
+
+### Centers for Desease Control and Prevention (CDC), U.S.
+
+CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Whether diseases start at home or abroad, are chronic or acute, curable or preventable, human error or deliberate attack, CDC fights disease and supports communities and citizens to do the same.
+
+CDC increases the health security of our nation. As the nation’s health protection agency, CDC saves lives and protects people from health threats. To accomplish our mission, CDC conducts critical science and provides health information that protects our nation against expensive and dangerous health threats, and responds when these arise.
+
+You can find all the COVID-19 related publications and data of CDC following [this link](https://search.cdc.gov/search/?query=covid-19&sitelimit=cdc).
+
+__TAGS:__ Health
+
+___
 
 ## Digital Aspects
 _(Curator: Apostolos Kritikos)_
