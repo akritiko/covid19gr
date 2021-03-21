@@ -18,3 +18,4 @@
 - [Open Data Certificate by Open Data Institute](https://certificates.theodi.org/en)
 - [Octopub by Open Data Institute](https://octopub.io/)
 - [CSV Lint by Open Data Institute](https://csvlint.io/)
+- [The progressive data toolkit](https://frictionlessdata.io/)
