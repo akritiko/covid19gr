@@ -26,10 +26,9 @@ ___
 
 - [Επίσημη ιστοσελίδα](https://scholarly.heal-link.gr/coviddashboard/)
 - [Όλες η αναφορές σε μορφή CSV](https://github.com/akritiko/covid19gr/blob/master/references/covid19_publications_greece.csv)
+- TAGS: Scientific Research
 
 _(Ευχαριστούμε τον κ. Γιάννη Τσάκωνα για την ενημέρωση.)_
-
-__TAGS:__ Scientific Research
 
 ### The Open Data Institute (ODI)
 
