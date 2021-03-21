@@ -191,6 +191,7 @@ _**ΣΗΜΕΙΩΣΗ:** Σε περίπτωση που κάποιο από τα U
 - [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend)
 - [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad)
 - [ActiveConclusion](https://github.com/ActiveConclusion)
+- [Our World in Data](https://github.com/owid)
 - Clipnews 
 - Google
 - Apple
