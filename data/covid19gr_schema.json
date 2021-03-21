@@ -12,7 +12,189 @@
             "type": "date",
             "format": "YYYY-MM-DD",
             "title": "Date",
-            "description": "the date of the record"
+            "description": "date of the record"
+          },
+          {
+            "name": "checks",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks (NTA)",
+            "description": "total checks reported by the National Transparency Agency Report"
+          },
+          {
+            "name": "checks_validation",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks (Validation)",
+            "description": "total checks as a sum of the prefectures checks"
+          },
+          {
+            "name": "violations",
+            "type": "integer",
+            "format": "default",
+            "title": "Violations",
+            "description": "total violations"
+          },
+          {
+            "name": "fines_eur",
+            "type": "number",
+            "format": "default",
+            "title": "Fines",
+            "description": "total amount in EUR currency charged as a result of COVID-19 violations"
+          },
+          {
+            "name": "business_closed",
+            "type": "integer",
+            "format": "default",
+            "title": "Businesses Closed",
+            "description": "total number of businesses that stopped working as a result of violating the COVID-19 measures"
+          },
+          {
+            "name": "by_police",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks by Police",
+            "description": "checks performed by the Hellenic Police force"
+          },
+          {
+            "name": "by_others",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks by Others ",
+            "description": "checks performed by the Hellenic Police force"
+          },
+          {
+            "name": "calls_1520",
+            "type": "integer",
+            "format": "default",
+            "title": "Calls at 1520",
+            "description": "calls made to the COVID-19 related phone number 1520"
+          },
+          {
+            "name": "v_validation",
+            "type": "integer",
+            "format": "default",
+            "title": "Violations percentage validation",
+            "description": "field used to validate whether the percentages of types of violations sum to 100% [0, 100]"
+          },
+          {
+            "name": "v_masks",
+            "type": "integer",
+            "format": "default",
+            "title": "Mask Violations (percentage)",
+            "description": "percentage of mask violations [0, 100]"
+          },
+          {
+            "name": "v_distancing",
+            "type": "string",
+            "format": "default",
+            "title": "Social Distancing Violations (percentage)",
+            "description": "percentage of social distancing violations [0, 100]"
+          },
+          {
+            "name": "v_quarantine",
+            "type": "integer",
+            "format": "default",
+            "title": "Quarantine Violations (percentage)",
+            "description": "percentage of quarantine violations [0, 100]"
+          },
+          {
+            "name": "v_other",
+            "type": "integer",
+            "format": "default",
+            "title": "Other Violations (percentage)",
+            "description": "percentage of other violations [0, 100]"
+          },
+          {
+            "name": "pe01",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE01",
+            "description": "checks performed in East Macedonia and Thrace (PE01)"
+          },
+          {
+            "name": "pe02",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE02",
+            "description": "checks performed in  Central Macedonia (PE02)"
+          },
+          {
+            "name": "pe03",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE03",
+            "description": "checks performed in  Western Macedonia\n (PE03)"
+          },
+          {
+            "name": "pe04",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE04",
+            "description": "checks performed in   Epirus (PE04)"
+          },
+          {
+            "name": "pe05",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE05",
+            "description": "checks performed in    Thessaly (PE05)"
+          },
+          {
+            "name": "pe06",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE06",
+            "description": "checks performed in     Ionian Islands (PE06)"
+          },
+          {
+            "name": "pe07",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE07",
+            "description": "checks performed in     Western Greece (PE07)"
+          },
+          {
+            "name": "pe08",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE08",
+            "description": "checks performed in     Central Greece (PE08)"
+          },
+          {
+            "name": "pe09",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE09",
+            "description": "checks performed in      Attica (PE09)"
+          },
+          {
+            "name": "pe10",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE10",
+            "description": "checks performed in     Peloponnese (PE10)"
+          },
+          {
+            "name": "pe11",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE11",
+            "description": "checks performed in       North Aegean (PE11)"
+          },
+          {
+            "name": "pe12",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE12",
+            "description": "checks performed in        South Aegean (PE12)"
+          },
+          {
+            "name": "pe13",
+            "type": "integer",
+            "format": "default",
+            "title": "Checks in region PE12",
+            "description": "checks performed in         Crete (PE13)"
           }
         ]
       }
