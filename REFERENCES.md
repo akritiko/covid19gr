@@ -7,7 +7,7 @@
 __ΣΗΜΕΙΩΣΗ:__ Η επιλογή γίνεται, στο βαθμό που το επιτρέπει ο χρόνος μας, ακολουθώντας την μεθοδολογία [T.R.A.A.P. (Timeframe Relevance Authority Accuracy Purpose)](https://guides.library.jhu.edu/c.php?g=202581&p=1334872), The Sheridan Libraries, Johns Hopkins University. 
 
 Για τυχόν σχόλια ή παρατηρήσεις παρακολούμε να μας ενημερώσετε χρησιμοποιώντας τον [μηχανισμό υποβολής προτάσεων](https://github.com/akritiko/covid19gr/issues) που προσφέρει το αποθετήριο.
-<br>
+___
 
 🇬🇧 In this section we are cataloguing scientific reports re the SARS-COV-2 pandemic. These papers are either published in international scientific journals or in the proceedings of international conferences. In case a collection comes from a third party, the collection is accompanyed with credits and our heartfelt thanks.
 
@@ -16,7 +16,7 @@ We may host, in addition to scientific reports, selective articles from internat
 __NOTE:__ The selection of such articles will be made, as far as our time allows, following the methodology [T.R.A.A.P. (Timeframe Relevance Authority Accuracy Purpose)] (https://guides.library.jhu.edu/c.php?g=202581&p=1334872), The Sheridan Libraries, Johns Hopkins University.
 
 For any comments or remarks please let us know using the [issues report mechanism] (https://github.com/akritiko/covid19gr/issues) of this repository.
-<br>
+___
 
 ## Digital Aspects
 _(Curator: Apostolos Kritikos)_
