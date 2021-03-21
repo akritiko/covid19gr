@@ -2,7 +2,7 @@
 
 _[(κάντε κλικ εδώ για να δείτε την εκδοχή της σελίδας στα ελληνικά 🇬🇷)](https://github.com/akritiko/covid19gr/)_
 
-# COVID19gr - Open Data aggregation repository for COVID-19 in Greece. 
+# COVID19gr - Open Data aggregation and Knowledge Base repository for COVID-19 in Greece. 
 
 Open Data aggregation repository for the evolution of the SARS-COV-2 pandemic in Greece. The repository is being updated as the pandemic evolves.
 
@@ -37,6 +37,22 @@ A catalogue of resources & tools that help monitor the situation of COVID-19 pan
 1. [Data related](https://github.com/akritiko/covid19gr/blob/master/resources/data.md)
 1. [Guides](https://github.com/akritiko/covid19gr/blob/master/resources/guides.md)
 1. [Applications](https://github.com/akritiko/covid19gr/blob/master/resources/apps.md)
+
+
+### 1.5. References
+
+A catalogue of scientific publications and studies of official international bodies for the COVID-19 pandemic. The collection includes reports on health sciences, epidemiology, sociology, technology and will be updated frequently.
+
+[All references available here.] (Https://github.com/akritiko/covid19gr/tree/master/references)
+
+### 1.6. Ενωποιημένο σχήμα Ανοικτών Δεδομένων
+
+One of the main purposes of this repository is the aggregation of open data from various sources and volunteers. For a combined and effective study it is necessary to create a data schema that can clarify the data of each dataset and help the user to better understand these data. Following you will find the unified data schema and a free online tool that will allow you to access it in a simpler, visual format.
+
+- [Open Data Schema covid19gr] (https://github.com/akritiko/covid19gr/blob/master/data/covid19gr_schema.json)
+- [Open Data Schema Visualization with Data Package Creator] (https://create.frictionlessdata.io/)
+
+__GUIDE: __ [How to use the Data Package Creator to access the covid19gr Open Data Schema] (#).
 
 
 ## 2. Datasets available on the COVID19gr repository
