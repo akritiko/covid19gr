@@ -52,7 +52,7 @@ One of the main purposes of this repository is the aggregation of open data from
 - [Open Data Schema covid19gr] (https://github.com/akritiko/covid19gr/blob/master/data/covid19gr_schema.json)
 - [Open Data Schema Visualization with Data Package Creator] (https://create.frictionlessdata.io/)
 
-__GUIDE: __ [How to use the Data Package Creator to access the covid19gr Open Data Schema] (#).
+__GUIDE:__ [How to use the Data Package Creator to access the covid19gr Open Data Schema] (https://docs.google.com/document/d/1I9N3DLCEO_fgJ9OlsRzY4Xk7nbPt3ZaqkA22rkK_CU0/edit?usp=sharing).
 
 
 ## 2. Datasets available on the COVID19gr repository
