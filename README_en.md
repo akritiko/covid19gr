@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4444185.svg)](https://doi.org/10.5281/zenodo.4444185)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4625530.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.4625530.svg)
 
 _[(κάντε κλικ εδώ για να δείτε την εκδοχή της σελίδας στα ελληνικά 🇬🇷)](https://github.com/akritiko/covid19gr/)_
 
@@ -201,6 +201,6 @@ This repository is nothing more that a collection of datasets. For those dataset
 
 Since this repository is published under the Public Domain CC0-1.0, there is absolutely no requirement to refer to it in any way. However, if you would like to do so, you can use the following citation:
 
-_Apostolos Kritikos. (2021, January 15). akritiko/covid19gr: Cebes (Version 2.0.0). Zenodo. http://doi.org/10.5281/zenodo.4444185._
+_Apostolos Kritikos. (2021, March 21). akritiko/covid19gr: Pythagoras (Version 3.0.0). Zenodo. http://doi.org/10.5281/zenodo.4625530_
 
-ή σε μορφή [BibTEX version](https://zenodo.org/record/4444185/export/hx).
+or in bibtex format [BibTEX version](https://zenodo.org/record/4625530/export/hx).
