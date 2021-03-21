@@ -51,7 +51,7 @@ _**ΣΗΜΕΙΩΣΗ:** Πολλά σύνολα δεδομένων αποτελο
 - [Σχήμα Ανοικτών Δεδομένων covid19gr](https://github.com/akritiko/covid19gr/blob/master/data/covid19gr_schema.json)
 - [Οπτικοποίηση του σχήματος δεδομένων με το Data Package Creator](https://create.frictionlessdata.io/)
 
-__ΟΔΗΓΟΣ:__ [Πως χρησιμοποιώ το Data Package Creator για να προσπελάτω το Σχήμα Ανοικτών Δεδομένων covid19gr](#).
+__ΟΔΗΓΟΣ:__ [Πως χρησιμοποιώ το Data Package Creator για να προσπελάτω το Σχήμα Ανοικτών Δεδομένων covid19gr](https://docs.google.com/document/d/1I9N3DLCEO_fgJ9OlsRzY4Xk7nbPt3ZaqkA22rkK_CU0/edit?usp=sharing).
 
 ## 2. Σύνολα δεδομένων που φιλοξενούνται στο αποθετήριο COVID19gr
 
