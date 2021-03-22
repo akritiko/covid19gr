@@ -16,7 +16,10 @@ Available in machine readable format and frequently updated:
 - [27 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
 - [27 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
-_**NOTE:** The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources._
+_**NOTES:**_ 
+
+- _The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources._
+- _Daily data (i.e. cases, deaths, etc.) correspond to the time of announcement by the Greek Government and not to the time of the events. For more information we urge you to check the details of the creator of the datasets (see below)._
 
 ### 1.2. Reports _( archived )_
 
