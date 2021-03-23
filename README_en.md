@@ -156,6 +156,7 @@ _**NOTE:** In case one of the URLs leads to a page without content or to a page 
 | Dataset              	| Reference Area 	| Author      	| Data Source                                                           	| Data Visualization                                                    	|
 |----------------------	|----------------	|-------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|
 | COVID-19 Legislation 	| Greece         	| A. Kritikos 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	| [COVID19.gov.gr](https://covid19.gov.gr/nomothesia-gia-ton-covid-19/) 	|
+| COVID-19 Legislation - PANDEKTIS 	| Greece           	| A. Kritikos, Sandbird 	| [Github](https://github.com/akritiko/covid19gr)  	| [PANDEKTIS Urgent Legal Matters](https://www.secdigital.gov.gr/project/pandektis-katepeigonton-rythmistikon-m/) 	|
 
 **Notes on the dataset**
 

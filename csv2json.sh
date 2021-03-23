@@ -20,7 +20,11 @@ do
   theFile=$(basename "$file")
   theFilename="${theFile%.*}"
   fileOut="data/json/$theFilename.json"
-  python3 csv2json.py "$fileIn" "$fileOut"
+  if [ $theFile = "nomothesia_pandektis.csv" ]; then
+	python3 csv2json.py "$fileIn" "$fileOut" -S ";"
+  else
+	python3 csv2json.py "$fileIn" "$fileOut"
+  fi 
+  
 done
-
 exit 0
