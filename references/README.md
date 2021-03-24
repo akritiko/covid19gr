@@ -75,6 +75,6 @@ CDC increases the health security of our nation. As the nation’s health protec
 
 Η Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα έχει ως αποστολή της την εποπτεία της εφαρμογής του Γενικού Κανονισμού Προστασίας Δεδομένων (ΓΚΠΔ), του νόμου 4624/2019, του νόμου 3471/2006 και άλλων ρυθμίσεων που αφορούν την προστασία του ατόμου από την επεξεργασία δεδομένων προσωπικού χαρακτήρα, καθώς και την ενάσκηση των αρμοδιοτήτων που της ανατίθενται κάθε φορά.
 
-- [Αναφορές](https://www.dpa.gr/enimerwtiko/thematikes_enotites/COVID-19)
+- [Συλλογή Αναφορών](https://www.dpa.gr/enimerwtiko/thematikes_enotites/COVID-19)
 - TAGS: Privacy, GDPR
 
