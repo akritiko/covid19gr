@@ -197,7 +197,94 @@
             "description": "checks performed in         Crete (PE13)"
           }
         ]
-      }
+      },
+      "title": "COVID-19 Measures Monitoring by Greek National Transparency Agency",
+      "format": "CSV, JSON",
+      "encoding": "UTF-8",
+      "description": "- Data Source: https://aead.gr/\n- Organization: Greek National Transparency Agency\n- Dataset Curation: Apostolos Kritikos <akritiko@gmail.com>\n- Dataset Repository: https://github.com/akritiko/covid19gr\n- Dataset License: Public Domain CC0\n- Data Category: Monitoring\n- Delimiter: \",\""
+    },
+    {
+      "name": "nomothesia_pandektis",
+      "path": "csv/nomothesia_pandektis.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "format": "default",
+            "title": "ID",
+            "description": "id of the record (in the dataset)"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "format": "default",
+            "title": "Type",
+            "description": "type of law"
+          },
+          {
+            "name": "full_date",
+            "type": "string",
+            "format": "default",
+            "title": "Full Date",
+            "description": "the full date when the law took effect"
+          },
+          {
+            "name": "year",
+            "type": "string",
+            "format": "default",
+            "title": "Year",
+            "description": "year when the law took effect"
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "format": "default",
+            "title": "Month",
+            "description": "Month when the law took effect"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "format": "default",
+            "title": "Title",
+            "description": "Title of the law"
+          },
+          {
+            "name": "fek",
+            "type": "string",
+            "format": "default",
+            "title": "FEK",
+            "description": "Number of the FEK which includes the law"
+          },
+          {
+            "name": "page",
+            "type": "string",
+            "format": "default",
+            "title": "Page",
+            "description": "Page on the FEK which includes the law"
+          },
+          {
+            "name": "tomos",
+            "type": "string",
+            "format": "default",
+            "title": "Volume",
+            "description": "Volume of the FEK which includes the law"
+          },
+          {
+            "name": "tomos_url",
+            "type": "string",
+            "format": "default",
+            "title": "Volume URL",
+            "description": "URL that contains the volume of this FEK"
+          }
+        ]
+      },
+      "title": "Pandektis of Urgent Regulatory Measures (COVID-19)",
+      "format": "CSV, JSON",
+      "encoding": "UTF-8",
+      "description": "- Data Source: https://www.secdigital.gov.gr/project/pandektis-katepeigonton-rythmistikon-m/\n- Organization: Greek Government\n- Dataset Curation: Apostolos Kritikos <akritiko@gmail.com>\n- Dataset Repository: https://github.com/akritiko/covid19gr\n- Dataset License: Public Domain CC0\n- Data Category: Legal\n- Delimiter: \";\""
     }
   ],
   "keywords": [
