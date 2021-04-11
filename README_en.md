@@ -13,21 +13,29 @@ In this repository you will find:
 ### 1.1. Datasets
 
 Available in machine readable format and frequently updated:
-- [27 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [27 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [28 in .CSV format](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [28 in .JSON format](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 _**NOTES:**_ 
 
 - _The aforementioned datasets were created and are being maintained mainly by wither *** fellow citizens' initiatives *** who publish them under open data licenses and, of course, gratis free, or by organizations (research centres, private companies, etc.). Following you will find a detailed analysis of the data sources._
 - _Daily data (i.e. cases, deaths, etc.) correspond to the time of announcement by the Greek Government and not to the time of the events. For more information we urge you to check the details of the creator of the datasets (see below)._
 
-### 1.2. Reports _( archived )_
+### 1.2. Reports
 
-_(reports in .pdf format are not available since 12/17/2020 due to size brevity reasons for this repository. Instead you [can find them on a single dataset here](https://github.com/akritiko/covid19gr/blob/master/data/csv/covid19_reports.csv))_
+Indexing reports on the evolution of the coronavirus pandemic in Greece. More specifically, the collection consists of:
 
-Greek Government's reports as they are published through the official websites of COVID19.gov.gr, the National Organization of Public Health (EODY), the National Transparency Agency, etc. The reason behind recording those reports is for the intended audience to be able to cross check the extracted data for validity reasons.
+1. The daily report of the National Organization of Public Health (EODY) in .PDF format.
+2. The information from the Ministry of Health and the Ministry of Civil Protection in video format on Youtube.
+3. The periodic reporting of the measures compliance checks by the National Transparency Agency of Greece in .html format.
+4. The periodic indexing of the news about the evolution of the pandemic from the blog of Clipnews S.A.
 
-_**NOTE:** Many of the available datasets are product of the combination of various sources of raw data. For the best possible validation please refer to the data sources catalogue that will follow, to get informed on how each dataset was created._
+The above sources are aggregated, as hyperlinks, in a spreadsheet and are freely and openly available for use and editing in [.CSV] format (https://github.com/akritiko/covid19gr/blob/master/data/csv/covid19_reports.csv), [.JSON] (https://github.com/akritiko/covid19gr/blob/master/data/json/covid19_reports.json) and [Google Spreadsheet] (https://docs.google.com/spreadsheets/d/11A17Sb8pk9NyXz2FvRzaZIkxxNfiZcxUDBjjVkbXNQk/edit?usp=sharing) (read only)
+
+_**NOTES:**_
+
+- _Many data sets are a product of a combination of different primary data sources. We suggest for the best possible use that the intended user refer to the data sources provided below, in terms of how each dataset was created._
+- _References in .pdf format from 17/12/2020 are no longer available to keep the size of the repository low._
 
 ### 1.3. Open Data Framework / Policy (Greece) _( archived )_
 
