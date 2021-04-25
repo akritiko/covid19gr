@@ -13,7 +13,7 @@ ___
 
 We may host, in addition to scientific reports, selective articles from international media (newspapers, magazines, news blogs) that are considered fact-checked and of quality.
 
-__NOTE:__ The selection of such articles will be made, as far as our time allows, following the methodology [T.R.A.A.P. (Timeframe Relevance Authority Accuracy Purpose)] (https://guides.library.jhu.edu/c.php?g=202581&p=1334872), The Sheridan Libraries, Johns Hopkins University.
+__NOTE:__ The selection of such articles will be made, as far as our time allows, following the methodology [T.R.A.A.P. (Timeframe Relevance Authority Accuracy Purpose)](https://guides.library.jhu.edu/c.php?g=202581&p=1334872), The Sheridan Libraries, Johns Hopkins University.
 
 For any comments or remarks please let us know using the [issues report mechanism] (https://github.com/akritiko/covid19gr/issues) of this repository.
 ___
