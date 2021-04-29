@@ -6359,7 +6359,7 @@ id,date,region,region_id,cases,deaths,recovered,active,tests
 6358,2021-04-24,Crete,GR-M,8569,3,0,0,0
 6359,2021-04-24,Thessaly,GR-E,22969,34,0,0,0
 6360,2021-04-24,"North Aegean",GR-K,3889,13,0,0,0
-6361,2021-04-25,"Under Investigation",GR-U,13291,9185,0,0,0
+6361,2021-04-25,"Under Investigation",GR-U,13281,9185,0,0,0
 6362,2021-04-25,"Mount Athos",GR-69,43,0,0,0,0
 6363,2021-04-25,"Western Greece",GR-G,14459,18,0,0,0
 6364,2021-04-25,Peloponnese,GR-J,8802,1,0,0,0
@@ -6374,3 +6374,63 @@ id,date,region,region_id,cases,deaths,recovered,active,tests
 6373,2021-04-25,Crete,GR-M,8628,3,0,0,0
 6374,2021-04-25,Thessaly,GR-E,23028,34,0,0,0
 6375,2021-04-25,"North Aegean",GR-K,3901,13,0,0,0
+6376,2021-04-26,"Under Investigation",GR-U,13325,9242,0,0,0
+6377,2021-04-26,"Mount Athos",GR-69,43,0,0,0,0
+6378,2021-04-26,"Western Greece",GR-G,14523,18,0,0,0
+6379,2021-04-26,Peloponnese,GR-J,8836,1,0,0,0
+6380,2021-04-26,Epirus,GR-D,5216,17,0,0,0
+6381,2021-04-26,Attica,GR-I,129919,330,0,0,0
+6382,2021-04-26,"Central Greece",GR-H,10936,1,0,0,0
+6383,2021-04-26,"Western Macedonia",GR-C,10242,50,0,0,0
+6384,2021-04-26,"Eastern Macedonia and Thrace",GR-A,17636,57,0,0,0
+6385,2021-04-26,"South Aegean",GR-L,3844,0,0,0,0
+6386,2021-04-26,"Ionian Islands",GR-F,2126,6,0,0,0
+6387,2021-04-26,"Central Macedonia",GR-B,82094,235,0,0,0
+6388,2021-04-26,Crete,GR-M,8671,3,0,0,0
+6389,2021-04-26,Thessaly,GR-E,23092,34,0,0,0
+6390,2021-04-26,"North Aegean",GR-K,3907,13,0,0,0
+6391,2021-04-27,"Under Investigation",GR-U,13479,9322,0,0,0
+6392,2021-04-27,"Mount Athos",GR-69,43,0,0,0,0
+6393,2021-04-27,"Western Greece",GR-G,14625,18,0,0,0
+6394,2021-04-27,Peloponnese,GR-J,8923,1,0,0,0
+6395,2021-04-27,Epirus,GR-D,5259,17,0,0,0
+6396,2021-04-27,Attica,GR-I,131500,330,0,0,0
+6397,2021-04-27,"Central Greece",GR-H,11079,1,0,0,0
+6398,2021-04-27,"Western Macedonia",GR-C,10357,50,0,0,0
+6399,2021-04-27,"Eastern Macedonia and Thrace",GR-A,17754,57,0,0,0
+6400,2021-04-27,"South Aegean",GR-L,3876,0,0,0,0
+6401,2021-04-27,"Ionian Islands",GR-F,2138,6,0,0,0
+6402,2021-04-27,"Central Macedonia",GR-B,82681,235,0,0,0
+6403,2021-04-27,Crete,GR-M,8782,3,0,0,0
+6404,2021-04-27,Thessaly,GR-E,23299,34,0,0,0
+6405,2021-04-27,"North Aegean",GR-K,3917,13,0,0,0
+6406,2021-04-28,"Under Investigation",GR-U,13577,9414,0,0,0
+6407,2021-04-28,"Mount Athos",GR-69,43,0,0,0,0
+6408,2021-04-28,"Western Greece",GR-G,14724,18,0,0,0
+6409,2021-04-28,Peloponnese,GR-J,9000,1,0,0,0
+6410,2021-04-28,Epirus,GR-D,5310,17,0,0,0
+6411,2021-04-28,Attica,GR-I,132763,330,0,0,0
+6412,2021-04-28,"Central Greece",GR-H,11183,1,0,0,0
+6413,2021-04-28,"Western Macedonia",GR-C,10427,50,0,0,0
+6414,2021-04-28,"Eastern Macedonia and Thrace",GR-A,17879,57,0,0,0
+6415,2021-04-28,"South Aegean",GR-L,3900,0,0,0,0
+6416,2021-04-28,"Ionian Islands",GR-F,2160,6,0,0,0
+6417,2021-04-28,"Central Macedonia",GR-B,83248,235,0,0,0
+6418,2021-04-28,Crete,GR-M,8880,3,0,0,0
+6419,2021-04-28,Thessaly,GR-E,23449,34,0,0,0
+6420,2021-04-28,"North Aegean",GR-K,3930,13,0,0,0
+6421,2021-04-29,"Under Investigation",GR-U,13691,9477,0,0,0
+6422,2021-04-29,"Mount Athos",GR-69,43,0,0,0,0
+6423,2021-04-29,"Western Greece",GR-G,14793,18,0,0,0
+6424,2021-04-29,Peloponnese,GR-J,9088,1,0,0,0
+6425,2021-04-29,Epirus,GR-D,5354,17,0,0,0
+6426,2021-04-29,Attica,GR-I,133914,330,0,0,0
+6427,2021-04-29,"Central Greece",GR-H,11273,1,0,0,0
+6428,2021-04-29,"Western Macedonia",GR-C,10476,50,0,0,0
+6429,2021-04-29,"Eastern Macedonia and Thrace",GR-A,17955,57,0,0,0
+6430,2021-04-29,"South Aegean",GR-L,3937,0,0,0,0
+6431,2021-04-29,"Ionian Islands",GR-F,2175,6,0,0,0
+6432,2021-04-29,"Central Macedonia",GR-B,83708,235,0,0,0
+6433,2021-04-29,Crete,GR-M,8954,3,0,0,0
+6434,2021-04-29,Thessaly,GR-E,23607,34,0,0,0
+6435,2021-04-29,"North Aegean",GR-K,3940,13,0,0,0
