@@ -43,7 +43,7 @@ wget https://github.com/OxCGRT/covid-policy-tracker/raw/master/data/OxCGRT_lates
 # Google (download -> unzip -> move the file related to Greece to /csv -> remove unwanted material)
 wget https://www.gstatic.com/covid19/mobility/Region_Mobility_Report_CSVs.zip
 unzip Region_Mobility_Report_CSVs.zip -d googlemobility/
-cp googlemobility/2020_GR_Region_Mobility_Report.csv data/csv/
+cp googlemobility/2021_GR_Region_Mobility_Report.csv data/csv/
 rm -Rf googlemobility/
 rm Region_Mobility_Report_CSVs.zip
 
