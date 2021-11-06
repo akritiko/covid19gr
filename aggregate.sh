@@ -17,6 +17,7 @@ git clone https://github.com/Sandbird/covid19-Greece.git
 # Keep only .csv files.
 cd covid19-Greece/
 rm greece.json
+rm vaccinations.csv
 rm README.md
 cd ../
 # Move them to the data folder and remove download.
@@ -28,12 +29,14 @@ wget https://raw.githubusercontent.com/iMEdD-Lab/open-data/master/COVID-19/greec
 wget https://raw.githubusercontent.com/iMEdD-Lab/open-data/master/COVID-19/greece_cases_v2.csv
 wget https://raw.githubusercontent.com/iMEdD-Lab/open-data/master/COVID-19/greece_deaths_v2.csv
 wget https://raw.githubusercontent.com/iMEdD-Lab/open-data/master/COVID-19/schools.csv
+wget https://raw.githubusercontent.com/iMEdD-Lab/open-data/master/COVID-19/sorted_rapid_tests.csv
+
 
 # Download Oxford Covid-19 Government Response Tracker data from Github.
 # 1. Opening Risk Index
 # 2. Government Measures Stringency Index
-wget https://github.com/OxCGRT/covid-policy-scratchpad/raw/master/risk_of_openness_index/data/riskindex_timeseries_latest.csv
-wget https://github.com/OxCGRT/covid-policy-tracker/raw/master/data/OxCGRT_latest.csv
+wget https://raw.githubusercontent.com/OxCGRT/covid-policy-scratchpad/master/risk_of_openness_index/data/riskindex_timeseries_latest.csv
+wget https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv
 
 # Download mobility data.
 # 1. Google
@@ -66,6 +69,7 @@ cp greeceTimeline.csv data/csv/
 cp greece_cases_v2.csv data/csv/
 cp greece_deaths_v2.csv data/csv/
 cp schools.csv data/csv/
+cp sorted_rapid_tests.csv data/csv/
 
 # Clean up!
 rm riskindex_timeseries_latest.csv
@@ -77,5 +81,6 @@ rm greeceTimeline.csv
 rm greece_cases_v2.csv 
 rm greece_deaths_v2.csv 
 rm schools.csv
+rm sorted_rapid_tests.csv
 
 exit 0

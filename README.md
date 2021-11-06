@@ -13,8 +13,8 @@ _[(click here to view an english version of the page 🇬🇧)](https://github.c
 ### 1.1. Σύνολα δεδομένων
 
 Διαθέσιμα σε μηχαναγνώσιμη μορφή, που ενημερώνονται τακτικά:
-- [28 από αυτά σε μορφή .CSV](https://github.com/akritiko/covid19gr/tree/master/data/csv)
-- [28 από αυτά σε μορφή .JSON](https://github.com/akritiko/covid19gr/tree/master/data/json)
+- [31 από αυτά σε μορφή .CSV](https://github.com/akritiko/covid19gr/tree/master/data/csv)
+- [31 από αυτά σε μορφή .JSON](https://github.com/akritiko/covid19gr/tree/master/data/json)
 
 _**ΣΗΜΕΙΩΣΕΙΣ:**_ 
 
