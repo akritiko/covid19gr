@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4625530.svg)](https://doi.org/10.5281/zenodo.4625530)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5651141.svg)](https://doi.org/10.5281/zenodo.5651141)
 
 _[(click here to view an english version of the page 🇬🇧)](https://github.com/akritiko/covid19gr/blob/master/README_en.md)_
 
@@ -205,6 +205,6 @@ _**ΣΗΜΕΙΩΣΗ:** Σε περίπτωση που κάποιο από τα U
 
 Καθώς το αποθετήριο προσφέρεται κάτω από άδεια Κοινού Κτήματος CC0-1.0, δεν έχετε καμία απολύτως υποχρέωση να κάνετε κανενός είδους αναφοράς. Εάν παρόλα αυτά θέλετε να κάνετε κάποια αναφορά θα μπορούσατε να χρησιμοποιήσετε την παρακάτω μορφή:
 
-_Apostolos Kritikos. (2021, March 21). akritiko/covid19gr: Pythagoras (Version 3.0.0). Zenodo. http://doi.org/10.5281/zenodo.4625530_
+_Apostolos Kritikos. (2021). akritiko/covid19gr: Diogenes (4.0.0). Zenodo. https://doi.org/10.5281/zenodo.5651141_
 
-ή σε μορφή [BibTEX version](https://zenodo.org/record/4625530/export/hx).
+ή σε μορφή [BibTEX version](https://zenodo.org/record/5651141/export/hx).
