@@ -56,7 +56,7 @@ A catalogue of scientific publications and studies of official international bod
 
 [All references available here.](https://github.com/akritiko/covid19gr/tree/master/references)
 
-### 1.6. Ενωποιημένο σχήμα Ανοικτών Δεδομένων
+### 1.6. Unified Open Data Schema
 
 One of the main purposes of this repository is the aggregation of open data from various sources and volunteers. For a combined and effective study it is necessary to create a data schema that can clarify the data of each dataset and help the user to better understand these data. Following you will find the unified data schema and a free online tool that will allow you to access it in a simpler, visual format.
 
