@@ -1,0 +1,28 @@
+country,app_title,url,status,notes,is_interoperable,use_interoperability,ios_ready,android_ready,mobile_other,is_oss,oss_repo,privacy_info
+Austria,Stopp Corona App,https://www.austria.info/en/service-and-facts/coronavirus-information/app,Functional,N/A,YES,NO,YES,YES,,NO,-,https://www.roteskreuz.at/site/faq-app-stopp-corona/datenschutzinformation-zur-stopp-corona-app/
+Belgium,Coronalert,https://coronalert.be/en/,Functional,N/A,YES,NO,YES,YES,,YES,https://github.com/covid-be-app,https://coronalert.be/en/privacy-and-data/
+Bulgaria,N/A,N/A,Not foreseen,The deployment of a contact tracing app is not foreseen.,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Croatia,Stop COVID-19,https://www.koronavirus.hr/stop-covid-19-723/723,Functional,N/A,YES,NO,YES,YES,,YES,https://github.com/Stop-COVID-19-Croatia,https://stopcovid19.zdravlje.hr/html/pravila-privatnosti.html
+Cyprus,N/A,N/A,Under development,A contact tracing app is under development.,YES,NO,N/A,N/A,N/A,N/A,N/A,N/A
+Czechia,eRouška,https://erouska.cz/,Functional,N/A,YES,NO,YES,YES,,YES,https://github.com/covid19cz,https://erouska.cz/en/podminky-pouzivani
+Denmark,Smittestop,https://smittestop.dk/,Functional,N/A,YES,NO,YES,YES,,NO,-,https://smittestop.dk/en/data-protection
+Estonia,N/A,N/A,Planned,A contact tracing app is being planned.,YES,NO,N/A,N/A,N/A,N/A,N/A,N/A
+Finland,Koronavilkku,https://koronavilkku.fi/,Functional,N/A,YES,NO,YES,YES,,NO,-,https://koronavilkku.fi/en/privacy/
+France,TousAntiCovid,https://bonjour.tousanticovid.gouv.fr/index-en.html,Functional,N/A,NO,NO,YES,YES,,NO,-,https://www.economie.gouv.fr/politique-confidentialite
+Germany,Corona-Warn-App,https://www.bundesregierung.de/breg-de/themen/corona-warn-app/corona-warn-app-englisch,Functional,N/A,YES,YES,YES,YES,,NO,-,???
+Greece,N/A,N/A,N/A Information,No available information.,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Hungary,VirusRadar,https://virusradar.hu/,Functional,N/A,NO,NO,NO,YES,,NO,-,???
+Ireland,COVID Tracker,https://covidtracker.gov.ie/,Functional,N/A,YES,YES,YES,YES,,NO,-,https://covidtracker.gov.ie/privacy-and-data/
+Italy,Immuni,https://www.immuni.italia.it/,Functional,N/A,YES,YES,NOT WORKING,,,,,
+Latvia,Apturi Covid,https://www.apturicovid.lv/#en,Functional,N/A,YES,YES,YES,YES,,NO,-,https://apturicovid.lv/privatuma-politika/#en
+Lithuania,Korona Stop LT,https://koronastop.lrv.lt/,Functional,N/A,YES,NO,YES,YES,,NO,-,https://koronastop.lrv.lt/en/korona-stop-lt-app
+Luxembourg,N/A,N/A,Not foreseen,The deployment of a contact tracing app is not foreseen.,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Malta,COVIDAlert,https://covidalert.gov.mt/,Functional,N/A,YES,NO,YES,YES,,YES,https://github.com/GOVMT-MITA,https://covidalert.gov.mt/privacy-policy/
+Netherlands,CoronaMelder,https://coronamelder.nl/en/,Functional,N/A,YES,NO,YES,YES,Huawei,NO,-,https://coronamelder.nl/en/privacy
+Poland,ProteGO Safe,https://www.gov.pl/web/protegosafe,Functional,N/A,???,NO,YES,YES,,NO,-,https://www.gov.pl/web/stopcovid-en/documents
+Portugal,StayAway COVID,https://stayawaycovid.pt/landing-page/,Functional,N/A,YES,NO,YES,YES,Huawei,NO,-,https://stayawaycovid.pt/frequently-asked-questions/
+Romania,N/A,N/A,Not foreseen,The deployment of a contact tracing app is not foreseen.,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Slovakia,N/A,N/A,Under development,A contact tracing app is being developed.,YES,NO,N/A,N/A,N/A,N/A,N/A,N/A
+Slovenia,#OstaniZdrav, https://www.gov.si/en/topics/coronavirus-disease-covid-19/the-ostanizdrav-mobile-application/,Functional,N/A,YES,NO,NO,YES,,NO,-,https://www.gov.si/assets/vlada/Koronavirus-zbirno-infografike-vlada/APP-OstaniZdrav/Privacy-notice.pdf
+Spain,Radar Covid,https://radarcovid.gob.es/,Functional,N/A,YES,YES,YES,YES,,NO,-,https://radarcovid.gob.es/politica-de-privacidad
+Sweden,N/A,N/A,Not foreseen,The deployment of a contact tracing app is not foreseen.,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
