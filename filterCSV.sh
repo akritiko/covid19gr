@@ -46,4 +46,10 @@ awk -F, '$1 ~ /Greece/ {print}' data/csv/vaccinations.csv >> data/csv/vaccinatio
 rm data/csv/vaccinations.csv
 mv data/csv/vaccinations2.csv data/csv/vaccinations.csv
 
+# COVID19 Variants Dataset
+head -n 1 data/csv/covid-variants.csv > data/csv/covid-variants2.csv
+awk -F, '$1 ~ /Greece/ {print}' data/csv/covid-variants.csv >> data/csv/covid-variants2.csv
+rm data/csv/covid-variants.csv
+mv data/csv/covid-variants2.csv data/csv/covid-variants.csv
+
 exit 0

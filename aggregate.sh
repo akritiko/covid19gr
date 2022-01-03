@@ -58,6 +58,8 @@ wget https://github.com/ActiveConclusion/COVID19_mobility/raw/master/tomtom_repo
 
 # Download vaccination data (worldwide) from Our World in Data (OWiD)
 wget https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv
+# Download COVID19 variant data (worldwide) from Our World in Data (OWiD)
+wget https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/variants/covid-variants.csv
 
 # Move rest of the downloads to data
 cp riskindex_timeseries_latest.csv data/csv/
@@ -65,6 +67,7 @@ cp OxCGRT_latest.csv data/csv/
 cp tomtom_trafic_index.csv data/csv/
 cp apple_mobility_report.csv data/csv/
 cp vaccinations.csv data/csv/
+cp covid-variants.csv data/csv/
 cp greeceTimeline.csv data/csv/
 cp greece_cases_v2.csv data/csv/
 cp greece_deaths_v2.csv data/csv/
@@ -77,10 +80,12 @@ rm OxCGRT_latest.csv
 rm tomtom_trafic_index.csv
 rm apple_mobility_report.csv
 rm vaccinations.csv
+rm covid-variants.csv
 rm greeceTimeline.csv
 rm greece_cases_v2.csv 
 rm greece_deaths_v2.csv 
 rm schools.csv
 rm sorted_rapid_tests.csv
+
 
 exit 0
