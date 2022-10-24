@@ -191,7 +191,7 @@ _**ΣΗΜΕΙΩΣΗ:** Σε περίπτωση που κάποιο από τα U
 - [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 
 - [covid19.gov.gr](http://covid19.gov.gr/)
 - [CovidDEXP](https://covid19.csd.auth.gr/)
-- [covid19-projections.com](https://covid19-projections.com/greece)
+- [covid19-projections.com](https://covid19-projections.com/greece) (deprecated since October 5, 2020)
 - [covid19.healthdata.org](https://covid19.healthdata.org/greece?view=daily-deaths&tab=trend)
 - [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad)
 - [ActiveConclusion](https://github.com/ActiveConclusion)
