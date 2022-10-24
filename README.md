@@ -186,8 +186,8 @@ _**ΣΗΜΕΙΩΣΗ:** Σε περίπτωση που κάποιο από τα U
 Το αποθετήριο αυτό δεν είναι τίποτε άλλο παρά μία συλλογή από σετ δεδομένων. Για τα σύνολα δεδομένων που περιλαμβάνει εργάσθηκαν οι εξής: 
 
 - [Sandbird](https://github.com/Sandbird/)
-- [Covid-19-Response-Greece](https://github.com/Covid-19-Response-Greece/covid19-data-greece/blob/master/data/greece/Measures/greece_social_distancing_measures_timeline.json)
-- [@Nyrros](https://twitter.com/Nyrros)
+- Covid-19-Response-Greece (deprecated)
+- [@Nyrros](https://twitter.com/NyrrosC)
 - [iMEdD-Lab](https://github.com/iMEdD-Lab/open-data/tree/master/COVID-19) 
 - [covid19.gov.gr](http://covid19.gov.gr/)
 - [CovidDEXP](https://covid19.csd.auth.gr/)
