@@ -28,7 +28,6 @@ _**ΣΗΜΕΙΩΣΕΙΣ:**_
 1. Την ημερήσια αναφορά του Εθνικού Οργανισμού Δημόσιας Υγείας (Ε.Ο.Δ.Υ) σε μορφότυπο .PDF.
 2. Την ενημέρωση από το Υπ. Υγείας και το Υπ. Πολιτικής Προστασίας σε μορφή video στο Youtube.
 3. Την περιοδική αναφορά των ελέγχων για την τήρηση των μέτρων από την Εθνική Αρχή Διαφάνειας σε μορφότυπο .html.
-4. Την περιοδική αποδελτίωση της επικαιρότητας σχετικά με την εξέλιξη της πανδημίας από το blog της εταιρίας Clipnews.
 
 Οι παραπάνω πηγές συναθροίζονται, σε επίπεδο συνδέσμων (hyperlinks), σε ένα λογιστικό φύλλο και διατίθενται ελευθερα και ανοικτά προς χρήση και επεξεργασία σε μορφότυπο [.CSV](https://github.com/akritiko/covid19gr/blob/master/data/csv/covid19_reports.csv), [.JSON](https://github.com/akritiko/covid19gr/blob/master/data/json/covid19_reports.json) και [Google Spreadsheet](https://docs.google.com/spreadsheets/d/11A17Sb8pk9NyXz2FvRzaZIkxxNfiZcxUDBjjVkbXNQk/edit?usp=sharing) (μόνο για ανάγνωση)
 
