@@ -196,7 +196,6 @@ _**ΣΗΜΕΙΩΣΗ:** Σε περίπτωση που κάποιο από τα U
 - [Oxford Covid-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-scratchpad)
 - [ActiveConclusion](https://github.com/ActiveConclusion)
 - [Our World in Data](https://github.com/owid)
-- Clipnews 
 - Google
 - Apple
 - TomTom
