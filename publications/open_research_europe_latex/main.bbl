@@ -5,15 +5,17 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Smith and Jones(2012)]{Smith:2012qr}
-J.~M. Smith and A.~B. Jones.
-\newblock \emph{{B}ook {T}itle}.
-\newblock Publisher, 7th edition, 2012.
+\bibitem[{COVID-19 pandemic in Greece}()]{covid19_greece_wiki}
+{COVID-19 pandemic in Greece}.
+\newblock {Wikipedia}.
+\newblock \url{https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Greece}.
+\newblock [Online].
 
-\bibitem[Jones and Smith(2013)]{Smith:2013jd}
-A.~B. Jones and J.~M. Smith.
-\newblock {A}rticle {T}itle.
-\newblock \emph{Journal title}, 13\penalty0 (52):\penalty0 123--456, March
-  2013.
+\bibitem[{Epidemiological Reports by EODY}()]{eody_epidemiological_reports}
+{Epidemiological Reports by EODY}.
+\newblock {Official Website}.
+\newblock
+  \url{https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-epidimiologikis-epitirisis-loimoxis-apo-ton-sars-cov-2/}.
+\newblock [Online].
 
 \end{thebibliography}

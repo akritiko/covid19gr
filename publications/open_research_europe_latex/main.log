@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.26) (preloaded format=pdflatex 2022.7.28)  25 OCT 2022 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.26) (preloaded format=pdflatex 2022.7.28)  25 OCT 2022 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,37 +918,65 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
  <./ORE Header.png>]
 
 LaTeX Font Warning: Font shape `OT1/phv/n/n' undefined
-(Font)              using `OT1/phv/m/n' instead on input line 56.
+(Font)              using `OT1/phv/m/n' instead on input line 59.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.59595pt on input line 56.
+(Font)              scaled to size 10.59595pt on input line 59.
 LaTeX Font Info:    Font shape `OT1/phv/n/n' will be
-(Font)              scaled to size 10.59595pt on input line 58.
+(Font)              scaled to size 10.59595pt on input line 61.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 70.
+(Font)              scaled to size 9.60007pt on input line 73.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 86.
+(Font)              scaled to size 9.60007pt on input line 89.
 File: ORE Header.png Graphic file (type png)
 <use ORE Header.png>
-Package pdftex.def Info: ORE Header.png  used on input line 90.
+Package pdftex.def Info: ORE Header.png  used on input line 93.
 (pdftex.def)             Requested size: 396.06374pt x 34.60033pt.
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 112.
-(main.bbl
 File: ORE Header.png Graphic file (type png)
 <use ORE Header.png>
-Package pdftex.def Info: ORE Header.png  used on input line 1.
+Package pdftex.def Info: ORE Header.png  used on input line 106.
 (pdftex.def)             Requested size: 137.3442pt x 12.0pt.
- [2
+[2
 
 ]
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 8.64006pt on input line 10.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 115.
+ (main.bbl
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 9.64806pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 11.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 11.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 11.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 11.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 11.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 11.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 11.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 11.
 ) 
 AED: lastpage setting LastPage
 File: ORE Header.png Graphic file (type png)
 <use ORE Header.png>
-Package pdftex.def Info: ORE Header.png  used on input line 115.
+Package pdftex.def Info: ORE Header.png  used on input line 118.
 (pdftex.def)             Requested size: 137.3442pt x 12.0pt.
 [3] (main.aux)
 
@@ -958,26 +986,27 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15635 strings out of 478337
- 252517 string characters out of 2836666
- 562758 words of memory out of 3000000
- 33768 multiletter control sequences out of 15000+600000
- 523855 words of font info for 104 fonts, out of 8000000 for 9000
+ 15648 strings out of 478337
+ 252809 string characters out of 2836666
+ 563778 words of memory out of 3000000
+ 33782 multiletter control sequences out of 15000+600000
+ 527158 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,15n,131p,419b,525s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ly1/texnansi.en
-c}{C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.
-pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/
-bchr8a.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/c
-harter/bchri8a.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/ma
-thdesign/mdbch/md-chr8t.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts
-/type1/mathdesign/mdbch/md-chri8t.pfb><C:/Users/akrit/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/akrit/AppData/Local/Programs
-/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (3 pages, 106820 bytes).
+ 87i,16n,131p,1563b,566s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\akrit\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi643\ectt
+0900.pk>{C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ly1/texna
+nsi.enc}{C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc}<C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/b
+chb8a.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/ch
+arter/bchr8a.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/type1/bits
+trea/charter/bchri8a.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/akrit/AppData/Local/Programs/MiKTeX
+/fonts/type1/mathdesign/mdbch/md-chri8t.pfb><C:/Users/akrit/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/akrit/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (3 pages, 120743 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
