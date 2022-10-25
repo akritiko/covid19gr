@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Open Research Europe is an open access publishing platform for the publication of research stemming from Horizon 2020 funding across all subject areas. The platform makes it easy for Horizon 2020 beneficiaries to comply with the open access terms of their funding and offers researchers a publishing venue to share their results and insights rapidly and facilitate open, constructive research discussion.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This template is for all article types; for information on specific article type requirements please visit https://open-research-europe.ec.europa.eu/for-authors/article-guidelines
+%
+% For more information on the Open Research Europe publishing model please see:  https://open-research-europe.ec.europa.eu/about
+
+\documentclass[10pt,a4paper]{article}
+\usepackage{f1000_styles}
+
+%% Default: numerical citations
+\usepackage[numbers]{natbib}
+
+%% Uncomment this lines for superscript citations instead
+% \usepackage[super]{natbib}
+
+%% Uncomment these lines for author-year citations instead
+% \usepackage[round]{natbib}
+% \let\cite\citep
+
+\begin{document}
+\pagestyle{fancy}
+
+\title{Open Data Aggregation During a Pandemic}
+\titlenote{A framework for systematically collecting, cataloguing and updating open data related to pandemics.}
+\author[1]{Apostolos Kritikos}
+%\author[2]{Author Name-2}
+\affil[1]{KRITICAL TECH, Stratigou Napoleontos Zerva 10, 54640, Thessaloniki, Greece, apostolos@kritikos.me}
+%\affil[2]{Address of author-2}
+
+\maketitle
+\thispagestyle{fancy}
+
+\begin{abstract}
+
+Abstracts should be up to 300 words and provide a succinct summary of the article. Although the abstract should explain why the article might be interesting, care should be taken not to inappropriately over-emphasise the importance of the work described in the article. Citations should not be used in the abstract, and abbreviations, if needed, should be spelled out in full.
+
+\end{abstract}
+
+\section*{\color{OREblue}Keywords}
+
+Open Data, pandemic, COVID-19, Sars-cov-2, Data Aggregation, global crisis
+
+\clearpage
+\pagestyle{fancy}
+
+\section*{Introduction}
+
+\section*{Background}
+
+\section*{The Aggregation Framework}
+
+\subsection*{Sources Identification \& Data Collection}
+
+\subsection*{Open Data Aggregation}
+
+\subsection*{Open Data Standardization}
+
+\subsection*{Open Data Maintenance}
+
+\subsection*{Open Data Assessment}
+
+\subsection*{Tables}
+Use \textbackslash table and \textbackslash tabledata for basic tables. See \autoref{exampletable}, for example.
+\begin{table}
+    \hrule height 0.05cm  \vspace{0.1cm}
+	\caption{\label{exampletable}An example of a simple table with caption.}
+	\centering
+	\begin{tabledata}{$l^l^r} 
+		\header First name & Last Name & Grade \\ 
+		\row John & Doe & 7.5 \\ 
+		\row Richard & Miles & 2 
+	\end{tabledata}
+\end{table}
+
+\subsection*{Figures}
+You can upload a figure (JPEG, PNG or PDF) using the files menu. To include it in your document, use  \textbackslash includegraphics (see the example in the source code below). All figures should be discussed in the article text.
+
+Please give figures appropriate filenames eg: figure1.pdf, figure2.png.
+
+Figure legends should briefly describe the key messages of the figure such that the figure can stand alone from the main text, and avoid lengthy descriptions of the methods. Each legend should have a concise title of no more than 15 words. Please ensure all abbreviations used in your figures and legends are defined to allow them to stand independently from the main body of the text.
+
+If reusing a figure or table from a previous publication, the authors are responsible for obtaining permission from the copyright holder and for the payment of any fees (if applicable). Please include a note in the legend to state that: ‘This figure/table has been reproduced with permission from \textit{[include original publication citation]}’.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{ORE Header.png}
+	\caption{\label{fig:your-figure}Your figure legend goes here; it should be succinct, while still explaining all symbols and abbreviations. }
+\end{figure}
+
+\section*{Competing interests}
+All financial, personal, or professional competing interests for any of the authors that could be construed to unduly influence the content of the article must be disclosed and will be displayed alongside the article. If there are no relevant competing interests to declare, please add the following: 'No competing interests were disclosed'.
+
+\section*{Grant information}
+Please provide details of the Horizon 2020 project ID and project title that supported the work presented in the article, and, if applicable, of any other funders or employers who funded the work. For each funder, please state the funder’s name, the grant number where applicable and known, and the individual to whom the grant was assigned.
+Please do not list funding that is not relevant to this specific piece of research.
+
+\section*{Discussion}
+
+\section*{Threats to validity}
+
+\section*{Future work}
+
+\section*{Acknowledgements}
+This section should acknowledge anyone who contributed to the research or the article but who does not qualify as an author based on the criteria provided earlier (e.g. someone or an organization that provided writing assistance). Please state how they contributed; authors should obtain permission to acknowledge from all those mentioned in the Acknowledgements section.
+
+Please do not list grant funding in this section.
+
+{\small\bibliographystyle{unsrtnat}
+\bibliography{sample}}
+
+\end{document}
